@@ -9,6 +9,7 @@ programs.bash = {
       gii = "sudo nano ~/.config/ghostty/config";
       hii = "sudo nano ~/.config/hypr/hyprland.conf";
       wii = "cd ~/.config/waybar";
+      cii = "cd ~/.config";
       ls = "lsd -a";
       };
    interactiveShellInit = ''
