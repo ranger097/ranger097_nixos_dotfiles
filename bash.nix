@@ -3,7 +3,6 @@
 programs.bash = {
    enable = true;
    shellAliases = {
-      update = "sudo nixos-rebuild switch"; 
       nii = "cd ~/Github/dotfiles";
       bii = "sudo nano ~/Github/dotfiles/bash.nix";
       gii = "sudo nano ~/.config/ghostty/config";
@@ -31,11 +30,15 @@ programs.bash = {
    echo " Building system flake..."
    sudo nixos-rebuild switch --flake .#pokemon
    wait
-   echo "updated dotfiles repo and system flake."
+   echo " Updated dotfiles and system flake."
    
    }
    
-
+   update() {
+   cd ~/Github/dotfiles
+   echo " Updating Nixos System"
+   sudo nixos-rebuild switch --upgrade
+   }
 
 
    eval "$(direnv hook bash)"
