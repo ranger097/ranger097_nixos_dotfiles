@@ -1,5 +1,6 @@
 { config, pkgs, ... }:{
 programs.steam.enable = true;
+programs.direnv.enable = true;
 environment.systemPackages = with pkgs; [
 freetube
 ani-cli
@@ -47,6 +48,7 @@ lsd
 dtrx
 blender
 vscode
+nixd
 ];
 
 

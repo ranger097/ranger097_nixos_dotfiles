@@ -4,12 +4,12 @@ programs.bash = {
    enable = true;
    shellAliases = {
       update = "sudo nixos-rebuild switch"; 
-      nii = "cd /etc/nixos";
-      bii = "sudo nano /etc/nixos/bash.nix";
+      nii = "cd ~/Github/dotfiles";
+      bii = "sudo nano ~/Github/dotfiles/bash.nix";
       gii = "sudo nano ~/.config/ghostty/config";
       hii = "sudo nano ~/.config/hypr/hyprland.conf";
       wii = "cd ~/.config/waybar";
-      ls = "lsd";
+      ls = "lsd -a";
       };
    interactiveShellInit = ''
    hello(){
@@ -20,7 +20,7 @@ programs.bash = {
 
 
 
-
+   eval "$(direnv hook bash)"
    eval -- "$(/run/current-system/sw/bin/starship init bash --print-full-init)"
    '';
    };
