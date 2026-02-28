@@ -13,11 +13,28 @@ programs.bash = {
       ls = "lsd -a";
       };
    interactiveShellInit = ''
-   hello(){
+   cgit() {
+   echo " Entering dotfiles  on main."
+   cd ~/Github/dotfiles
+   wait
+   echo " Adding files to dotfiles  on main"
+   git add . &> /dev/null
+   wait
+   echo " Saving changes to dotfiles  on main"
+   git commit -m "updated configs" &> /dev/null
+   wait
+   echo " Pushing changes now."
+   git push origin main &> /dev/null
+   wait
+   echo " Github changes complete."
+   sleep 0.5
+   echo " Building system flake..."
+   sudo nixos-rebuild switch --flake .#pokemon
+   wait
+   echo "updated dotfiles repo and system flake."
    
-   echo "Hello, World!"
-
    }
+   
 
 
 

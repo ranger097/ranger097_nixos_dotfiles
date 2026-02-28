@@ -1,6 +1,8 @@
 { config, pkgs, ... }:{
+nixpkgs.config.allowUnfree = true;
 programs.steam.enable = true;
 programs.direnv.enable = true;
+programs.firefox.enable = true;
 environment.systemPackages = with pkgs; [
 freetube
 ani-cli
@@ -51,7 +53,6 @@ vscode
 nixd
 ];
 
-
 fonts.packages = with pkgs;[
 maple-mono.CN
 maple-mono.NF
@@ -75,6 +76,7 @@ Enable = "Source,Sink,Media,Socket";
 Experimental = true;
   };
 };
+
 services.pipewire.wireplumber.extraConfig."10-bluez" = {
 "monitor.bluez.properties" = {
 "bluez5.enable-sbc-xq" = true;
@@ -85,6 +87,7 @@ services.pipewire.wireplumber.extraConfig."10-bluez" = {
 "hsp_ag"
 "hfp_hf"
 "hfp_ag"];};};
+
 services.pulseaudio.enable = false;
 security.rtkit.enable = true;
 services.pipewire = {
