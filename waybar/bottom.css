@@ -1,0 +1,83 @@
+/* ranger097 */
+
+window#waybar {
+background: linear-gradient(0deg,rgba(20,20,20,1));
+border-top: 1px solid rgba(0,0,0,1);
+}
+
+
+#custom-spacerRight,
+#custom-spacerLeft,
+#custom-power,
+#custom-VacuumTube,
+#custom-ProtonVpn,
+#custom-code,
+#custom-ghostty,
+#custom-steam,
+#custom-firefox, 
+#custom-discord,
+#custom-qmmp,
+#custom-blender,
+#custom-dolphin,
+#custom-volume {
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 18px;
+padding-right: 18px;
+margin-top: 9px;
+margin-bottom: 8px;
+margin-left: 3px;
+margin-right: 4px;
+border-top: 0px solid rgba(0,0,0,1);
+border: 0px solid rgba(200,60,60,1);
+border-radius: 2px;
+font-family: Maple Mono NF;
+font-size: 11px;
+font-weight: 400;
+background: linear-gradient(180deg, rgba(32,32,32,1), rgba(32,32,32,1));
+color: rgba(255,80,80,1);
+/*box-shadow: -1px 2px 2px rgba(0,0,0,0.4);*/
+}
+
+
+#custom-power:hover,
+#custom-VacuumTube:hover,
+#custom-ProtonVpn:hover,
+#custom-code:hover,
+#custom-ghostty:hover,
+#custom-steam:hover,
+#custom-firefox:hover,
+#custom-discord:hover,
+#custom-qmmp:hover,
+#custom-blender:hover,
+#custom-dolphin:hover,
+#custom-volume:hover {
+color: rgba(200,60,60,1);
+}
+
+#custom-spacerRight {
+border-radius: 0px 0px 0px 0px;
+background: linear-gradient(rgba(0,0,0,1));
+padding-right:32px;
+margin-left:5px;
+}
+
+
+#custom-spacerLeft {
+border-radius: 0px 0px 0px 0px;
+background: linear-gradient(rgba(0,0,0,1));
+padding-left:36px;
+margin-left:3px;
+}
+
+
+
+#custom-power {
+margin-left: 6px;
+
+}
+
+
+#custom-volume {
+margin-right: 6px;
+}

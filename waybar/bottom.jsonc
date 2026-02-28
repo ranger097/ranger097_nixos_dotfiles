@@ -1,0 +1,107 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top", // Waybar at top layer
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    //"height": 15, // Waybar height (to be removed for auto height)
+   // "width": 1526, // Waybar width
+    "spacing": 0, // Gaps between modules (4px)
+    "margin-top" : 0,
+    "margin-bottom": 0,
+    "margin-left" : 0,
+     "margin-right" : 0,
+    // Choose the order of the modules
+    "modules-left": [
+    
+    ],
+    "modules-center": [
+    //"custom/spacerLeft",
+    "custom/power",
+    "custom/VacuumTube",
+    "custom/qmmp",
+    "custom/ProtonVpn",
+    "custom/code",
+    "custom/firefox",
+    "custom/ghostty",
+    "custom/blender",
+    "custom/dolphin",
+    "custom/steam",
+    "custom/discord",
+    "custom/volume"
+    //"custom/spacerRight"
+    ],
+    "modules-right": [
+    ],
+
+
+
+"custom/spacerRight": {
+  "format": " "
+},
+
+"custom/spacerLeft": {
+  "format": " "
+},
+//
+"custom/VacuumTube": {
+"format": "YOUTUBE 貴方の管",
+"on-click": "freetube"
+},
+
+"custom/ProtonVpn": {
+"format": "PROTON_VPN 陽子",
+"on-click": "protonvpn-app"
+},
+
+"custom/code": {
+"format": "VSCODE コード",
+"on-click": "code"
+},
+
+"custom/ghostty": {
+"format": "GHOSTTY 幽霊",
+"on-click": "ghostty"
+},
+
+"custom/firefox": {
+"format": "FIREFOX 火狐",
+"on-click": "firefox"
+},
+
+
+"custom/steam": {
+"format": "STEAM 蒸気",
+"on-click": "steam -newbigpicture"
+},
+
+"custom/discord": {
+"format": "DISCORD 会話",
+"on-click": "discord"
+},
+
+"custom/qmmp": {
+"format": "QMMP 音楽",
+"on-click":"qmmp"
+},
+
+"custom/blender": {
+"format": "BLENDER ブレンダー",
+"on-click":"blender"
+},
+
+"custom/dolphin": {
+"format": "DOLPHIN 海豚",
+"on-click":"dolphin"
+},
+
+"custom/volume": {
+"format": "VOLUME 音量",
+"on-click":"pavucontrol"
+},
+
+"custom/power": {
+"format": "POWER 力",
+"on-click":"wlogout"
+
+},
+
+}

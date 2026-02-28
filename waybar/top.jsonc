@@ -1,0 +1,112 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top",
+    "height": 5,
+    "spacing": 0,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+
+    "modules-left": [
+        "hyprland/window"
+     //"hyprland/workspaces",
+    ],
+    "modules-center": [
+        "custom/spacer",
+        "custom/spacerRight",
+        "custom/qmmp",
+        "custom/spacerLeft",
+        "custom/spacer"
+    ],
+    "modules-right": [
+        "custom/spacerRight",
+        "custom/vpn_ip",
+        "clock",
+        "battery"
+    ],
+
+    "hyprland/window": {
+        "format": "{class} {title}",
+        "separate-outputs": true,
+        "icon": false,
+        "rewrite": {
+            "(.*)ghostty(.*)": "GHOSTTY 幽霊",
+            "(.*)Qmmp(.*)": "QMMP 音楽",  
+            "(.*)home/ranger/Music(.*)": "QMMP 音楽",
+            "(.*)code(.*)": "VSCODE コード",
+            "(.*)steam(.*)": "STEAM 蒸気",
+            "(.*)pavucontrol(.*)": "VOLUME 音量",
+            "(.*)blueman-manager(.*)": "BLUETOOTH 青",
+            "(.*)discord(.*)": "DISCORD 会話",
+	    "(.*)gimp(.*)": "GIMP 芸術",
+            "(.*)blender(.*)": "BLENDER ブレンダー",
+            "(.*)libreoffice-writer(.*)": "LIBREOFFICE 書",
+	    "(.*)FreeTube(.*)": "YOUTUBE 貴方の管",
+	    "(.*)kdenlive(.*)": "KDENLIVE 動画",
+            "(.*)firefox(.*)": "FIREFOX 火狐",
+            "(.*)discord(.*)": "DOLPHIN 海豚",
+            " ": "RANGER097 レンジャー",
+        }
+},
+
+
+"hyprland/workspaces": {
+"format": "{icon}", 
+"format-icons": {
+        "1": "一",
+        "2": "二",
+        "3": "三",
+	"4": "四",
+        "5": "五",
+        "6": "六",
+	"7": "七",
+	"8": "八",
+        "9": "九",
+        "10": "十",
+    },
+   // "persistent-workspaces": {
+        "*": [],
+        "HDMI-A-1": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+    }
+},
+
+
+
+    "clock": {
+        "format": "{:%I:%M %p}"
+    },
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}%",
+        "format-full": "{capacity}%",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-icons": ["  ", "  ", "  ", "  ", "  "]
+    },
+
+    "custom/qmmp": {
+        "format": "{}",
+        "interval": 2,
+        //"max-length": 50,
+         "exec": "playerctl --player=qmmp metadata --format '{{artist}} - {{title}}' | tr '[:lower:]' '[:upper:]' | awk '{ print substr($0, 1, 140) \" \" }'", 
+        "on-click": "playerctl --player=qmmp play-pause",
+        "on-scroll-up": "playerctl --player=qmmp next",
+        "on-scroll-down": "playerctl --player=qmmp previous"
+    },
+
+    "custom/vpn_ip": {
+       "format":"VIEW IP",
+       "format-alt":"IP: {}",
+       "exec": "curl -s https://icanhazip.com",
+       "on-click": "nm-connection-editor"
+    },
+
+    "custom/right-bracket": { "format": "]" },
+    "custom/left-bracket": { "format": "[" },
+    "custom/spacer": { "format": " " }
+}
