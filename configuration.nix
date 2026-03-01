@@ -17,7 +17,7 @@
 # Bootloader & Kernel
 boot.loader.systemd-boot.enable = true;
 boot.loader.efi.canTouchEfiVariables = true;
-boot.kernelPackages = pkgs.linuxPackages;
+boot.kernelPackages = pkgs.linuxPackages_latest;
 boot.initrd.luks.devices."luks-1997167d-6340-4911-b856-b88bdd43c13d".device = "/dev/disk/by-uuid/1997167d-6340-4911-b856-b88bdd43c13d";
 
 boot.loader.timeout = 0;
@@ -147,23 +147,40 @@ environment.sessionVariables = {
 
 
 hardware.nvidia = {
+  # Modesetting is required for most modern desktops
   modesetting.enable = true;
- # powerManagement.enable = true;
-#  powerManagement.finegrained = true; # Cruciaal voor Dell XPS accuduur
-  open = false; # De RTX 3050 ondersteunt de open kernel modules perfect
+
+  # Power management can cause issues; start with it disabled.
+  # Since you're not using 'offload', you don't need 'finegrained'.
+  powerManagement.enable = false;
+  powerManagement.finegrained = false;
+
+  # Use the proprietary driver for better gaming performance/DLSS.
+  # Set to 'true' only if you want the open-source kernel modules (Turing+).
+  open = false;
+
+  # Keep the Nvidia settings menu available
+  nvidiaSettings = true;
+
+  # Use the latest driver for your 3050
   package = config.boot.kernelPackages.nvidiaPackages.latest;
-  
-  prime = {
-    offload.enable = true;
-    offload.enableOffloadCmd = true;
-    
-    intelBusId = "PCI:0:2:0"; 
-    nvidiaBusId = "PCI:1:0:0";
-  };
+
+  # PRIME is only for laptops with TWO active GPUs. 
+  # Since you disabled the iGPU in BIOS, you don't need these.
+  # prime.offload.enable = false;
+  # prime.sync.enable = false; 
 };
 
+# Keep this enabled to ensure all GPU firmware is available
 hardware.enableAllFirmware = true;
 
+# Ensure the system uses the Nvidia driver for the X server/Wayland
+services.xserver.videoDrivers = [ "nvidia" ];
+
+hardware.graphics = {
+  enable = true;
+  enable32Bit = true;
+};
 
 
 
