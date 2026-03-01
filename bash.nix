@@ -28,7 +28,7 @@ programs.bash = {
    echo " Github changes complete."
    sleep 0.5
    echo " Building system flake..."
-   sudo nixos-rebuild switch --flake .#pokemon
+   sudo nixos-rebuild switch --flake .#pokemon --impure
    wait
    echo " Updated dotfiles and system flake."
    
