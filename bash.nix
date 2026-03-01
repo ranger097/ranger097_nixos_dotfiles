@@ -3,6 +3,7 @@
 programs.bash = {
    enable = true;
    shellAliases = {
+      bye = "shutdown -h now"
       nii = "cd ~/ranger097_nixos_dotfiles";
       bii = "sudo nano ~/ranger097_nixos_dotfiles/bash.nix";
       gii = "sudo nano ~/ranger097_nixos_dotfiles/ghostty/config";
