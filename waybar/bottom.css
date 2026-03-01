@@ -1,8 +1,8 @@
 /* ranger097 */
 
 window#waybar {
-background: linear-gradient(0deg,rgba(20,20,20,1));
-border-top: 1px solid rgba(0,0,0,1);
+background: linear-gradient(rgba(0,0,0,1));
+border: 1px solid rgba(0,0,0,1);
 }
 
 
@@ -20,22 +20,21 @@ border-top: 1px solid rgba(0,0,0,1);
 #custom-blender,
 #custom-dolphin,
 #custom-volume {
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 18px;
-padding-right: 18px;
-margin-top: 9px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 15px;
+padding-right: 15px;
+margin-top: 8px;
 margin-bottom: 8px;
-margin-left: 3px;
+margin-left: 5px;
 margin-right: 4px;
-border-top: 0px solid rgba(0,0,0,1);
-border: 0px solid rgba(200,60,60,1);
+border: 1px solid rgba(60,60,60,0);
 border-radius: 2px;
 font-family: Maple Mono NF;
 font-size: 11px;
 font-weight: 400;
-background: linear-gradient(180deg, rgba(32,32,32,1), rgba(32,32,32,1));
-color: rgba(255,80,80,1);
+background: linear-gradient(rgba(0,0,0,1));
+color: #606060;
 /*box-shadow: -1px 2px 2px rgba(0,0,0,0.4);*/
 }
 
