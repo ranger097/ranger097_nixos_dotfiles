@@ -14,14 +14,24 @@
       ./bash.nix
     ];
   
-# Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernelPackages = pkgs.linuxPackages;
-  boot.initrd.luks.devices."luks-1997167d-6340-4911-b856-b88bdd43c13d".device = "/dev/disk/by-uuid/1997167d-6340-4911-b856-b88bdd43c13d";
-  security.polkit.enable = true;
-  boot.loader.timeout = 0;
+# Bootloader & Kernel
+boot.loader.systemd-boot.enable = true;
+boot.loader.efi.canTouchEfiVariables = true;
+boot.kernelPackages = pkgs.linuxPackages;
+boot.initrd.luks.devices."luks-1997167d-6340-4911-b856-b88bdd43c13d".device = "/dev/disk/by-uuid/1997167d-6340-4911-b856-b88bdd43c13d";
+
+boot.loader.timeout = 0;
 boot.blacklistedKernelModules = [ "uvcvideo" "ucsi_acpi" ];
+
+# Combined Kernel Params
+boot.kernelParams = [ 
+  "modprobe.blacklist=ucsi_acpi" 
+  "nvidia.NVreg_PreserveVideoMemoryAllocations=1"
+  "ucsi_acpi.disable_notifications=1"
+  "i915.enable_psr=0"
+];
+
+
 
 #CAMERA
 services.udev.extraRules = ''
@@ -120,15 +130,11 @@ pulse.enable = true;
 };
 
 
-environment.variables.QT_QPA_PLATFORMTHEME = "qt6ct";
 environment.sessionVariables = {
-QT_QPA_PLATFORM = "wayland";
-QT_QPA_PLATFORMTHEME="qt6ct";
-NIXOS_OZONE_WL = "1";
-GSK_RENDERER = "ngl"; 
-GDK_BACKEND = "wayland";
-
-
+  QT_QPA_PLATFORM = "wayland;xcb";
+  # Remove the [ ] brackets
+  QT_PLUGIN_PATH = "${pkgs.qt6.qtwayland}/lib/qt-6/plugins";
+  NIXOS_OZONE_WL = "1";
 };
 
 
@@ -151,12 +157,6 @@ hardware.nvidia = {
 };
 
 hardware.enableAllFirmware = true;
-
-boot.kernelParams = [ 
-  "nvidia.NVreg_PreserveVideoMemoryAllocations=1" 
-  "ucsi_acpi.disable_notifications=1" 
-  "i915.enable_psr=0" # Voorkomt schermgeflikker op XPS laptops
-];
 
 
 
@@ -205,8 +205,10 @@ jellyfin.openFirewall = true;
 
 xdg.portal = {
   enable = true;
-  extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
-  config.common.default = "*"; 
+  extraPortals = [ 
+    pkgs.xdg-desktop-portal-hyprland
+    pkgs.xdg-desktop-portal-gtk 
+  ];
 };
 
 
