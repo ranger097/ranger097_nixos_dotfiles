@@ -20,15 +20,18 @@ boot.loader.efi.canTouchEfiVariables = true;
 boot.kernelPackages = pkgs.linuxPackages_latest;
 boot.initrd.luks.devices."luks-1997167d-6340-4911-b856-b88bdd43c13d".device = "/dev/disk/by-uuid/1997167d-6340-4911-b856-b88bdd43c13d";
 
-boot.loader.timeout = 0;
-boot.blacklistedKernelModules = [ "uvcvideo" "ucsi_acpi" ];
+# Force NVIDIA drivers to load at the earliest possible stage (fixes Hyprland/Wayland issues)
+boot.initrd.kernelModules = [ "nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" ];
 
-# Combined Kernel Params
-boot.kernelParams = [ 
-  "modprobe.blacklist=ucsi_acpi" 
-  "nvidia.NVreg_PreserveVideoMemoryAllocations=1"
+boot.loader.timeout = 0;
+boot.blacklistedKernelModules = [ "nouveau" "uvcvideo" "ucsi_acpi" ];
+
+boot.kernelParams = [
+  "nvidia_drm.modeset=1"      # Mandatory for Wayland
+  "nvidia_drm.fbdev=1"        # Smoother transition from boot to desktop
+  "i915.enable_psr=0"         # Fixes flickering on many Intel panels
+  "modprobe.blacklist=ucsi_acpi"
   "ucsi_acpi.disable_notifications=1"
-  "i915.enable_psr=0"
 ];
 
 
@@ -137,42 +140,49 @@ pulse.enable = true;
 
 
 environment.sessionVariables = {
-  QT_QPA_PLATFORM = "wayland;xcb";
-  # Remove the [ ] brackets
-  QT_PLUGIN_PATH = "${pkgs.qt6.qtwayland}/lib/qt-6/plugins";
+  LIBVA_DRIVER_NAME = "nvidia";
+  GBM_BACKEND = "nvidia-drm";
+  __GLX_VENDOR_LIBRARY_NAME = "nvidia";
   NIXOS_OZONE_WL = "1";
+  # For Hyprland/COSMIC stability
+  WLR_NO_HARDWARE_CURSORS = "1"; 
 };
 
 
 
 
+# Load nvidia driver for Xorg and Wayland
+services.xserver.videoDrivers = ["nvidia"];
 
-  # 2. Tell NixOS to use the NVIDIA driver
-  services.xserver.videoDrivers = [ "nvidia" ];
+hardware.nvidia = {
+  # Modesetting is required.
+  modesetting.enable = true;
 
-  hardware.nvidia = {
-    # Modesetting is required
-    modesetting.enable = true;
+  # Nvidia power management. Experimental, and can cause sleep/suspend to fail.
+  powerManagement.enable = false;
+  # Fine-grained power management. Turns off GPU when not in use.
+  powerManagement.finegrained = true;
 
-    # Power management: This keeps the 3050 asleep unless you need it
-    powerManagement.enable = true;
-    powerManagement.finegrained = true;
+  # Use the NVidia open source kernel module (not to be confused with nouveau)
+  # Support is limited to Turing and newer GPUs (your RTX 3050 is supported).
+  open = true;
 
-    # Use the stable proprietary driver
-    open = false;
-    nvidiaSettings = true;
-    package = config.boot.kernelPackages.nvidiaPackages.stable;
+  # Enable the Nvidia settings menu, accessible via `nvidia-settings`.
+  nvidiaSettings = true;
 
-    # 3. The PRIME configuration using your exact Bus IDs
-    prime = {
-      offload = {
-        enable = true;
-        enableOffloadCmd = true;
-      };
-      intelBusId = "PCI:0:2:0";
-      nvidiaBusId = "PCI:1:0:0";
+  # Special configuration for Hybrid Graphics (Optimus)
+  prime = {
+    offload = {
+      enable = true;
+      enableOffloadCmd = true;
     };
+    # Bus IDs found via `lspci` in your log:
+    # Intel: 00:02.0 -> PCI:0:2:0
+    # NVIDIA: 01:00.0 -> PCI:1:0:0
+    intelBusId = "PCI:0:2:0";
+    nvidiaBusId = "PCI:1:0:0";
   };
+};
 
 
 
