@@ -146,36 +146,45 @@ environment.sessionVariables = {
 
 
 
-hardware.nvidia = {
-  # Modesetting is required for most modern desktops
-  modesetting.enable = true;
 
-  # Power management can cause issues; start with it disabled.
-  # Since you're not using 'offload', you don't need 'finegrained'.
-  powerManagement.enable = false;
-  powerManagement.finegrained = false;
+  # 2. Tell NixOS to use the NVIDIA driver
+  services.xserver.videoDrivers = [ "nvidia" ];
 
-  # Use the proprietary driver for better gaming performance/DLSS.
-  # Set to 'true' only if you want the open-source kernel modules (Turing+).
-  open = false;
+  hardware.nvidia = {
+    # Modesetting is required
+    modesetting.enable = true;
 
-  # Keep the Nvidia settings menu available
-  nvidiaSettings = true;
+    # Power management: This keeps the 3050 asleep unless you need it
+    powerManagement.enable = true;
+    powerManagement.finegrained = true;
 
-  # Use the latest driver for your 3050
-  package = config.boot.kernelPackages.nvidiaPackages.latest;
+    # Use the stable proprietary driver
+    open = false;
+    nvidiaSettings = true;
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
 
-  # PRIME is only for laptops with TWO active GPUs. 
-  # Since you disabled the iGPU in BIOS, you don't need these.
-  # prime.offload.enable = false;
-  # prime.sync.enable = false; 
-};
+    # 3. The PRIME configuration using your exact Bus IDs
+    prime = {
+      offload = {
+        enable = true;
+        enableOffloadCmd = true;
+      };
+      intelBusId = "PCI:0:2:0";
+      nvidiaBusId = "PCI:1:0:0";
+    };
+  };
 
-# Keep this enabled to ensure all GPU firmware is available
-hardware.enableAllFirmware = true;
+  # 4. Blacklist the crashing driver and the flaky USB-C module from your logs
+  boot.blacklistedKernelModules = [ "nouveau" "ucsi_acpi" ];
 
-# Ensure the system uses the Nvidia driver for the X server/Wayland
-services.xserver.videoDrivers = [ "nvidia" ];
+
+
+
+
+
+
+
+
 
 hardware.graphics = {
   enable = true;
