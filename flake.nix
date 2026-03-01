@@ -23,6 +23,7 @@
 home-manager.useGlobalPkgs = true;
 home-manager.useUserPackages = true;
 home-manager.users.ranger = import ./home.nix;
+home-manager.backupFileExtension = "backup";
 
 
 
