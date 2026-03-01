@@ -1,12 +1,12 @@
 #Hello, Welcome to my [Nixos](https://github.com/NixOS/nixpkgs) dotfiles repo.
-
+Here is a the link for my flake.
 ```
-# Here is a the link for my flake.
-
 sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#pokemon --impure
-
-# The --impure is because it pulls your /etc/nixos/hardware-configuration.nix file.
 ```
+The --impure is because this flake will pull your /etc/nixos/hardware-configuration.nix file.
+
+<img width="3840" height="2400" alt="2026-03-01-141443_hyprshot" src="https://github.com/user-attachments/assets/08e0ce34-5051-4083-95b7-90b02d2881f9" />
+<img width="3840" height="2400" alt="2026-03-01-144653_hyprshot" src="https://github.com/user-attachments/assets/a820cb7c-db29-4b9b-b4a6-a7e4c36b69a4" />
 
 Features/Applications included in this flake.
 
@@ -20,8 +20,6 @@ Features/Applications included in this flake.
 [Nixos Home-Manager](https://github.com/nix-community/home-manager)<br/>
 
 Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfiles/blob/main/packages.nix) contained in this flake.
-
-
 
 ENJOY HOWEVER YOU WANT:<br/>
 FORK  <br/>
