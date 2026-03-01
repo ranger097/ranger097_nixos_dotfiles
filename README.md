@@ -1,11 +1,11 @@
 #Hello, Welcome to my [Nixos](https://github.com/NixOS/nixpkgs) dotfiles repo.
 
 ```
-Here is a the link for my flake.
+# Here is a the link for my flake.
 
 sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#pokemon --impure
 
-The --impure is because it pulls your /etc/nixos/hardware-configuration.nix file.
+# The --impure is because it pulls your /etc/nixos/hardware-configuration.nix file.
 ```
 
 Features/Applications included in this flake.
