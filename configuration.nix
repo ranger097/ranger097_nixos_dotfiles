@@ -174,16 +174,6 @@ environment.sessionVariables = {
     };
   };
 
-  # 4. Blacklist the crashing driver and the flaky USB-C module from your logs
-  boot.blacklistedKernelModules = [ "nouveau" "ucsi_acpi" ];
-
-
-
-
-
-
-
-
 
 
 hardware.graphics = {
