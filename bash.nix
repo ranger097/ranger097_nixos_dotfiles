@@ -14,7 +14,7 @@ programs.bash = {
    interactiveShellInit = ''
    cgit() {
    echo " Entering dotfiles  on main."
-   cd ~/Github/dotfiles
+   cd ~/ranger097_nixos_dotfiles
    wait
    echo " Adding files to dotfiles  on main"
    git add . &> /dev/null
@@ -35,7 +35,7 @@ programs.bash = {
    }
    
    update() {
-   cd ~/Github/dotfiles
+   cd ~/ranger097_nixos_dotfiles
    echo " Updating Nixos System"
    sudo nixos-rebuild switch --upgrade
    }
