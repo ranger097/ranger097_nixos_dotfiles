@@ -32,6 +32,12 @@ boot.kernelParams = [
 ];
 
 
+# Add this anywhere in configuration.nix
+systemd.user.extraConfig = ''
+  DefaultEnvironment="QT_QPA_PLATFORM=wayland" "QT_PLUGIN_PATH=${pkgs.qt6.qtwayland}/lib/qt-6/plugins"
+'';
+
+
 
 #CAMERA
 services.udev.extraRules = ''
