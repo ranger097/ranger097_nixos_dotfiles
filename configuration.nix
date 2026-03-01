@@ -21,6 +21,7 @@
   boot.initrd.luks.devices."luks-1997167d-6340-4911-b856-b88bdd43c13d".device = "/dev/disk/by-uuid/1997167d-6340-4911-b856-b88bdd43c13d";
   security.polkit.enable = true;
   boot.loader.timeout = 0;
+boot.blacklistedKernelModules = [ "uvcvideo" "ucsi_acpi" ];
 
 #CAMERA
 services.udev.extraRules = ''
@@ -28,9 +29,6 @@ services.udev.extraRules = ''
 ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0c45", ATTR{idProduct}=="6732", ATTR{authorized}="0"
 '';
 
-boot.blacklistedKernelModules = [ 
-"uvcvideo" 
-];
 
 services.pipewire.wireplumber.extraConfig."10-disable-mic" = {
   "monitor.alsa.rules" = [
@@ -96,7 +94,7 @@ services.blueman.enable = true;
 hardware.bluetooth.settings = {
 General = {
 Enable = "Source,Sink,Media,Socket";
-Experimental = true;
+Experimental = false;
   };
 };
 
@@ -138,10 +136,10 @@ GDK_BACKEND = "wayland";
 
 hardware.nvidia = {
   modesetting.enable = true;
-  powerManagement.enable = true;
-  powerManagement.finegrained = true; # Cruciaal voor Dell XPS accuduur
-  open = true; # De RTX 3050 ondersteunt de open kernel modules perfect
-  package = config.boot.kernelPackages.nvidiaPackages.stable;
+ # powerManagement.enable = true;
+#  powerManagement.finegrained = true; # Cruciaal voor Dell XPS accuduur
+  open = false; # De RTX 3050 ondersteunt de open kernel modules perfect
+  package = config.boot.kernelPackages.nvidiaPackages.latest;
   
   prime = {
     offload.enable = true;
@@ -203,6 +201,16 @@ openssh.enable = false;
 jellyfin.openFirewall = true;
 
 };
+
+
+xdg.portal = {
+  enable = true;
+  extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+  config.common.default = "*"; 
+};
+
+
+
 
 
   # This value determines the NixOS release from which the default
