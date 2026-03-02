@@ -1,9 +1,10 @@
-Hello, Welcome to my [Nixos](https://github.com/NixOS/nixpkgs) dotfiles repo.
-Made for developers who like preconfigured or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv),<br/>
-and fun scripts ive made to automated basic system task.
-As I learn more about Linux, Nixos, Hyprland, Automation,
-Systems Development and Programming as a whole,
-I will update this repo periodically.
+Hello, Welcome to my [Nixos](https://github.com/NixOS/nixpkgs) dotfiles repo.<br/>
+Made for developers who like preconfigured or *"[riced](https://www.reddit.com/r/unixporn/)"* systems,<br/>
+isolated and reproducible developer environments (via direnv),<br/>
+and fun scripts ive made to automated basic system task.<br/>
+As I learn more about Linux, Nixos, Hyprland, Automation,<br/>
+Systems Development and Programming as a whole,<br/>
+I will update this repo periodically.<br/>
 
 ```
 # The --impure flag is because this flake will pull your /etc/nixos/hardware-configuration.nix file.
