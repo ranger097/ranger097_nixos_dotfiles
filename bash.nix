@@ -11,6 +11,7 @@ programs.bash = {
       wii = "cd ~/ranger097_nixos_dotfiles/waybar";
       cii = "cd ~/.config";
       ls = "lsd -a";
+      ytdownload = "yt-dlp -x --audio-format mp3 --audio-quality 0 --cookies-from-browser firefox --embed-metadata --embed-thumbnail --add-metadata";
       };
    interactiveShellInit = ''
    cgit() {
