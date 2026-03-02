@@ -47,6 +47,32 @@
     };
   };
 
+services.pipewire.wireplumber.extraConfig."10-disable-internal-mic" = {
+  "monitor.alsa.rules" = [
+    {
+      matches = [
+        {
+          # Specifically targets the internal SoundWire/Digital MIC array
+          "node.name" = "~alsa_input.*dmic*"; 
+        }
+      ];
+      actions = {
+        update-props = {
+          "node.disabled" = true;
+        };
+      };
+    }
+  ];
+};
+
+
+
+
+
+
+
+
+
   # Wayland / Hyprland fixes
   environment.sessionVariables = {
     LIBVA_DRIVER_NAME = "nvidia";
