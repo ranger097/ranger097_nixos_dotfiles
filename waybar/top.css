@@ -30,6 +30,7 @@ margin-right: 5px;
 border-radius: 10px;
 border: 2px solid #303030;
 box-shadow: none;
+text-shadow: none;
 }
 
 #window:hover,
