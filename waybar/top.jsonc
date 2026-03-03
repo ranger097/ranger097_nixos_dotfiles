@@ -89,15 +89,13 @@
         "format-icons": ["  ", "  ", "  ", "  ", "  "]
     },
 
-    "custom/qmmp": {
-        "format": "{}",
-        "interval": 2,
-        //"max-length": 50,
-         "exec": "playerctl --player=qmmp metadata --format '{{artist}} - {{title}}' | tr '[:lower:]' '[:upper:]' | awk '{ print substr($0, 1, 140)}'", 
-        "on-click": "playerctl --player=qmmp play-pause",
-        "on-scroll-up": "playerctl --player=qmmp next",
-        "on-scroll-down": "playerctl --player=qmmp previous"
-    },
+"custom/qmmp": {
+    "exec": "playerctl --player=qmmp metadata --format '{{artist}} - {{title}}'",
+    "interval": 2,
+    "max-length": 40,
+    "on-click": "playerctl --player=qmmp play-pause",
+    "return-type": ""
+},
 
     "custom/vpn_ip": {
        "format":"VIEW IP",
