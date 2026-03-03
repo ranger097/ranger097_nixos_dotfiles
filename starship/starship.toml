@@ -1,8 +1,9 @@
 format = """
 [](fg:#B4B4B4 bg:none)\
 [𝖗𝖆𝖓𝖌𝖊𝖗](fg:#000000 bg:#b4b4b4)\
-[ ](fg:#B4B4B4 bg:none)\
-[-](#B4B4B4)\
+[ ](fg:#B4B4B4 bg:#ffcc83)\
+[ ](fg:#ffcc83 bg:none)\
+[  ](#B4B4B4)\
 $directory\
 [](fg:#B4B4B4)\
 $git_branch\
@@ -29,35 +30,38 @@ truncation_length = 3
 truncation_symbol = ""
 
 [directory.substitutions]
-"Documents" = "󰈙 DOCUMENTS"
-"Downloads" = " DOWNLOADS"
-"Music" = " MUSIC"
-"Pictures" = " PICTURE"
-"Home" = " HOME"
-"~" = " "
-"~/Projects" = "  CODING PROJECTS"
-"~/ranger097_nixos_dotfiles/starship" = " STARSHIP CONFIG"
-"~/ranger097_nixos_dotfiles" = " NIXOS CONFIGS"
-"~/ranger097_nixos_dotfiles/ghostty" = " GHOSTTY"
-"~/ranger097_nixos_dotfiles/kvantum" = " KVANTUM"
-"~/ranger097_nixos_dotfiles/waybar" = "󰠷 WAYBAR"
-"~/ranger097_nixos_dotfiles/rofi" = "󱪶 ROFI"
-"~/ranger097_nixos_dotfiles/wallpapers" = "󰸉 WALLPAPERS"
-"~/ranger097_nixos_dotfiles/hypr" = " HYPRLAND"
 "~/ranger097_nixos_dotfiles/hypr/hyprland.conf" = " HYPRLAND.CONF"
 "~/ranger097_nixos_dotfiles/hypr/hypridle.conf" = " HYPRIDLE.CONF"
 "~/ranger097_nixos_dotfiles/hypr/hyprlock.conf" = " HYPRLOCK.CONF"
 "~/ranger097_nixos_dotfiles/hypr/hyprsunset.conf" = " HYPRSUNSET.CONF"
-"~/ranger097_nixos_dotfiles/wlogout" = " WLOGOUT"
 "~/ranger097_nixos_dotfiles/bash.nix" = " BASH.NIX"
-"~/ranger097_nixos_dotfiles/configuration.nix" = " CONFIGURATION.NIX" 
+"~/ranger097_nixos_dotfiles/configuration.nix" = " CONFIGURATION.NIX"
 "~/ranger097_nixos_dotfiles/cosmic.nix" = " COSMIC.NIX"
 "~/ranger097_nixos_dotfiles/flake.nix" = " FLAKE.NIX"
 "~/ranger097_nixos_dotfiles/home.nix" = " HOME.NIX"
 "~/ranger097_nixos_dotfiles/hyprland.nix" = " HYPRLAND.NIX"
 "~/ranger097_nixos_dotfiles/shell.nix" = " SHELL.NIX"
 "~/ranger097_nixos_dotfiles/packages.nix" = " PACKAGES.NIX"
+
+"~/ranger097_nixos_dotfiles/starship" = " STARSHIP CONFIG"
+"~/ranger097_nixos_dotfiles/ghostty" = " GHOSTTY"
+"~/ranger097_nixos_dotfiles/kvantum" = " KVANTUM"
+"~/ranger097_nixos_dotfiles/waybar" = "   WAYBAR"
+"~/ranger097_nixos_dotfiles/rofi" = "   ROFI"
+"~/ranger097_nixos_dotfiles/wallpapers" = "   WALLPAPERS"
+"~/ranger097_nixos_dotfiles/hypr" = " HYPRLAND"
+"~/ranger097_nixos_dotfiles/wlogout" = " WLOGOUT"
+
+"~/ranger097_nixos_dotfiles" = " NIXOS CONFIGS"
+"~/Projects" = "  CODING PROJECTS"
 "~/.config" = " CONFIGS"
+"Documents" = "   DOCUMENTS"
+"Downloads" = " DOWNLOADS"
+"Music" = " MUSIC"
+"Pictures" = " PICTURE"
+
+"Home" = " HOME"
+"~" = " "
 
 
 [git_branch]
