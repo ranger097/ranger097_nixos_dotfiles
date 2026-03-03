@@ -1,7 +1,7 @@
 format = """
 [](fg:#B4B4B4 bg:none)\
 [𝖗𝖆𝖓𝖌𝖊𝖗](fg:#000000 bg:#b4b4b4)\
-[](fg:#B4B4B4 bg:none)\
+[ ](fg:#B4B4B4 bg:none)\
 [-](#B4B4B4)\
 $directory\
 [](fg:#B4B4B4)\
