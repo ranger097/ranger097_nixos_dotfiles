@@ -1,6 +1,6 @@
 {config, pkgs, ... }: {
 
-networking.networkManager.dns = "none";
+networking.networkmanager.dns = "none";
 networking.useDHCP = false;
 networking.dhcpcd.enable = false;
 networking.nameservers = [
