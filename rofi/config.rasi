@@ -14,14 +14,14 @@ anchor: center;
 transparency: "real";
 padding: 0px;
 border: 1px;
-border-radius: 0px;
+border-radius: 10px;
 spacing: 0px;
 children: [mainbox];
 orientation: horizontal;
 background-color: rgba(0,0,0,1);
 height : 300px;
 width: 600px;
-border-color: rgba(0,0,0,1);
+border-color: #303030;
 padding: -109px 0px 0px 0px;
 }
 
