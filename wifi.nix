@@ -8,7 +8,7 @@ networking.nameservers = [
   "1.0.0.1"
 ];
 
-networking.networkManager.ensureProfiles = {
+networking.networkmanager.ensureProfiles = {
    environmentFiles = ["./wifi.env"];
    profiles = {
       Home = {
