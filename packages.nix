@@ -102,6 +102,8 @@ pulse.enable = true;
 #media-session.enable = true;
 };
 
+services.gvfs.enable = true;
+services.udev.packages = [ pkgs.android-udev-rules ];
 
 
 
