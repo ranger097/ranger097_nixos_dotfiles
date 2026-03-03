@@ -47,12 +47,10 @@ color: rgba(200,60,60,1);
 
 }
 
-
-#mpris,
 #clock,
-#custom-vpn_ip,
-#battery {
-margin-right: 10px;
+#mpris,
+#custom-vpn_ip {
+margin-right: 5px;
 }
 
 #battery {
