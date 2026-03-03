@@ -93,7 +93,7 @@
         "format": "{}",
         "interval": 2,
         //"max-length": 50,
-         "exec": "playerctl --player=qmmp metadata --format '{{artist}} - {{title}}' | tr '[:lower:]' '[:upper:]' | awk '{ print substr($0, 1, 140) \" }'", 
+         "exec": "playerctl --player=qmmp metadata --format '{{artist}} - {{title}}' | tr '[:lower:]' '[:upper:]' | awk '{ print substr($0, 1, 140)}'", 
         "on-click": "playerctl --player=qmmp play-pause",
         "on-scroll-up": "playerctl --player=qmmp next",
         "on-scroll-down": "playerctl --player=qmmp previous"
