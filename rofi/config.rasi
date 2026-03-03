@@ -14,11 +14,11 @@ anchor: center;
 /*transparency: "real";*/
 padding: 0px;
 border: 2px;
-border-radius: 15px;
+border-radius: 10px;
 spacing: 0px;
 children: [mainbox];
 orientation: horizontal;
-background-color: rgba(0,0,0,0);
+background-color: rgba(0,0,0,1);
 height : 300px;
 width: 600px;
 border-color: #303030;
