@@ -11,10 +11,10 @@ format = """
 [ ](fg:#505050 bg:#101010)\
 [ ](fg:#101010 bg:none)\
 $directory\
-[](fg:#B4B4B4)\
+[](fg:#505050)\
 $git_branch\
 $git_status\
-[](fg:#B4B4B4)\
+[](fg:#505050)\
 $nodejs\
 $rust\
 $golang\
@@ -23,14 +23,14 @@ $elixir\
 $python\
 $c\
 $java
-[](fg:#B4B4B4)\ 
-[](fg:#B4B4B4)\ 
-[ $fill](fg:#B4B4B4)[](#B4B4B4)$time\
+[](fg:#505050)\ 
+[](fg:#505050)\ 
+[ $fill](fg:#505050)[](#505050)$time\
 [](#ffffff)\ 
 \n$character"""
 
 [directory]
-style = '#B4B4B4'
+style = '#505050'
 format = "[ $path]($style)"
 truncation_length = 3
 truncation_symbol = ""
@@ -69,11 +69,11 @@ truncation_symbol = ""
 
 [git_branch]
 symbol = ""
-style = '#B4B4B4'
+style = '#505050'
 format = '[[ $symbol $branch ](#909090)]($style)'
 
 [git_status]
-style = '#B4B4B4'
+style = '#505050'
 format = '[[($all_status$ahead_behind)](fg:#909090)]($style)'
 
 [nodejs]
