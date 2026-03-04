@@ -11,7 +11,7 @@ format = """
 [ ](fg:#69491D bg:#303030)\
 [ ](fg:#303030 bg:#101010)\
 [ ](fg:#101010 bg:none)\
-\n$directory\n
+\n$directory
 [](fg:#505050)\
 $git_branch\
 $git_status\
@@ -24,7 +24,7 @@ $elixir\
 $python\
 $c\
 $java
-$character"""
+\n$character"""
 
 [directory]
 style = '#707070'
