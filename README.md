@@ -29,22 +29,22 @@ If you are like me and enjoy a good __[nerd font](https://www.nerdfonts.com/font
 * [Caskaydia Cove NF](https://github.com/eliheuer/caskaydia-cove)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Featured+applications+in+this+flake%3A)](https://git.io/typing-svg)<br/>
-[Hyprland](https://github.com/hyprwm/Hyprland): Smooth, modern Wayland tiling compositor,
-[Hyprlock](https://github.com/hyprwm/hyprlock): Fast, GPU-accelerated screen locker,
-[Hypridle](https://github.com/hyprwm/hypridle): Automated idle management daemon,
-[Hyprsunset](https://github.com/hyprwm/hyprsunset): Simple blue light filter utility,
-[Rofi](https://github.com): Searchable application launcher and switcher,
-[Waybar](https://github.com): Highly customizable status bar for Wayland,
-[wlogout](https://github.com): Graphical power management menu,
-[Starship](https://github.com): Fast, universal shell prompt for any shell,
-[NixOS Home-Manager](https://github.com): Declarative user configuration management tool,
-[Direnv](https://github.com): Automatic environment variable loader per directory,
-[Qmmp](https://github.com): Audio player with a classic Winamp-style interface,
-[MPRIS](https://github.com): Standard media control interface for Linux,
-[Pokeget](https://github.com): Terminal tool to display Pokémon sprites,
-[VS Code](https://github.com): Extensible source-code editor for developers,
-[Steam](https://github.com): Digital gaming storefront and launcher, and 
-[Firefox](https://github.com): Privacy-focused, open-source web browser.
+[Hyprland](https://github.com/hyprwm/Hyprland): Smooth, modern Wayland tiling compositor.<br/>
+[Hyprlock](https://github.com/hyprwm/hyprlock): Fast, GPU-accelerated screen locker.<br/>
+[Hypridle](https://github.com/hyprwm/hypridle): Automated idle management daemon.<br/>
+[Hyprsunset](https://github.com/hyprwm/hyprsunset): Simple blue light filter utility.<br/>
+[Rofi](https://github.com): Searchable application launcher and switcher.<br/>
+[Waybar](https://github.com): Highly customizable status bar for Wayland.<br/>
+[wlogout](https://github.com): Graphical power management menu.<br/>
+[Starship](https://github.com): Fast, universal shell prompt for any shell.<br/>
+[NixOS Home-Manager](https://github.com): Declarative user configuration management tool.<br/>
+[Direnv](https://github.com): Automatic environment variable loader per directory.<br/>
+[Qmmp](https://github.com): Audio player with a classic Winamp-style interface.<br/>
+[MPRIS](https://github.com): Standard media control interface for Linux.<br/>
+[Pokeget](https://github.com): Terminal tool to display Pokémon sprites.<br/>
+[VS Code](https://github.com): Extensible source-code editor for developers.<br/>
+[Steam](https://github.com): Digital gaming storefront and launcher.<br/>
+[Firefox](https://github.com): Privacy-focused, open-source web browser.<br/>
 
 Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfiles/blob/main/packages.nix) contained in this flake.
 
