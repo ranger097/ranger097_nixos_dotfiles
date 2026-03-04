@@ -24,7 +24,7 @@ This photo is an example of __[Pokeget](https://github.com/talwat/pokeget-rs)__ 
 # Fonts:
 [Maple Mono NF](https://github.com/subframe7536/maple-font) is the only font I use. You can easily add more but its so beautiful i use it system wide.
 
-# Features/Applications included in this flake.
+# Featured applications included in this flake.
 
 [Hyprland](https://github.com/hyprwm/Hyprland): Smooth, modern Wayland tiling compositor,
 [Hyprlock](https://github.com/hyprwm/hyprlock): Fast, GPU-accelerated screen locker,
@@ -54,14 +54,4 @@ Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfile
 
 
 
-
-
-
-
-
-
-
-ENJOY HOWEVER YOU WANT:<br/>
-FORK  <br/>
-SHARE  <br/>
-LEAVE A STAR  <br/>
+FORK · SHARE · LEAVE A STAR 
