@@ -48,7 +48,7 @@ programs.bash = {
    nix flake update
    }
    
-
+   export DIRENV_LOG_FORMAT=""
    pokeget random --hide-name
    eval "$(direnv hook bash)"
    eval -- "$(/run/current-system/sw/bin/starship init bash --print-full-init)"
