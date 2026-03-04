@@ -24,7 +24,7 @@ $elixir\
 $python\
 $c\
 $java
-\n$character"""
+$character"""
 
 [directory]
 style = '#707070'
