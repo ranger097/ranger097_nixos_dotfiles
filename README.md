@@ -1,4 +1,4 @@
-# [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+Mono&size=25&pause=1000&width=623&lines=Hello%2C+Welcome+to+my+nixos+dotfiles+repo.)](https://git.io/typing-svg) <br/>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Hello%2C+Welcome+to+my+Nixos+dotfiles+repo.)](https://git.io/typing-svg)<br/>
 Made for developers who like preconfigured or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.
 
 This flake has an "__--impure__" flag because it is hardware agnostic.<br/>
@@ -8,7 +8,7 @@ This flake has an "__--impure__" flag because it is hardware agnostic.<br/>
 sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#pokemon --impure
 ```
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&width=548&lines=Screenshots%3A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Screenshots%3A)](https://git.io/typing-svg)
 This photo is an example of my __[Rofi](https://github.com/davatorium/rofi)__ config.
 <img width="3840" height="2400" alt="2026-03-04-025925_hyprshot" src="https://github.com/user-attachments/assets/bdbeca52-1adf-485a-ab1c-9d1000484f7d" />
 
@@ -19,7 +19,7 @@ This photo is an example of __[Pokeget](https://github.com/talwat/pokeget-rs)__ 
 <img width="3840" height="2400" alt="2026-03-04-024600_hyprshot" src="https://github.com/user-attachments/assets/e325f2a0-f22d-4015-8458-7731257f27e7" />
 <img width="3840" height="2400" alt="2026-03-04-024628_hyprshot" src="https://github.com/user-attachments/assets/2b02bd34-a52d-4b8e-953e-13d0f77f7b0b" />
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+Mono&pause=1000&width=435&lines=Fonts%3A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Fonts%3A)](https://git.io/typing-svg)<br/>
 [Maple Mono NF](https://github.com/subframe7536/maple-font) is the only font I use. You can easily add more but its so beautiful i use it system wide.
 Im a sucker for font ligatures and italics(*I need all my fancy programming symbols and fancy cursive functions*).<br/>
 If you are like me and enjoy a good __[nerd font](https://www.nerdfonts.com/font-downloads)__ you might wanna check these out. 
@@ -28,7 +28,7 @@ If you are like me and enjoy a good __[nerd font](https://www.nerdfonts.com/font
 * [JetBrains Mono NF](https://github.com/JetBrains/JetBrainsMono)
 * [Caskaydia Cove NF](https://github.com/eliheuer/caskaydia-cove)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&width=548&lines=Featured+applications+included+in+this+flake.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Featured+applications+in+this+flake%3A)](https://git.io/typing-svg)<br/>
 [Hyprland](https://github.com/hyprwm/Hyprland): Smooth, modern Wayland tiling compositor,
 [Hyprlock](https://github.com/hyprwm/hyprlock): Fast, GPU-accelerated screen locker,
 [Hypridle](https://github.com/hyprwm/hypridle): Automated idle management daemon,
@@ -48,7 +48,7 @@ If you are like me and enjoy a good __[nerd font](https://www.nerdfonts.com/font
 
 Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfiles/blob/main/packages.nix) contained in this flake.
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+Mono&size=25&pause=1000&width=623&lines=Coming+soon%3A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Coming+soon%3A)](https://git.io/typing-svg)<br/>
 * Documentation
 * Full theme switcher written in golang.
 * More Wallpapers
