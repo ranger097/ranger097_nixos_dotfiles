@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+Mono&pause=1000&width=435&lines=Hello%2C+Welcome+to+my+Nixos+dotfiles+repo.+)](https://git.io/typing-svg) <br/>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+Mono&size=25&pause=1000&width=623&lines=Hello%2C+Welcome+to+my+nixos+dotfiles+repo.)](https://git.io/typing-svg) <br/>
 Made for developers who like preconfigured or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.
 
 This flake has an "__--impure__" flag because it is hardware agnostic.<br/>
@@ -57,5 +57,5 @@ Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfile
 * More Wallpapers
 
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+Mono&size=25&pause=1000&width=623&lines=Fork+%C2%B7+Share+%C2%B7+Leave+a+star+%3A)+)](https://git.io/typing-svg)
 
-FORK · SHARE · LEAVE A STAR 
