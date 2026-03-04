@@ -37,7 +37,7 @@ truncate_to_repo = false
 "Downloads" = " 󰉍 downloads"
 "Music" = " 󱍙 music"
 "Pictures" = " 󰉏 pictures"
-"Home" = "home "
+"Home/" = "home "
 "~" = "home"
 
 
