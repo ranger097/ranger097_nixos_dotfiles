@@ -1,8 +1,9 @@
 format = """
-[](fg:#cdb190 bg:none)\
-[   ペンギン ](fg:#000000 bg:#cdb190)\
-[ ](fg:#cdb190 bg:#ea6151)\
-[ ](fg:#ea6151 bg:none)\
+[](fg:#7E7770 bg:none)\
+[   ペンギン ](fg:#000000 bg:#7E7770)\
+[ ](fg:#cdb190 bg:#ea611)\
+[ ](fg:#ea6151 bg:#4576FA)\
+[ ](fg:#4576FA bg:none)\
 $directory\
 [](fg:#B4B4B4)\
 $git_branch\

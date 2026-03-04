@@ -1,5 +1,7 @@
 {config, pkgs, ... }: {
 
+networking.networkmanager.enable = true;
+networking.wireless.enable = false;
 networking.networkmanager.dns = "none";
 networking.useDHCP = false;
 networking.dhcpcd.enable = false;

@@ -13,7 +13,7 @@
   # Bootloader & Kernel
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.loader.timeout = 5; 
+  boot.loader.timeout = 0; 
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
   # UPDATED LUKS UUID for your new install
@@ -26,7 +26,6 @@
 
   # Networking
   networking.hostName = "pokemon";
-  networking.networkmanager.enable = true;
   time.timeZone = "America/New_York";
   i18n.defaultLocale = "en_US.UTF-8";
 
