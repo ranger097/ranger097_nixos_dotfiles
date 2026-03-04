@@ -14,18 +14,18 @@ networking.networkmanager.ensureProfiles = {
    profiles = {
       Home = {
          connection = { 
-	    id = "Home"; 
+	    id = "$WIFI_NM"; 
 	    type = "wifi";
             autoconnect = true; 
 	 };
          wifi = {
-            ssid = "$WIFI_ID_HOME";
+            ssid = "$WIFI_ID";
             mode = "infrastructure";
 	 };
 
 	  wifi-security = { 
 	    key-mgmt = "wpa-psk"; 
-	    psk = "$WIFI_PW_HOME"; 
+	    psk = "$WIFI_PW"; 
 	 };
       };
     };
