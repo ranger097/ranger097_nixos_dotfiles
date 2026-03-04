@@ -11,7 +11,8 @@ format = """
 [ ](fg:#69491D bg:#303030)\
 [ ](fg:#303030 bg:#101010)\
 [ ](fg:#101010 bg:none)\
-\n$directory
+\n[󰄯 ](fg:#101010 bg:none)\
+$directory\
 [](fg:#505050)\
 $git_branch\
 $git_status\
