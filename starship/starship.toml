@@ -29,7 +29,7 @@ $java
 [](fg:#505050)\ 
 [ $fill](fg:#505050)[](#505050)$time\
 [](#ffffff)\ 
-$character"""
+\n$character"""
 
 [directory]
 style = '#707070'
