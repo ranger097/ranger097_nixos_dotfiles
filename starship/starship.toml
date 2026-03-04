@@ -33,7 +33,7 @@ $java
 
 [directory]
 style = '#707070'
-format = "[ $path]($style)"
+format = "[$path]($style)"
 truncation_length = 8
 truncation_symbol = ""
 truncate_to_repo = false
