@@ -23,13 +23,13 @@ truncation_symbol = ""
 truncate_to_repo = false
 
 [directory.substitutions]
-"/ranger097_nixos_dotfiles" = "dotfiles"
-"Documents" = "documents"
-"Downloads" = "downloads"
-"Music" = "music"
-"Pictures" = "pictures"
-"Home" = "home"
-"~" = "home 󱂵 "
+"/ranger097_nixos_dotfiles" = " dotfiles"
+"Documents" = "󰣞 documents"
+"Downloads" = "󰉍 downloads"
+"Music" = "󱍙 music"
+"Pictures" = "󰉏 pictures"
+"Home" = "home "
+"~" = "home "
 
 
 [git_branch]
