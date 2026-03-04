@@ -32,8 +32,9 @@ $java
 [directory]
 style = '#707070'
 format = "[ $path]($style)"
-truncation_length = 3
+truncation_length = 8
 truncation_symbol = ""
+truncate_to_repo = false
 
 [directory.substitutions]
 "/home/ranger/ranger097_nixos_dotfiles/hypr/hyprland.conf" = " HYPRLAND.CONF"
