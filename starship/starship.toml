@@ -30,7 +30,7 @@ $java
 \n$character"""
 
 [directory]
-style = '#505050'
+style = '#707070'
 format = "[ $path]($style)"
 truncation_length = 3
 truncation_symbol = ""
