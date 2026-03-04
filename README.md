@@ -8,7 +8,7 @@ This flake has an "__--impure__" flag because it is hardware agnostic.<br/>
 sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#pokemon --impure
 ```
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Screenshots%3A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Screenshots%3A)](https://git.io/typing-svg)<br/>
 This photo is an example of my __[Rofi](https://github.com/davatorium/rofi)__ config.
 <img width="3840" height="2400" alt="2026-03-04-025925_hyprshot" src="https://github.com/user-attachments/assets/bdbeca52-1adf-485a-ab1c-9d1000484f7d" />
 
@@ -17,6 +17,8 @@ This photo is an example of my minimal __[Vscode](https://code.visualstudio.com/
 
 This photo is an example of __[Pokeget](https://github.com/talwat/pokeget-rs)__ (very easily disabled, but why would you), it spawns random pokemon pixel art whenever i open a terminal.
 <img width="3840" height="2400" alt="2026-03-04-024600_hyprshot" src="https://github.com/user-attachments/assets/e325f2a0-f22d-4015-8458-7731257f27e7" />
+
+This is an example of __[Qmmp](https://qmmp.ylsoftware.com/downloads.php)__ and the __[Waybar](https://github.com/Alexays/Waybar)__ module __[Mpris](https://github.com/natsukagami/mpd-mpris)__.
 <img width="3840" height="2400" alt="2026-03-04-024628_hyprshot" src="https://github.com/user-attachments/assets/2b02bd34-a52d-4b8e-953e-13d0f77f7b0b" />
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Fonts%3A)](https://git.io/typing-svg)<br/>
