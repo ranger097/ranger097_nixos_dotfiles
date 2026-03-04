@@ -25,6 +25,7 @@ separator = ""
 
 [directory.substitutions]
 "/ranger097_nixos_dotfiles" = " dotfiles"
+"/Projects/go_projects" = "GO"
 "Documents" = "󰣞 documents"
 "Downloads" = "󰉍 downloads"
 "Music" = "󱍙 music"
