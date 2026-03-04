@@ -112,5 +112,4 @@ style = "bg:#1d2230"
 format = '[[ $time](fg:#CAAE48)]($style)'
 
 [character]
-format = ' (fg:#69491D) '
-style = "fg:#69491D"
+format = "[  ](fg:#69491D) "
