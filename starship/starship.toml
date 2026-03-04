@@ -21,7 +21,7 @@ format = "[$path]($style)"
 truncation_length = 8
 truncation_symbol = ""
 truncate_to_repo = false
-
+separator = " "
 [directory.substitutions]
 "/ranger097_nixos_dotfiles" = "  dotfiles"
 "/Projects/go_projects" = "  Projects  go_projects "
