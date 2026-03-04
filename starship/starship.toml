@@ -11,7 +11,7 @@ $golang\
 $php\
 $elixir\
 $python\
-$c\
+$cpp\
 $java
 $character"""
 
@@ -32,6 +32,15 @@ separator = ""
 "Home" = "home "
 "~" = "home "
 
+
+[direnv]
+disabled = false
+detect_files = ['.envrc']
+allowed_msg = "allowed"
+not_allowed_msg = "not allowed"
+denied_msg = "denied"
+loaded_msg = "loaded"
+unloaded_msg = "not loaded"
 
 [git_branch]
 symbol = ""
@@ -72,7 +81,7 @@ symbol = ""
 style = "bg:#000000"
 format = '[[ $symbol ($version) ](fg:#C83C3C bg:#000000)]($style)'
 
-[c]
+[cpp]
 symbol = ""
 style = "bg:#000000"
 format = '[[ $symbol ($version) ](fg:#C83C3C bg:#000000)]($style)'
