@@ -29,7 +29,7 @@ truncate_to_repo = false
 "Music" = "music"
 "Pictures" = "pictures"
 "Home" = "home"
-"~" = ""
+"~" = "home 󱂵 "
 
 
 [git_branch]
