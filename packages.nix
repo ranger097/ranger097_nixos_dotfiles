@@ -54,7 +54,7 @@ vscode
 nixd
 qt5.qtwayland
 qt6.qtwayland
-
+fastfetch
 ];
 
 fonts.packages = with pkgs;[
