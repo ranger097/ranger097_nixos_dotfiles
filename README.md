@@ -1,5 +1,7 @@
 # Hello, Welcome to my [Nixos](https://github.com/NixOS/nixpkgs) dotfiles repo. <br/>
-Made for developers who like preconfigured or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automated basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.
+Made for developers who like preconfigured or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.
+
+
 
 This flake has an "__--impure__" flag because it is hardware agnostic.<br/>
 (*aka it will pull your /etc/nixos/hardware-configuration.nix automatically because nixos is [Goated](https://pbs.twimg.com/media/HA4fYrxXkAE0Rt3.jpg) like that*)
@@ -13,6 +15,9 @@ sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#poke
 <img width="3840" height="2400" alt="2026-03-04-025933_hyprshot" src="https://github.com/user-attachments/assets/3a1a3488-1611-4d58-89e4-1c82a1955452" />
 <img width="3840" height="2400" alt="2026-03-04-024600_hyprshot" src="https://github.com/user-attachments/assets/e325f2a0-f22d-4015-8458-7731257f27e7" />
 <img width="3840" height="2400" alt="2026-03-04-024628_hyprshot" src="https://github.com/user-attachments/assets/2b02bd34-a52d-4b8e-953e-13d0f77f7b0b" />
+
+# Fonts:
+[Maple Mono NF](https://github.com/subframe7536/maple-font) is the only font I use. You can easily add more but its so beautiful i use it system wide.
 
 # Features/Applications included in this flake.
 
@@ -34,6 +39,22 @@ sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#poke
 [Firefox](https://github.com): Privacy-focused, open-source web browser.
 
 Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfiles/blob/main/packages.nix) contained in this flake.
+
+
+
+# Coming soon:
+* Documentation
+* Full theme switcher written in golang.
+* More Wallpapers
+
+
+
+
+
+
+
+
+
 
 ENJOY HOWEVER YOU WANT:<br/>
 FORK  <br/>
