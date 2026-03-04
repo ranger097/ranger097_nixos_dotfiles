@@ -17,14 +17,22 @@ Screenshots:
 
 Features/Applications included in this flake.
 
-[Hyprland](https://github.com/hyprwm/Hyprland)<br/>
-[Hyprlock](https://github.com/hyprwm/hyprlock)<br/>
-[Rofi](https://github.com/davatorium/rofi)<br/>
-[Waybar](https://github.com/Alexays/Waybar)<br/>
-[wlogout](https://github.com/ArtsyMacaw/wlogout)<br/>
-[Starship](https://github.com/starship/starship)<br/>
-[Nixos Home-Manager](https://github.com/nix-community/home-manager)<br/>
-[Direnv](https://github.com/direnv/direnv)<br/>
+* [Hyprland](https://github.com/hyprwm/Hyprland): Smooth, modern Wayland tiling compositor.
+* [Hyprlock](https://github.com/hyprwm/hyprlock): Fast, GPU-accelerated screen locker.
+* [Hypridle](https://github.com/hyprwm/hypridle): Automated idle management daemon.
+* [Hyprsunset](https://github.com/hyprwm/hyprsunset): Simple blue light filter utility.
+* [Rofi](https://github.com): Searchable application launcher and switcher.
+* [Waybar](https://github.com): Highly customizable status bar for Wayland.
+* [wlogout](https://github.com): Graphical power management menu.
+* [Starship](https://github.com): Fast, universal shell prompt for any shell.
+* [NixOS Home-Manager](https://github.com): Declarative user configuration management tool.
+* [Direnv](https://github.com): Automatic environment variable loader per directory.
+* [Qmmp](https://github.com): Audio player with a classic Winamp-style interface.
+* [MPRIS](https://github.com): Standard media control interface for Linux.
+* [Pokeget](https://github.com): Terminal tool to display Pokémon sprites.
+* [VS Code](https://github.com): Extensible source-code editor for developers.
+* [Steam](https://github.com): Digital gaming storefront and launcher.
+* [Firefox](https://github.com): Privacy-focused, open-source web browser.
 
 Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfiles/blob/main/packages.nix) contained in this flake.
 
