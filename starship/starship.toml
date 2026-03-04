@@ -40,7 +40,7 @@ truncate_to_repo = false
 "Home/" = "home"
 "~" = "home"
 "^/" = ""
-"/" = " "
+"/" = ""
 
 [direnv]
 disabled = false
