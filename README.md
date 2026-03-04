@@ -50,10 +50,18 @@ If you are like me and enjoy a good __[nerd font](https://www.nerdfonts.com/font
 
 Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfiles/blob/main/packages.nix) contained in this flake.
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Cursors%3A)](https://git.io/typing-svg)
+The cursor depicted in the screenshots above is a __[Pokemon Cursor](https://store.kde.org/p/1701595)__ (*you might be noticing a theme here.*) from the __[KDE Store](https://store.kde.org/browse/)__.
+
+
+
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Coming+soon%3A)](https://git.io/typing-svg)
 * Documentation
 * Full theme switcher written in golang.
 * More Wallpapers
 * Vscode config
+
+
 
 # FORK < SHARE < LEAVE A STAR
