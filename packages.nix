@@ -2,6 +2,7 @@
 nixpkgs.config.allowUnfree = true;
 programs.steam.enable = true;
 programs.direnv.enable = true;
+programs.direnv.config.global.hide_env_diff = true;
 programs.firefox.enable = true;
 environment.systemPackages = with pkgs; [
 freetube
