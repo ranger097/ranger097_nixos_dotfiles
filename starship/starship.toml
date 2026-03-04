@@ -24,7 +24,15 @@ truncate_to_repo = false
 
 [directory.substitutions]
 "/ranger097_nixos_dotfiles" = " dotfiles"
-"/Projects/go_projects" = " Projects  go_projects  "
+"/Projects/go_projects" = " Projects  go_projects  "
+"/Projects/cplusplus_projects" = " Projects  cplusplus_projects  "
+"/Projects/elixir_projects" = " Projects  elixir_projects  "
+"/Projects/java_projects" = " Projects  java_projects  "
+"/Projects/python_projects" = " Projects  python_projects  " 
+"/Projects/rust_projects" = " Projects  rust_projects "
+
+
+
 "Documents" = "󰣞 documents"
 "Downloads" = "󰉍 downloads"
 "Music" = "󱍙 music"
