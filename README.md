@@ -1,8 +1,6 @@
 # Hello, Welcome to my [Nixos](https://github.com/NixOS/nixpkgs) dotfiles repo. <br/>
 Made for developers who like preconfigured or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.
 
-
-
 This flake has an "__--impure__" flag because it is hardware agnostic.<br/>
 (*aka it will pull your /etc/nixos/hardware-configuration.nix automatically because nixos is [Goated](https://pbs.twimg.com/media/HA4fYrxXkAE0Rt3.jpg) like that*)
 
