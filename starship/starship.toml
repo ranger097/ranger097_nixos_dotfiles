@@ -1,10 +1,10 @@
 format = """
 [󰟒 ](fg:#69491D bg:none)\
 $directory\
-[](fg:#505050)\
+[](fg:##DBBA95)\
 $git_branch\
 $git_status\
-[](fg:#505050)\
+[](fg:##DBBA95)\
 $nodejs\
 $rust\
 $golang\
@@ -17,7 +17,7 @@ $java\
 \n"""
 
 [directory]
-style = '#707070'
+style = '##DBBA95'
 format = "[$path]($style)"
 truncation_length = 8
 truncation_symbol = ""
@@ -53,11 +53,11 @@ unloaded_msg = "not loaded"
 
 [git_branch]
 symbol = ""
-style = "#808080"
+style = "#DBBA95"
 format = '[[on $symbol $branch ](#69491D)]($style)'
 
 [git_status]
-style = '#505050'
+style = '#DBBA95'
 format = '[[($all_status$ahead_behind)](fg:#909090)]($style)'
 
 [nodejs]

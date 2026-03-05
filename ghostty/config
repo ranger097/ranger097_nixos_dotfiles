@@ -3,7 +3,7 @@
 #FONT_SETTINGS
 font-family = Maple Mono NF
 font-size = 15
-font-style-bold = SemiBold
+font-style-bold = Bold
 font-style = Regular
 
 #WINDOW_SETTINGS
@@ -13,9 +13,9 @@ window-padding-y = 20
 #BACKGROUND_SETTINGS
 background-opacity = 1
 background = #000000
-foreground = #909090
+foreground = #DBBA95
 background-image = /home/ranger/ranger097_nixos_dotfiles/wallpapers/Guweiz/893152-digital-art-women-smoking-Bad-guys-legs-artwork.jpg
-background-image-opacity = 0.17
+background-image-opacity = 0.20
 background-image-position = center
 background-image-fit = cover
 background-image-repeat = false
@@ -23,6 +23,6 @@ background-image-repeat = false
 
 #CURSOR
 cursor-style = underline
-cursor-color = #505050
+cursor-color = #DBBA95
 cursor-style-blink = true
 adjust-cursor-thickness = 300%
