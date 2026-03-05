@@ -30,7 +30,7 @@ truncate_to_repo = false
 "/Projects/java_projects" = "  Projects  java_projects "
 "/Projects/python_projects" = "  Projects  python_projects " 
 "/Projects/rust_projects" = "  Projects  rust_projects "
-"/hypr" = "  dotfiles  hypr" 
+"/hypr" = "  hypr" 
 
 
 "Documents" = " 󰣞 documents"
