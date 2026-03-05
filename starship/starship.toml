@@ -15,7 +15,7 @@ $cpp\
 $java\
 \n$fill\
 
-\n[ ](fg:#101010 bg:#69491D)\
+\n[ ](fg:#101010 bg:#202020)\
 [ ](fg:#303030 bg:#101010)\
 [ ](fg:#69491D bg:#303030)\
 [ ](fg:#101010 bg:#69491D)\
@@ -123,4 +123,4 @@ style = "bg:#1d2230"
 format = '[[$time](fg:#CAAE48)]($style)'
 
 [character]
-format = "[](fg:#69491D bg:none)"
+format = "[ranger ](fg:#69491D bg:none)"
