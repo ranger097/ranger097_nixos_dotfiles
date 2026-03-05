@@ -25,4 +25,4 @@ background-image-repeat = false
 cursor-style = underline
 cursor-color = #505050
 cursor-style-blink = true
-adjust-cursor-thickness = 200%
+adjust-cursor-thickness = 300%
