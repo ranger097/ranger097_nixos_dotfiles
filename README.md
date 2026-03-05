@@ -56,16 +56,16 @@ The cursor depicted in the screenshots above is a __[Pokemon Cursor](https://sto
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Coming+soon%3A)](https://git.io/typing-svg)<br/>
-
 * Documentation
-* A website (*written in closurescript*).    
-* Full theme switcher (*written in golang*).
 * More 4k Anime Wallpapers.
 * Minimal Vscode config.
+* A website (*written in closurescript*).    
+* Full theme switcher (*written in golang*).
 * Hyprland settings app (*written in rust*).
 * Waybar toggle script (*written in python*).
 
-
-
-
-*FORK < SHARE < LEAVE A STAR < CONTRIBUTE*
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=F79B1F&width=435&lines=If+you+a+real+homie!!!)](https://git.io/typing-svg)
+* Fork
+* Share
+* Leave a Star
+* Contribute
