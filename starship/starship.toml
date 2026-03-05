@@ -1,6 +1,7 @@
 format = """
 $fill\
-\n[󱂵 ](fg:#707070 bg:none)\
+[󱂵 ](fg:#707070 bg:none)\
+$fill\
 $directory\
 [](fg:#505050)\
 $git_branch\
