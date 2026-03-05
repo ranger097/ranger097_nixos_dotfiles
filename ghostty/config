@@ -22,6 +22,6 @@ background-image-repeat = false
 
 
 #CURSOR
-cursor-style = bar
+cursor-style = underline
 cursor-color = #505050
 cursor-style-blink = true
