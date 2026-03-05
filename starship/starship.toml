@@ -13,7 +13,8 @@ $elixir\
 $python\
 $cpp\
 $java
-$character"""
+$character
+$fill"""
 
 [directory]
 style = '#707070'
@@ -95,7 +96,7 @@ style = "bg:#000000"
 format = '[[$symbol ($version) ](fg:#C83C3C bg:#000000)]($style)'
 
 [fill]
-symbol = " "
+symbol = "_"
 style = "fg:#B4B4B4" 
 
 [time]
