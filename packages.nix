@@ -5,8 +5,7 @@ programs.direnv.enable = true;
 programs.direnv.silent = true;
 programs.firefox.enable = true;
 environment.systemPackages = with pkgs; [
-pipe-viewer
-invidious
+invidtui
 ani-cli
 steam
 blueman
