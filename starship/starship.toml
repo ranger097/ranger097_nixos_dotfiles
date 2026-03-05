@@ -14,6 +14,7 @@ $elixir\
 $python\
 $cpp\
 $java\
+$fill\
 \n$fill\
 
 \n[ ](fg:#101010 bg:#202020)\
