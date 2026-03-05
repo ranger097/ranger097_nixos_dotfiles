@@ -5,7 +5,6 @@ programs.direnv.enable = true;
 programs.direnv.silent = true;
 programs.firefox.enable = true;
 environment.systemPackages = with pkgs; [
-invidtui
 ani-cli
 steam
 blueman
