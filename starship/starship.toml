@@ -1,5 +1,5 @@
 format = """
-[ ](fg:#69491D bg:none)\
+[󰟒 ](fg:#69491D bg:none)\
 $directory\
 [](fg:#505050)\
 $git_branch\
@@ -37,7 +37,7 @@ truncate_to_repo = false
 "Downloads" = " 󰉍 downloads"
 "Music" = " 󱍙 music"
 "Pictures" = " 󰉏 pictures"
-"~" = "󱂵 home"
+"~" = "home"
 "^/" = ""
 "/" = ""
 
@@ -52,7 +52,8 @@ unloaded_msg = "not loaded"
 
 [git_branch]
 symbol = ""
-format = '[[on $symbol $branch ](#69491D)]'
+style = "#808080"
+format = '[[on $symbol $branch ](#69491D)]($style)'
 
 [git_status]
 style = '#505050'
