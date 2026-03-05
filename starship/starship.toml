@@ -125,4 +125,4 @@ style = "bg:#1d2230"
 format = '[[$time](fg:#CAAE48)]($style)'
 
 [character]
-format = "[ =>](fg:#69491D bg:#202020)"
+format = "[ =>](fg:#69491D bg:#none)"
