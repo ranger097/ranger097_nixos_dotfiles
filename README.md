@@ -7,9 +7,7 @@ This flake has an "__--impure__" flag because it is hardware agnostic.<br/>
 (*aka it will pull your /etc/nixos/hardware-configuration.nix automatically because nixos is [Goated](https://pbs.twimg.com/media/HA4fYrxXkAE0Rt3.jpg) like that*)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=F72D59&width=435&lines=Flake%3A)](https://git.io/typing-svg)
-```
-sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#pokemon --impure
-```
+``` sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#pokemon --impure```
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&repeat=false&width=548&lines=Screenshots%3A)](https://git.io/typing-svg)<br/>
 This photo is an example of my __[Rofi](https://github.com/davatorium/rofi)__ config.
