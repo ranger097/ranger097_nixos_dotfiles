@@ -1,18 +1,5 @@
 @-moz-document domain("youtube.com") {
-    
-textarea, 
-[contenteditable="true"], 
-[type="text"]:not(#masthead-search-term), 
-[role="menu"]:not(.guide-user-links):not(.ytp-panel-menu),
-#footer-container .yt-uix-button-default,
-.yt-uix-clickcard-card-visible, 
-#watch-appbar-playlist, 
-.comment-simplebox-frame,
-body > table {
-  box-shadow: inset 0px 0px 0px 0px rgba(255,255,255,0) !important;
-}
-    
-    
+        
 .ytSearchboxComponentSearchButton {
 border: 0px solid transparent;
 background-color: #f8f8f8;
@@ -28,8 +15,9 @@ box-shadow: inset 0px 0px 0px 0px rgba(255,255,255,0) !important;
 }
     
 #container{
-backdrop-filter: blur(30px);
-background-color: rgba(0, 0, 0, 0.5); 
+backdrop-filter: blur(10px);
+background: linear-gradient(rgba(0, 0, 0, 0.8)) !important; 
+border-bottom: 2px solid #000000 !important; 
 }
     
 html:not(#⁠), body>div,body>table,
@@ -118,9 +106,34 @@ textarea,
 #watch-appbar-playlist,
 .comment-simplebox-frame,
 body>table{
-box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,.5)!important
+box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,0)!important
 }
     
 #masthead-search-terms{
-box-shadow:none!important}
+box-shadow:none!important
+}
+    
+    
+    
+    
+* {
+    
+color: #707070 !important;    
+    
+    
+}
+    
+*:hover {
+    
+color: #bababa !important;
+}
+    
+
+a:hover {
+    
+  color: #bababa !important;  
+    
+}
+    
+    
 }
