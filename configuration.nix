@@ -11,7 +11,8 @@
   ];
 
   # Bootloader & Kernel
-  boot.loader.systemd-boot.enable = true;
+  boot.loader.systemd-boot.enable = false;
+  boot.lanzaboote.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.timeout = 0; 
   boot.kernelPackages = pkgs.linuxPackages_latest;
