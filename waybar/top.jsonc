@@ -96,6 +96,17 @@
     "escape": true
 },
 
+"mpris": {
+    "format": "{player_icon} {dynamic}",
+    "player-icons": {
+        "default": "▶",
+        "firefox": ""
+    }
+
+
+
+
+},
     "custom/vpn_ip": {
        "format":"VIEW IP",
        "format-alt":"IP: {}",
