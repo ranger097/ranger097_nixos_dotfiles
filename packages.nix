@@ -57,6 +57,7 @@ qt5.qtwayland
 qt6.qtwayland
 fastfetch
 pokeget-rs
+nmap
 ];
 
 fonts.packages = with pkgs;[
