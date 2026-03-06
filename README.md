@@ -28,7 +28,7 @@ This is an example of __[Qmmp](https://qmmp.ylsoftware.com/downloads.php)__ and 
 This is an example of my __[Stylus]()__ config. The css is included in the flake.
 <img width="3840" height="2400" alt="2026-03-05-223258_hyprshot" src="https://github.com/user-attachments/assets/ce8903c0-baa8-4cc6-ab2b-e7ffc4e60dfb" />
 <img width="3840" height="2400" alt="2026-03-05-230645_hyprshot" src="https://github.com/user-attachments/assets/46d2cb68-abb2-4232-a9db-fad15a81e292" />
-Here you will see that youtube has grey text and thumbnails unless hovered over(then its full of color). This is because im a night owl and im trying to limit brightness and bluelight. That being said this is disabled by defualt. If you want to achieve this, simply download the userstylus extension in firefox and copy the css i provided in the flake in the "youtube" directory. paste it into the userstylus and Boom!, youre done. Easy.
+Here you will see that youtube has grey text and thumbnails unless hovered over(then its full of color). This is because im a night owl and im trying to limit brightness and bluelight. All played videos are normal with no added effects so its a minimal change in functionality beside saving your eyes (*I thought the pixel peepers would apreciate this*). That being said this is disabled by defualt. If you want to achieve this, simply download the userstylus extension in firefox and copy the css i provided in the flake in the "youtube" directory. paste it into the userstylus and Boom!, youre done. Easy.
 
 
 
