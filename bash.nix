@@ -14,7 +14,7 @@ programs.bash = {
       ytdownload = "yt-dlp -x --audio-format mp3 --audio-quality 0 --cookies-from-browser firefox --embed-metadata --embed-thumbnail --add-metadata";
       };
    interactiveShellInit = ''
-   cgit() {
+   dgit() {
    echo " Entering dotfiles  on main."
    cd ~/ranger097_nixos_dotfiles
    wait
@@ -28,13 +28,40 @@ programs.bash = {
    git push origin main &> /dev/null
    wait
    echo " Github changes complete."
-   sleep 0.5
+   wait
    echo " Building system flake..."
-   sudo nixos-rebuild switch --flake .#pokemon --impure
+   sudo nixos-rebuild switch --flake .#deoxy
    wait
    echo " Updated dotfiles and system flake."
    
    }
+
+   jgit() {
+   echo " Entering dotfiles  on main."
+   cd ~/ranger097_nixos_dotfiles
+   wait
+   echo " Adding files to dotfiles  on main"
+   git add . &> /dev/null
+   wait
+   echo " Saving changes to dotfiles  on main"
+   git commit -m "updated configs" &> /dev/null
+   wait
+   echo " Pushing changes now."
+   git push origin main &> /dev/null
+   wait
+   echo " Github changes complete."
+   wait
+   echo " Building system flake..."
+   sudo nixos-rebuild switch --flake .#jirachi
+   wait
+   echo " Updated dotfiles and system flake."
+
+   }
+
+
+
+
+
    
    update() {
    cd ~/ranger097_nixos_dotfiles
