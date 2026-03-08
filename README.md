@@ -122,11 +122,24 @@ git push origin main
 sudo nixos-rebuild switch --flake .#yourHostNameHere
 ```
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=F72D59&vCenter=true&width=435&height=20&lines=Flake%3A)](https://git.io/typing-svg)
+## 6. Congrats!!
+Youre system flake will be built with:
+```
+sudo nixos-rebuild switch --flake .#yourHostNameHere
+```
+Your remote flake will follow the path:
+``` 
+sudo nixos-rebuild switch --flake github:GITHUB_USER_NAME/GITHUB_REPO_NAME#HOST_NAME
+```
+Look at an example of my flake below:
 ``` 
 sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#jirachi
 ```
-<br/>
+or 
+``` 
+sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#deoxy
+```
+for my other system.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=81A7F7&vCenter=true&width=435&height=20&lines=Screenshots%3A)](https://git.io/typing-svg)
 
