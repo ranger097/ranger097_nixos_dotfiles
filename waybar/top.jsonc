@@ -13,8 +13,8 @@
      "hyprland/workspaces"
     ],
     "modules-center": [
-        "mpris",
-        "custom/qmmp"
+        "mpris"
+//        "custom/qmmp"
     ],
     "modules-right": [
         "custom/spacerRight",
