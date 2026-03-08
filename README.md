@@ -131,11 +131,10 @@ Your remote flake will follow the path:
 ``` 
 sudo nixos-rebuild switch --flake github:GITHUB_USER_NAME/GITHUB_REPO_NAME#HOST_NAME
 ```
-Look at an example of my flake below:
+Look at examples of my flake below:
 ``` 
 sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#jirachi
 ```
-or 
 ``` 
 sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#deoxy
 ```
