@@ -7,7 +7,7 @@ Made for developers who like very secure (secureboot via lanzaboote, luks + TPM2
 This flake is hardware "agnostic(*for lack of a better word*)" (*because nixos is really [Goated](https://pbs.twimg.com/media/HA4fYrxXkAE0Rt3.jpg) like that*), but there are a few steps you need to take in order to successfully use this flake. If you dont have [luks](https://youtu.be/iRtVfqBXNVE?si=AU-ZzNTCsll_NwXP) encryption, you should start with that first. Second, secure boot is not optional with this flake you would be better off just cloning the repo or forking it and just copying what you want. This system flake designed to be secure (*and cool*).
 
 ## 1. Secure Boot (*aka lanazaboote*).
-The first step you must take is going to your bios settings and turning on secure boot. __IMPORTANT!__: You must make sure it is in "__AUDITED__" mode and __NOT__ in __"DEPLOYED"__ mode. <br/>
+The first step you must take is going to your bios settings and turning on secure boot. __IMPORTANT!__: You must make sure it is in "__SETUP_MODE__" OR "__AUDITED__" mode and __NOT__ in __"DEPLOYED"__ mode. (QUICK SIDE NOTE: Normally you would NOT use AUDITED mode but my laptop lacks setup mode and AUDITED mode worked for me and *Might* work for you.)<br/>
 
 ### 1.1 Secure Boot keys.
 When you are in the bios settings, make sure if you have secure boot keys (*just do this step anyway*) to clear them, reset them, delete them, etc.<br/>
