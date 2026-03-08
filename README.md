@@ -3,7 +3,7 @@
 Made for developers who like very secure (secureboot, TPM, ) or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.
 (*Quick note, the colors in this flake might seem off because I use hyprsunset, you can easily disable it in hyprland.conf*)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&width=435&lines=Instructions%3A)](https://git.io/typing-svg)
+## Instructions:
 This flake has is hardware agnostic (*because nixos is [Goated](https://pbs.twimg.com/media/HA4fYrxXkAE0Rt3.jpg) like that*) ,but there is a few steps you need to take in order to successfully use this flake.
 
 ## 1. Secure Boot (*aka lanazaboote*).
