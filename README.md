@@ -24,7 +24,7 @@ git clone https://github.com/ranger097/ranger097_nixos_dotfiles.git
 ## 3.1 Hardware-configuration.nix.
 Before you run the flake you need to set a host.<br/>
 Firstly you need to make a branch for this flake.<br/>
-(*Replace the "yourHostNameHere" with the actual host name of your system. If you are a real one you will name it after a pokemon, but not everyone is a nerd like me.*)
+Replace the "yourHostNameHere" with the actual host name of your system. (*If you are a real one you will name it after a pokemon, but not everyone is a nerd like me.*)
 ```
 git checkout -b yourHostNameHere
 ```
