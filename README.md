@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=81A7F7&vCenter=true&width=435&height=20&lines=Hello%2C+Welcome+to+my+dotfiles+repo!!)](https://git.io/typing-svg)
 
-Made for developers who like very secure (secureboot, TPM, ) or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.
+Made for developers who like very secure (secureboot via lanzaboote, luks + TPM2, ) or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.<br/>
 (*Quick note, the colors in this flake might seem off because I use hyprsunset, you can easily disable it in hyprland.conf*)
 
 ## Instructions:
@@ -15,23 +15,40 @@ When you are in the bios settings, make sure if you have secure boot keys (*just
 ## 2. __Resetting the keys is crucial__. 
 Step 2 is to make sure you did step 1. 
 
-
 ## 3. Clone my flake to your home-directory.
 *If you are on a fresh install you need to install git first*
 ```
 git clone https://github.com/ranger097/ranger097_nixos_dotfiles.git
 ```
 
-## 3.1 Hardware-configuration.nix
+## 3.1 Hardware-configuration.nix.
 Before you run the flake you need to set a host.<br/>
 Firstly you need to make a branch for this flake.<br/>
-(*Replace the "yourHostNameHere" with the actual host name.*)
+(*Replace the "yourHostNameHere" with the actual host name of your system. If you are a real one you will name it after a pokemon, but not everyone is a nerd like me.*)
 ```
 git checkout -b yourHostNameHere
 ```
 
+## 4. Hosts.
+(*cd into the dotfiles directory and list the subdirectories*)
+```
+cd ranger097_nixos_dotfiles/hosts/ && ls
+```
 
+You should see 2 host, "deoxy" and "jirachi".<br/>
+Lets make a new directory.<br/> 
+(*Call it your host name.*)<br/>
+```
+mkdir yourHostNameHere
+```
 
+## 4.1 Making a new host.
+Now you should be inside of the "ranger097_nixos_dotfiles/hosts/" directory.
+You should a have 3 subdirectories deoxy, jirachi, and the directory named after your host (*or pokemon*).
+Use this command to paste the "hardware-configuration.nix" from deoxy to your host directory. (*Change "yourHostNameHere" to your actual hostname.*)
+```
+cp deoxy/hardware-configuration.nix yourHostNameHere
+```
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=F72D59&vCenter=true&width=435&height=20&lines=Flake%3A)](https://git.io/typing-svg)
 ``` 
