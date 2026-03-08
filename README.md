@@ -49,7 +49,6 @@ sudo cp /etc/nixos/hardware-configuration.nix yourHostNameHere/
 Now "cd" and "ls" into your host directory and make sure you have a hardware-configuration.nix.
 If so lets proceed. 
 
-
 ## 4.3 hardware-configuration.nix
 Lets open your hardware-configuration.nix.
 ```
@@ -94,8 +93,6 @@ sudo nano flake.nix
 Okay look at the screenshot below.
 <img width="3840" height="2400" alt="2026-03-08-031149_hyprshot" src="https://github.com/user-attachments/assets/c3f2b8b0-84d0-47d2-8962-666c0abf3a17" />
 Notice how "deoxy" is written 3 times in the flake. Remove the name "deoxy" and write in your hostname in all 3 locations in the highlighted area in the screenshot.
-
-
 
 ## 5.2 Keys
 Save the flake.nix and exit the file back to the terminal. 
@@ -200,4 +197,4 @@ The cursor depicted in the screenshots above is a __[Pokemon Cursor](https://sto
 * Hyprland settings app (*written in rust*).
 * Waybar toggle script (*written in python*).
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&weight=600&duration=4&pause=1000&color=EDEDED&vCenter=true&multiline=true&repeat=false&width=596&height=110&lines=Thank+you+so+much+for+the+Support.;I+really+hope+you+enjoy+this+Flake.;Please+leave+a+Star+and+Share+this;Flake+with+friends+and+colleagues.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&weight=600&duration=4&pause=1000&color=74B9FF&vCenter=true&multiline=true&repeat=false&width=596&height=110&lines=Thank+you+so+much+for+the+Support.;I+really+hope+you+enjoy+this+Flake.;Please+leave+a+Star+and+Share+this;Flake+with+friends+and+colleagues.)](https://git.io/typing-svg)
