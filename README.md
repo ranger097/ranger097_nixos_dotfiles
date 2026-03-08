@@ -51,7 +51,7 @@ sudo cp etc/nixos/hardware-configuration.nix yourHostNameHere
 ```
 
 ## 4.2 Double Check
-Now cd into your host directory and make sure you have a hardware-configuration.nix.
+Now cd (*or ls*) into your host directory and make sure you have a hardware-configuration.nix.
 If so lets proceed. 
 
 
