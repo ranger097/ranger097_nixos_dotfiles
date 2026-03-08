@@ -11,6 +11,7 @@ The first step you must take is going to your bios settings and turning on secur
 
 ### 1.1 Secure Boot keys.
 When you are in the bios settings, make sure if you have secure boot keys (*just do this step anyway*) to clear them, reset them, delete them, etc.<br/>
+(*Wouldnt be a bad idea to set a very strong bios password as well.*)
 
 ## 2. __Resetting the keys is crucial__. 
 Step 2 is to make sure you did step 1 (*Actually*). 
