@@ -4,7 +4,7 @@ Made for developers who like very secure (secureboot via lanzaboote, luks + TPM2
 (*Quick note, the colors in this flake might seem off because I use hyprsunset, you can easily disable it in hyprland.conf*)
 
 ## Instructions:
-This flake is hardware agnostic (*because nixos is [Goated](https://pbs.twimg.com/media/HA4fYrxXkAE0Rt3.jpg) like that*), but there are a few steps you need to take in order to successfully use this flake.
+This flake is hardware "agnostic(*for lack of a better word*)" (*because nixos is [Goated](https://pbs.twimg.com/media/HA4fYrxXkAE0Rt3.jpg) like that*), but there are a few steps you need to take in order to successfully use this flake. If you dont have [luks](https://youtu.be/iRtVfqBXNVE?si=AU-ZzNTCsll_NwXP) encryption, you should start with that first. Second, secure boot is not optional with this flake you would be better off just cloning the repo or forking it and just copying what you want. This system is flake designed to be secure (*and cool*).
 
 ## 1. Secure Boot (*aka lanazaboote*).
 The first step you must take is going to your bios settings and turning on secure boot. __IMPORTANT!__: You must make sure it is in "__AUDITED__" mode and __NOT__ in __"DEPLOYED"__ mode. <br/>
@@ -49,6 +49,27 @@ Use this command to paste the "hardware-configuration.nix" from deoxy to your ho
 ```
 cp deoxy/hardware-configuration.nix yourHostNameHere
 ```
+
+## 4.2 Double Check
+Now cd into your host directory and make sure you have a hardware-configuration.nix.
+If so lets proceed. 
+
+
+## 4.2 hardware-configuration.nix
+Lets open your hardware-configuration.nix.
+First lets get your "luks ID".<br/>
+Look closely in the hardware-configuration.nix where it says:<br/> 
+"boot.initrd.luks.devices"<br/>
+and on the line below that<br/>
+"device ="
+<img width="3840" height="2400" alt="2026-03-08-010125_hyprshot" src="https://github.com/user-attachments/assets/60697550-fa27-4741-8c0f-6ae7119a704f" />
+In another terminal or tab lets run a few commands.
+```
+sudo blkid -t TYPE=crypto_LUKS
+```
+
+
+
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=F72D59&vCenter=true&width=435&height=20&lines=Flake%3A)](https://git.io/typing-svg)
 ``` 
