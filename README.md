@@ -13,7 +13,7 @@ The first step you must take is going to your bios settings and turning on secur
 When you are in the bios settings, make sure if you have secure boot keys (*just do this step anyway*) to clear them, reset them, delete them, etc.<br/>
 
 ## 2. __Resetting the keys is crucial__. 
-Step 2 is to make sure you did step 1. 
+Step 2 is to make sure you did step 1 (*Actually*). 
 
 ## 3. Clone my flake to your home-directory.
 *If you are on a fresh install you need to install git first*
