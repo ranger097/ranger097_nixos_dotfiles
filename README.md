@@ -1,4 +1,3 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&weight=600&size=30&duration=4000&pause=1000&color=74B9FF&vCenter=true&multiline=true&width=434&height=63&lines=Hello)](https://git.io/typing-svg)<br/>
 ## Welcome to my dotfiles repo!!
 Made for developers who like very secure systems featuring [Lanzaboote](https://youtu.be/sbG1ENGWoIg?si=BcS0beGMHFDTaBlZ), [LUKS + TPM](https://av.tib.eu/media/61546), heavily *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.<br/>
 (*Quick note, the colors in this flake might seem off. This is because I use hyprsunset and you can easily disable it in hyprland.conf*)
