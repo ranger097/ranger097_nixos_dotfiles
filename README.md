@@ -12,15 +12,23 @@ The first step you must take is going to your bios settings and turning on secur
 
 ### 1.1 Secure Boot keys.
 When you are in the bios settings, make sure if you have secure boot keys (*just do this step anyway*) to clear them, reset them, delete them, etc.<br/>
-__Resetting the keys is crucial__. 
+
+## 2. __Resetting the keys is crucial__. 
+Step 2 is to make sure you did step 1. 
 
 
-
-
-## 2. Clone my flake to your home-directory.
+## 3. Clone my flake to your home-directory.
 *If you are on a fresh install you need to install git first*
 ```
 git clone https://github.com/ranger097/ranger097_nixos_dotfiles.git
+```
+
+## 3.1 Hardware-configuration.nix
+Before you run the flake you need to set a host.<br/>
+Firstly you need to make a branch for this flake.<br/>
+(*Replace the "yourHostNameHere" with the actual host name.*)
+```
+git checkout -b yourHostNameHere
 ```
 
 
