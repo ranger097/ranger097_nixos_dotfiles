@@ -80,11 +80,25 @@ and or
 ```
 lsblk -f
 ```
-My ID is "luks-7c42da92-5364-41d0-900d-68c9410d94e3"<br/>
-Delete my "luks ID" (*aka UUID when you run the command above*) and paste yours into the hardware-configuration.nix file in the highlighted locations displayed in the screenshot.
+My ID is "__luks-7c42da92-5364-41d0-900d-68c9410d94e3__"<br/>
+Delete "PASTE THE UUID YOU GET WHEN RUNNING THE COMMAND HERE." and replace it with "YOUR ID" (*aka UUID when you run the command above*) (*Hint: use the highlighted locations displayed in the screenshot if you need help with the formating*)
 *__IMPORTANT__: Notice i have __2__ luks devices. Big chance you have __1__. If so great. If not, add one.
 <img width="3840" height="2400" alt="2026-03-08-012218_hyprshot" src="https://github.com/user-attachments/assets/0b63ea00-f57c-49ba-bae5-f2438049bc52" />
-The screenshot above is how i have configured my second device if you needed too as well.
+The screenshot above is how i have added my second device if you needed too as well.
+Save the file and exit back to the terminal.
+
+## Flake.nix
+First run this command to go back to the ranger097_nixos_dotfiles repo.
+```
+cd ~/ranger097_nixos_dotfiles
+```
+Inside the ranger097_nixos_dotfiles repo lets enter the flake.nix.
+```
+sudo nano flake.nix
+```
+Okay look at the screenshot below.
+<img width="3840" height="2400" alt="2026-03-08-031149_hyprshot" src="https://github.com/user-attachments/assets/c3f2b8b0-84d0-47d2-8962-666c0abf3a17" />
+
 
 
 
