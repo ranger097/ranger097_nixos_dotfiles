@@ -188,9 +188,6 @@ Complete list of [packages](https://github.com/ranger097/ranger097_nixos_dotfile
 The cursor depicted in the screenshots above is a __[Pokemon Cursor](https://store.kde.org/p/1701595)__ (*you might be noticing a theme here.*) from the __[KDE Store](https://store.kde.org/browse/)__.
 
 ## Coming Soon:
-* Documentation
-* More 4k Anime Wallpapers.
-* Minimal Vscode config.
 * A website (*written in closurescript*).    
 * Full theme switcher (*written in golang*).
 * Hyprland settings app (*written in rust*).
