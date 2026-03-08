@@ -100,6 +100,9 @@ Notice how "deoxy" is written 3 times in the flake. Remove the name "deoxy" and 
 Save the flake.nix and exit the file back to the terminal. 
 We are finally at the point were you can setup secure boot keys
 ```
+sudo sbctl create-keys
+```
+```
 sudo sbctl enroll-keys --microsoft
 ```
 
