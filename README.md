@@ -136,7 +136,6 @@ sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#jira
 ``` 
 sudo nixos-rebuild switch --flake github:ranger097/ranger097_nixos_dotfiles#deoxy
 ```
-for my other system.
 
 ## Features and Ricing.
 This photo is an example of my __[Rofi](https://github.com/davatorium/rofi)__ config.
