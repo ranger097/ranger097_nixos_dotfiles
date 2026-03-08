@@ -55,7 +55,7 @@ Now "cd" and "ls" into your host directory and make sure you have a hardware-con
 If so lets proceed. 
 
 
-## 4.2 hardware-configuration.nix
+## 4.3 hardware-configuration.nix
 Lets open your hardware-configuration.nix.
 ```
 sudo nano hardware-configuration.nix
@@ -87,7 +87,7 @@ Delete "PASTE THE UUID YOU GET WHEN RUNNING THE COMMAND HERE." and replace it wi
 The screenshot above is how i have added my second device if you needed too as well.
 Save the file and exit back to the terminal.
 
-## Flake.nix
+## 5. Flake.nix
 First run this command to go back to the ranger097_nixos_dotfiles repo.
 ```
 cd ~/ranger097_nixos_dotfiles
@@ -98,9 +98,24 @@ sudo nano flake.nix
 ```
 Okay look at the screenshot below.
 <img width="3840" height="2400" alt="2026-03-08-031149_hyprshot" src="https://github.com/user-attachments/assets/c3f2b8b0-84d0-47d2-8962-666c0abf3a17" />
+Notice how "deoxy" is written 3 times in the flake. Remove the name "deoxy" and write in your hostname in all 3 locations in the highlighted area in the screenshot.
 
-
-
+## 5.1 Git.
+Save the flake.nix and exit the file back to the terminal. 
+Make sure you are still in the ~/ranger097_nixos_dotfiles directory.
+We have made alot of changes and now its time to save those changes to your Github branch.
+```
+git add .
+```
+```
+git commit -m "say whatever you want here"
+```
+```
+git push origin yourHostNameHere
+```
+```
+sudo nixos-rebuild switch --flake .#yourHostNameHere
+```
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=F72D59&vCenter=true&width=435&height=20&lines=Flake%3A)](https://git.io/typing-svg)
 ``` 
