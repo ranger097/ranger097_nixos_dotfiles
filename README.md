@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=81A7F7&vCenter=true&width=435&height=20&lines=Hello%2C+Welcome+to+my+dotfiles+repo!!)](https://git.io/typing-svg)
 
 Made for developers who like very secure (secureboot via lanzaboote, luks + TPM2, ) or *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.<br/>
-(*Quick note, the colors in this flake might seem off, because I use hyprsunset, you can easily disable it in hyprland.conf*)
+(*Quick note, the colors in this flake might seem off. This is because I use hyprsunset and you can easily disable it in hyprland.conf*)
 
 ## Instructions:
 This flake is hardware "agnostic(*for lack of a better word*)" (*because nixos is [Goated](https://pbs.twimg.com/media/HA4fYrxXkAE0Rt3.jpg) like that*), but there are a few steps you need to take in order to successfully use this flake. If you dont have [luks](https://youtu.be/iRtVfqBXNVE?si=AU-ZzNTCsll_NwXP) encryption, you should start with that first. Second, secure boot is not optional with this flake you would be better off just cloning the repo or forking it and just copying what you want. This system is flake designed to be secure (*and cool*).
