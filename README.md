@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Maple+mono&pause=1000&color=81A7F7&vCenter=true&width=435&height=20&lines=Hello%2C+Welcome+to+my+dotfiles+repo!!)](https://git.io/typing-svg)
 
-Made for developers who like very secure systems featuring Lanzaboote, luks + TPM2 encryption, heavily *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.<br/>
+Made for developers who like very secure systems featuring [Lanzaboote](https://youtu.be/sbG1ENGWoIg?si=BcS0beGMHFDTaBlZ), luks + TPM2 encryption, heavily *"[riced](https://www.reddit.com/r/unixporn/)"* systems, isolated and reproducible developer environments (via direnv), and fun scripts ive made to automate basic system task. As I learn more about Linux, Nixos, Hyprland, Automation, Systems Development and Programming as a whole, I will update this repo periodically.<br/>
 (*Quick note, the colors in this flake might seem off. This is because I use hyprsunset and you can easily disable it in hyprland.conf*)
 
 ## Instructions:
