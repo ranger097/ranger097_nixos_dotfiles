@@ -14,8 +14,8 @@ border-top: 1px solid rgba(100,100,100,1);
 #custom-vpn_ip,
 #battery,
 #mpris {
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 3px;
+padding-right: 3px;
 padding-top: 0px;
 padding-bottom: 0px;
 margin-top: 4px;
@@ -91,6 +91,12 @@ border-radius: 0px;
 border: 0px solid rgba(0,0,0,0);
 }
 
+#workspaces button {
+padding-left: 1px;
+padding-right: 1px;
+margin-right: 0px;
+margin-left: 0px;
+}
 
 #workspaces:hover { background-color: rgba(0,0,0,0); color: #000000; }
 #workspaces button:hover { background-color: rgba(0,0,0,1); color: rgba(200,60,60,1); }
