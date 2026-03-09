@@ -18,15 +18,15 @@ padding-left: 3px;
 padding-right: 3px;
 padding-top: 0px;
 padding-bottom: 0px;
-margin-top: 3px;
-margin-bottom: 3px;
+margin-top: 7px;
+margin-bottom: 7px;
 font-family: Maple Mono NF;
 font-size: 10px;
 font-weight: 400;
-background: linear-gradient(rgba(20,20,20,1));
+background: linear-gradient(rgba(0,0,0,1));
 color:#606060;
 margin-right: 0px;
-border-radius: 10px;
+border-radius: 100px;
 border: 0px solid #303030;
 box-shadow: none;
 text-shadow: none;
@@ -42,9 +42,7 @@ text-shadow: none;
 #battery:hover,
 #workspaces button:hover 
 workspaces:hover{
-
 color: rgba(200,60,60,1);
-
 }
 
 #clock,
@@ -54,16 +52,12 @@ margin-right: 0px;
 }
 
 #battery {
-
 margin-right: 20px;
 }
-
 
 #window {
 margin-left: 20px;
 }
-
-
 
 #mpris {
 margin-right: 0px;
