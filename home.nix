@@ -88,7 +88,7 @@ permission = /usr/(bin|local/bin)/hyprpm, plugin, allow
 #SETTINGS_START
 general {
 #GAPS
-gaps_in = 4
+gaps_in = 3
 gaps_out = 30
 border_size = 1
 
@@ -114,7 +114,7 @@ layout = dwindle
 
 #WINDOW_SETTINGS_START
 decoration {
-rounding = 0
+rounding = 10
 rounding_power = 2
 active_opacity = 1.0
 inactive_opacity = 1.0
@@ -295,7 +295,7 @@ bindl = , XF86AudioPrev, exec, playerctl previous
 #KEYBINDING_SETTINGS_END
 
 #WINDOW_RULE_SETTINGS_START
-windowrule = match:class code, opacity 1.0
+windowrule = match:class code, opacity 0.6
 windowrule = match:class firefox, opacity 1.0
 windowrule = match:class discord, opacity 1.0
 windowrule = match:fullscreen opacity 1.0 override
