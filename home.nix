@@ -138,7 +138,7 @@ passes = 5
 contrast = 1.0
 vibrancy = -1.2
 vibrancy_darkness = -1.2
-brightness = 1.7
+brightness = 1.4
 noise = 0.0
 popups = true
 }
