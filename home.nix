@@ -32,7 +32,7 @@ in
   };
 
 wayland.windowManager.hyprland = {
-  systemd.variables = ["--all"];
+#  systemd.variables = ["--all"];
   enable = true;
   extraConfig = ''
                                                                                                                                                                                                                                                                                                                                             /home/ranger/ranger097_nixos_dotfiles/hypr/hyprland.conf
