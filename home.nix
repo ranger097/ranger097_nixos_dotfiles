@@ -34,15 +34,16 @@ wayland.windowManager.hyprland = {
   
   settings = {
     monitor = if osConfig.networking.hostName == "jirachi" 
-      then [ "desc:Sharp Corporation 0x1517, 3840x2400@59.99400, 0x0, 3" ]
+      then [ "eDP-1, 3840x2400@59.99400, 0x0, 3" ]
       else if osConfig.networking.hostName == "deoxy"
-      then [ "eDP-1, 1920x1080@60.054, 0x0, 0.5" ]
+      then [ "eDP-1, 1920x1080@60.054, 0x0, 1.5" ]
       else [ ",preferred,auto,1" ];
   };
 
-  extraConfig = ''
-    source = ~/.config/hypr/hyprland.conf
-  '';
+ # extraConfig = ''
+ # source = ~/.config/hypr/hyprland.conf
+ # '';
+
 };
 
 
