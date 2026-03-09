@@ -57,6 +57,8 @@ qt6.qtwayland
 fastfetch
 pokeget-rs
 nmap
+pywal16
+pywalfox-native
 ];
 
 fonts.packages = with pkgs;[
