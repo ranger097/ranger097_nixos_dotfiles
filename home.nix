@@ -21,7 +21,10 @@ in
   };
 
   home.file = {
-    ".config/hypr".source = ./hypr; 
+    ".config/hypr" = {
+    source = ./hypr;
+    recursive = true;
+    }; 
     ".config/waybar".source = ./waybar; 
     ".config/ghostty".source = ./ghostty;
     ".config/starship.toml".source = ./starship/starship.toml;
@@ -32,9 +35,14 @@ in
 wayland.windowManager.hyprland.systemd.variables = ["--all"];
 wayland.windowManager.hyprland = {
   enable = true;
-  
+  extraConfig = ''
+  source = ~/.config/hypr/hyprland.conf
+  '';  
+
+
+
   settings = {
-  monitors = [ "eDP-1, 3840x2400@59.99400, 0x0, 3" ];
+  monitor = [ "eDP-1, 3840x2400@59.99400, 0x0, 3" ];
 
 
    # monitor = if osConfig.networking.hostName == "jirachi" 
@@ -44,9 +52,6 @@ wayland.windowManager.hyprland = {
    #   else [ ",preferred,auto,1" ];
   };
 
-  extraConfig = ''
-  source = ~/.config/hypr/hyprland.conf
-  '';
 
 };
 
