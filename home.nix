@@ -133,8 +133,8 @@ scale = 0.99
 #BLUR
 blur {
 enabled = true
-size = 2
-passes = 4
+size = 3
+passes = 5
 contrast = 1.0
 vibrancy = 0
 vibrancy_darkness = 0
