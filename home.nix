@@ -38,8 +38,8 @@ wayland.windowManager.hyprland = {
                                                                                                                                                                                                                                                                                                                                             /home/ranger/ranger097_nixos_dotfiles/hypr/hyprland.conf
 #ranger097
 monitor = ${ if osConfig.networking.hostName == "jirachi"
-	     then "\" eDP-1, 3840x2400@59.99400, 0x0, 3\""
-             else "\" eDP-1, 1920x1080@60.054, 0x0, 1\""}          }
+	     then "eDP-1, 3840x2400@59.99400, 0x0, 3"
+             else "eDP-1, 1920x1080@60.054, 0x0, 1"}   
 
 
 #INFORMATION
