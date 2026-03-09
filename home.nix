@@ -95,8 +95,8 @@ border_size = 1
 #BORDER
 #col.active_border = rgba(249,238,195,1)
 #col.inactive_border = rgba(249,238,195,1)
-col.active_border = rgba(0,0,0,1)
-col.inactive_border = rgba(0,0,0,1)
+col.active_border = rgba(30,30,30,1)
+col.inactive_border = rgba(30,30,30,1)
 
 #BORDER_ANIMATION
 #animations {
@@ -114,7 +114,7 @@ layout = dwindle
 
 #WINDOW_SETTINGS_START
 decoration {
-rounding = 0
+rounding = 5
 rounding_power = 2
 active_opacity = 1.0
 inactive_opacity = 1.0

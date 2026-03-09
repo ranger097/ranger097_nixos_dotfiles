@@ -20,14 +20,14 @@ border-top: 0px solid #505050;
 #custom-blender,
 #custom-dolphin,
 #custom-volume {
-padding-top: 0px;
-padding-bottom: 0px;
+padding-top: 2px;
+padding-bottom: 2px;
 padding-left: 8px;
 padding-right: 8px;
 margin-top: 3px;
 margin-bottom: 3px;
 margin-left: 5px;
-margin-right: 4px;
+margin-right: 5px;
 border: 1px solid rgba(60,60,60,0);
 border-radius: 2px;
 font-family: Maple Mono NF;
