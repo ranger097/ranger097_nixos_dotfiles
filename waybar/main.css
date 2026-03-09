@@ -1,0 +1,109 @@
+/* ranger097 */
+
+window#waybar {
+background: linear-gradient(0deg,rgba(0,0,0,0.7));
+border: 1px solid rgba(100,100,100,1);
+}
+
+#window,
+#custom-qmmp,
+#custom-right-bracket,
+#custom-left-bracket,
+#workspaces button,
+#clock,
+#custom-vpn_ip,
+#battery,
+#mpris {
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-top: 4px;
+margin-bottom: 4px;
+font-family: Maple Mono NF;
+font-size: 10px;
+font-weight: 400;
+background: linear-gradient(rgba(0,0,0,0));
+color:#606060;
+margin-right: 0px;
+border-radius: 0px;
+border: 0px solid #303030;
+box-shadow: none;
+text-shadow: none;
+}
+
+#window:hover,
+#custom-qmmp:hover,
+#custom-right-bracket:hover,
+#custom-left-bracket:hover,
+#workspaces button:hover,
+#clock:hover,
+#custom-vpn_ip:hover,
+#battery:hover,
+#workspaces button:hover 
+workspaces:hover{
+
+color: rgba(200,60,60,1);
+
+}
+
+#clock,
+#mpris,
+#custom-vpn_ip {
+margin-right: 0px;
+}
+
+#battery {
+
+margin-right: 5px;
+}
+
+
+#window {
+margin-left: 5px;
+}
+
+
+
+#mpris {
+margin-right: 0px;
+padding-left:20px;
+padding-right:20px;
+}
+
+#custom-vpn_ip {
+color: #606060;
+}
+
+#custom-qmmp {
+margin-left: 0px;
+margin-right: 0px;
+}
+
+#workspaces {
+margin-bottom: 0px;
+margin-top: 0px;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+background: linear-gradient(rgba(32,32,32,0));
+border-radius: 0px;
+border: 0px solid rgba(0,0,0,0);
+}
+
+
+#workspaces:hover { background-color: rgba(0,0,0,0); color: #000000; }
+#workspaces button:hover { background-color: rgba(0,0,0,1); color: rgba(200,60,60,1); }
+#workspaces button.active { background-color: rgba(0,0,0,0);
+color: rgba(120,120,120,1); 
+box-shadow: none;
+}
+#workspaces button.urgent { background-color: rgba(0,0,0,0); 
+color:#000000; }
+#mode { background-color: rgba(0,0,0,0); }
+#mode:hover {background-color: rgba(0,0,0,1);}
+/*#window { margin: 0 0px; }*/
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces { margin-left: 0px; }
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces { margin-right: 0; }
