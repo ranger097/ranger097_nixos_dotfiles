@@ -88,7 +88,7 @@ permission = /usr/(bin|local/bin)/hyprpm, plugin, allow
 #SETTINGS_START
 general {
 #GAPS
-gaps_in = 2
+gaps_in = 3
 gaps_out = 30
 border_size = 1
 
@@ -135,10 +135,10 @@ blur {
 enabled = true
 size = 5
 passes = 3
-contrast = 1
+contrast = 1.2
 vibrancy = -1.0
 vibrancy_darkness = -1.0
-brightness = 1.0
+brightness = 2.0
 noise = 0.0
 popups = true
 }
