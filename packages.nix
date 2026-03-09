@@ -44,7 +44,7 @@ wget
 ranger
 ghostty
 kitty
-librewolf
+firefox
 git
 starship
 lsd
