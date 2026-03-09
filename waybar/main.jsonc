@@ -24,10 +24,15 @@
 //        "custom/qmmp"
     ],
     "modules-right": [
-        "custom/spacerRight",
+        "custom/left-bracket",
         "custom/vpn_ip",
+        "custom/right-bracket",
+        "custom/left-bracket",
         "clock",
-        "battery"
+        "custom/right-bracket",
+        "custom/left-bracket",
+        "battery",
+        "custom/right-bracket"
     ],
 
     "hyprland/window": {
