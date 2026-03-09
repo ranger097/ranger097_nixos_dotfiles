@@ -134,11 +134,11 @@ scale = 0.99
 blur {
 enabled = true
 size = 2
-passes = 4
+passes = 3
 contrast = 1
-vibrancy = -0.5
-vibrancy_darkness = -0.5
-brightness = 2.5
+vibrancy = -1.0
+vibrancy_darkness = -1.0
+brightness = 1.5
 noise = 0.0
 popups = true
 }
@@ -295,7 +295,7 @@ bindl = , XF86AudioPrev, exec, playerctl previous
 #KEYBINDING_SETTINGS_END
 
 #WINDOW_RULE_SETTINGS_START
-windowrule = match:class code, opacity 0.7
+windowrule = match:class code, opacity 0.6
 windowrule = match:class firefox, opacity 1.0
 windowrule = match:class discord, opacity 1.0
 windowrule = match:fullscreen opacity 1.0 override
