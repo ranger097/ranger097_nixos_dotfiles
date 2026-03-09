@@ -15,14 +15,14 @@ border-bottom: 0px solid rgba(0,0,0,1);
 #custom-vpn_ip,
 #battery,
 #mpris {
-padding-left: 7px;
-padding-right: 7px;
+padding-left: 10px;
+padding-right: 10px;
 padding-top: 1px;
 padding-bottom: 1px;
 margin-top: 10px;
 margin-bottom: 0px;
 font-family: Maple Mono NF;
-font-size: 10px;
+font-size: 9px;
 font-weight: 400;
 background: linear-gradient(rgba(0,0,0,1));
 color:#DFBE98;
