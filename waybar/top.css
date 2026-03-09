@@ -23,7 +23,7 @@ margin-bottom: 0px;
 font-family: Maple Mono NF;
 font-size: 9px;
 font-weight: 400;
-background: linear-gradient(rgba(0,0,0,1));
+background: linear-gradient(0deg,rgba(100,100,100,1), rgba(223,190,152,1));
 color:#DFBE98;
 margin-right: 5px;
 border-radius: 0px;
@@ -55,12 +55,12 @@ margin-right: 5px;
 
 #battery {
 
-margin-right: 0px;
+margin-right: 2px;
 }
 
 
 #window {
-margin-left: 0px;
+margin-left: 2px;
 }
 
 
