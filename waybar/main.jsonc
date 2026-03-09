@@ -10,8 +10,12 @@
     "margin-right": 0,
 
     "modules-left": [
-        "hyprland/window",
-     "hyprland/workspaces"
+     "custom/left-bracket",
+     "hyprland/window",
+     "custom/right-bracket",
+     "custom/left-bracket",
+     "hyprland/workspaces",
+     "custom/right-bracket"
     ],
     "modules-center": [
 "custom/left-bracket",
