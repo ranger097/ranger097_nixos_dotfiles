@@ -98,6 +98,26 @@ margin-right: 0px;
 margin-left: 0px;
 }
 
+"custom-spacer" {
+padding-left: 10px;
+
+
+
+}
+
+
+#custom-right-bracket,
+#custom-left-bracket {
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+
+
+}
+
+
+
 #workspaces:hover { background-color: rgba(0,0,0,0); color: #000000; }
 #workspaces button:hover { background-color: rgba(0,0,0,1); color: rgba(200,60,60,1); }
 #workspaces button.active { background-color: rgba(0,0,0,0);
