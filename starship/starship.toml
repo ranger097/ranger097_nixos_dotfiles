@@ -51,11 +51,11 @@ unloaded_msg = "not loaded"
 [git_branch]
 symbol = ""
 style = "#bcbcbc"
-format = '[[on $symbol $branch ](#bcbcbc)]($style)'
+format = '[[on $symbol $branch ](fg:#bcbcbc)]($style)'
 
 [git_status]
 style = '#bcbcbc'
-format = '[[($all_status$ahead_behind)](fg:#bcbcbc]($style)'
+format = '[[($all_status$ahead_behind)](fg:#bcbcbc)]($style)'
 
 [nodejs]
 symbol = ""
@@ -103,4 +103,4 @@ style = "bg:#1d2230"
 format = '[[$time](fg:#CAAE48)]($style)'
 
 [character]
-format = "[󰳟 ](fg:#CECFD1 bg:#none)"
+format = "[󰳟 ](fg:#bcbcbc bg:#none)"
