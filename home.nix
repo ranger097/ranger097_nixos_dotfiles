@@ -88,15 +88,15 @@ permission = /usr/(bin|local/bin)/hyprpm, plugin, allow
 #SETTINGS_START
 general {
 #GAPS
-gaps_in = 3
-gaps_out = 30
+gaps_in = 5
+gaps_out = 20
 border_size = 1
 
 #BORDER
 #col.active_border = rgba(249,238,195,1)
 #col.inactive_border = rgba(249,238,195,1)
-col.active_border = rgba(30,30,30,1)
-col.inactive_border = rgba(30,30,30,1)
+col.active_border = rgba(40,40,40,1)
+col.inactive_border = rgba(40,40,40,1)
 
 #BORDER_ANIMATION
 #animations {
