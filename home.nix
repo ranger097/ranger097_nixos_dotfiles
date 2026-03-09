@@ -300,8 +300,8 @@ windowrule = match:class firefox, opacity 1.0
 windowrule = match:class discord, opacity 1.0
 windowrule = match:fullscreen opacity 1.0 override
 windowrule = match:class libreoffice-writer, opacity 1.0
-windowrule = match:class org.pulseaudio.pavucontrol, opacity 0.5
-windowrule = match:class .blueman-manager-wrapped, opacity 0.5
+windowrule = match:class org.pulseaudio.pavucontrol, opacity 0.7
+windowrule = match:class .blueman-manager-wrapped, opacity 0.7
 #WINDOW_RULE_SETTINGS_END
 
 #LAYER_RULE_SETTINGS_START
