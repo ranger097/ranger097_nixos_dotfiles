@@ -92,8 +92,6 @@ gaps_in = 3
 gaps_out = 5
 border_size = 1
 
-
-
 #BORDER
 #col.active_border = rgba(249,238,195,1)
 #col.inactive_border = rgba(249,238,195,1)
@@ -229,7 +227,8 @@ bind = SUPER, B, exec, librewolf
 bind = SUPER, D, exec, dolphin
 bind = SUPER, C, exec, code
 bind = SUPER, F, fullscreenstate, 2
-bind = SUPER, Space, exec, waybar -c ~/ranger097_nixos_dotfiles/waybar/top.jsonc -s ~/ranger097_nixos_dotfiles/waybar/top.css && waybar -c ~/ranger097_nixos_dotfiles/waybar/bottom.jsonc -s ~/ranger097_nixos_dotfiles/waybar/bottom.css
+bind = SUPER, M, exec, waybar -c ~/ranger097_nixos_dotfiles/waybar/top.jsonc -s ~/ranger097_nixos_dotfiles/waybar/top.css
+bind = SUPER, Space, exec,  waybar -c ~/ranger097_nixos_dotfiles/waybar/bottom.jsonc -s ~/ranger097_nixos_dotfiles/waybar/bottom.css
 bind = SUPER, X, exec, pkill waybar
 bind = SUPER, V, exec, freetube
 bind = SUPER, H, exec, hyprshot -m output -m eDP-1
@@ -316,11 +315,6 @@ layerrule = blur on, match:namespace wlogout
  '';  
 
   };
-
-
-
-
-
 
   # Let Home Manager manage itself
   programs.home-manager.enable = true;
