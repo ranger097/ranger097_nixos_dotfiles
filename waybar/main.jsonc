@@ -14,7 +14,9 @@
      "hyprland/workspaces"
     ],
     "modules-center": [
-        "mpris"
+"custom/left-bracket",
+        "mpris",
+"custom/right-bracket"
 //        "custom/qmmp"
     ],
     "modules-right": [
