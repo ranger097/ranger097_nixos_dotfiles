@@ -36,7 +36,7 @@ wayland.windowManager.hyprland.systemd.variables = ["--all"];
 wayland.windowManager.hyprland = {
   enable = true;
   extraConfig = ''
-  source = ~/.config/hypr/hyprland.conf
+  source = ~/ranger097_nixos_dotfiles/hypr/hyprland.conf
   source = if osConfig.networking.hostName == "jirachi" 
   then ["~/ranger097_nixos_dotfiles/hosts/jirachi/monitor.conf"]
   else if osConfig.networking.hostName == "deoxy"
