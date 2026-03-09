@@ -32,15 +32,14 @@ in
     ".config/wlogout".source = ./wlogout;
   };
 
-wayland.windowManager.hyprland.systemd.variables = ["--all"];
 wayland.windowManager.hyprland = {
+  systemd.variables = ["--all"];
   enable = true;
   extraConfig = ''
-  source = ~/ranger097_nixos_dotfiles/hypr/hyprland.conf
-  source = if osConfig.networking.hostName == "jirachi" 
-  then ["~/ranger097_nixos_dotfiles/hosts/jirachi/monitor.conf"]
-  else if osConfig.networking.hostName == "deoxy"
-  then ["~/ranger097_nixos_dotfiles/hosts/deoxy/monitor.conf"]
+  source = ~/.config/hypr/hyprland.conf
+  source = ${if osConfig.networking.hostName == "jirachi" 
+  then "~/ranger097_nixos_dotfiles/hosts/jirachi/monitor.conf"
+  else "~/ranger097_nixos_dotfiles/hosts/deoxy/monitor.conf"}
  '';  
 
 
