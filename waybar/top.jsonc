@@ -54,7 +54,7 @@
             "(.*)libreoffice-writer(.*)": "LIBREOFFICE 書",
 	    "(.*)FreeTube(.*)": "YOUTUBE 貴方の管",
 	    "(.*)kdenlive(.*)": "KDENLIVE 動画",
-            "(.*)librewolf(.*)": "LIBREWOLF 狼",
+            "(.*)firefox(.*)": "FIREFOX フォクすけ",
             "(.*)org.kde.dolphin(.*)": "DOLPHIN 海豚",
             "(.*)nm-connection-editor(.*)": "WIFI ワイファイ",
             "(.*)Kvantum Manager(.*)": "KVANTUM 主題",
