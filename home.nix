@@ -11,7 +11,7 @@ in
   home.username = "ranger";
   home.homeDirectory = "/home/ranger";
   home.stateVersion = "25.11"; 
-
+  home.backupFileExtension = "backup";
   home.pointerCursor = {
      package = myCursor;
      name = "Pokemon";
