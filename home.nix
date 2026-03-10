@@ -113,18 +113,18 @@ layout = dwindle
 
 #WINDOW_SETTINGS_START
 decoration {
-rounding = 15
-rounding_power = 2
+rounding = 20
+rounding_power = 5
 active_opacity = 1.0
 inactive_opacity = 1.0
 
 #SHADOW
 shadow {
 enabled = true
-range = 5
+range = 8
 render_power = 2
 color = rgba(0,0,0,0.7)
-offset = -3 3
+offset = -3 1
 sharp = false
 scale = 0.99
 }
