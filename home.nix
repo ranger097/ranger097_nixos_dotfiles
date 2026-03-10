@@ -90,7 +90,7 @@ general {
 #GAPS
 gaps_in = 2
 gaps_out = 30
-border_size = 2
+border_size = 3
 
 #BORDER
 #col.active_border = rgba(249,238,195,1)
@@ -156,8 +156,8 @@ bezier = quick,0.15,0,0.1,1
 animation = global, 1, 10, default
 animation = border, 1, 5.39, easeOutQuint
 animation = windows, 1, 4.79, easeOutQuint
-animation = windowsIn, 1, 4.1, easeOutQuint, popin 87%
-animation = windowsOut, 1, 1.49, linear, popin 87%
+animation = windowsIn, 1, 4.1, easeOutQuint, popin 80%
+animation = windowsOut, 1, 1.49, linear, popin 80%
 animation = fadeIn, 1, 1.73, almostLinear
 animation = fadeOut, 1, 1.46, almostLinear
 animation = fade, 1, 3.03, quick
