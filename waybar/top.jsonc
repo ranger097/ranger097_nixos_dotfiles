@@ -64,7 +64,7 @@
 },
 
 "hyprland/workspaces": {
-"format": "{icon}", 
+"format": "[ {icon} ]", 
 "format-icons": {
 //"1": "一",
 //"2": "二",
