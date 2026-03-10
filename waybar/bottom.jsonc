@@ -6,9 +6,9 @@
    // "width": 1526, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
     "margin-top" : 0,
-    "margin-bottom": 0,
-    "margin-left" : 0,
-     "margin-right" : 0,
+    "margin-bottom": 5,
+    "margin-left" : 25,
+     "margin-right" : 25,
     // Choose the order of the modules
     "modules-left": [
     
@@ -93,12 +93,12 @@
 },
 
 "custom/volume": {
-"format": "  ]",
+"format": " ",
 "on-click":"pavucontrol"
 },
 
 "custom/power": {
-"format": "[ ⏻",
+"format": "⏻ ",
 "on-click":"wlogout"
 
 },
