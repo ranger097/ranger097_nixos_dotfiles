@@ -42,63 +42,63 @@
   "format": " "
 },
 "custom/VacuumTube": {
-"format": "YOUTUBE 貴方の管",
+"format": "[ YOUTUBE 貴方の管 ]",
 "on-click": "freetube"
 },
 
 "custom/ProtonVpn": {
-"format": "PROTON_VPN 陽子",
+"format": "[ PROTON_VPN 陽子 ]",
 "on-click": "protonvpn-app"
 },
 
 "custom/code": {
-"format": "VSCODE コード",
+"format": "[ VSCODE コード ]",
 "on-click": "code"
 },
 
 "custom/ghostty": {
-"format": "GHOSTTY 幽霊",
+"format": "[ GHOSTTY 幽霊 ]",
 "on-click": "ghostty"
 },
 
 "custom/firefox": {
-"format": "FIREFOX 火狐",
+"format": "[ FIREFOX 火狐 ]",
 "on-click": "firefox"
 },
 
 
 "custom/steam": {
-"format": "STEAM 蒸気",
+"format": "[ STEAM 蒸気 ]",
 "on-click": "steam -newbigpicture"
 },
 
 "custom/discord": {
-"format": "DISCORD 会話",
+"format": "[ DISCORD 会話 ]",
 "on-click": "discord"
 },
 
 "custom/qmmp": {
-"format": "QMMP 音楽",
+"format": "[ QMMP 音楽 ]",
 "on-click":"qmmp"
 },
 
 "custom/blender": {
-"format": "BLENDER ブレンダー",
+"format": "[ BLENDER ブレンダー ]",
 "on-click":"blender"
 },
 
 "custom/dolphin": {
-"format": "DOLPHIN 海豚",
+"format": "[ DOLPHIN 海豚 ]",
 "on-click":"dolphin"
 },
 
 "custom/volume": {
-"format": "VOLUME 音量",
+"format": "[ VOLUME 音量 ]",
 "on-click":"pavucontrol"
 },
 
 "custom/power": {
-"format": "POWER 力",
+"format": "[ POWER 力 ]",
 "on-click":"wlogout"
 
 },
