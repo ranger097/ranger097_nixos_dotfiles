@@ -37,7 +37,7 @@ echo " Updated dotfiles and system flake."
 echo "󰑓 Reloading configs."   
 hyprctl reload
 pkill waybar
-waybar -c ~/.config/waybar/top.jsonc -s ~/.config/waybar/top.css   
+waybar -c ~/.config/waybar/top.jsonc -s ~/.config/waybar/top.css &&\  
 waybar -c ~/.config/waybar/bottom.jsonc -s ~/.config/waybar/bottom.css  
 wait   
 echo " Done"   
@@ -65,7 +65,7 @@ echo " Updated dotfiles and system flake."
 echo "󰑓 Reloading configs."
 hyprctl reload
 pkill waybar
-waybar -c ~/.config/waybar/top.jsonc -s ~/.config/waybar/top.css
+waybar -c ~/.config/waybar/top.jsonc -s ~/.config/waybar/top.css &&\
 waybar -c ~/.config/waybar/bottom.jsonc -s ~/.config/waybar/bottom.css
 wait
 echo " Done"
