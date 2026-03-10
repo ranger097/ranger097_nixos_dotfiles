@@ -21,8 +21,8 @@ border-top: 2px solid #000000;
 #custom-volume {
 padding-top: 0px;
 padding-bottom: 0px;
-padding-left: 15px;
-padding-right: 15px;
+padding-left: 5px;
+padding-right: 5px;
 margin-top: 8px;
 margin-bottom: 6px;
 margin-left: 0px;
@@ -67,9 +67,9 @@ margin-left:0px;
 }
 
 #custom-power {
-margin-left: -30px;
+margin-left: 0px;
 }
 
 #custom-volume {
-margin-right: -30px;
+margin-right: 0px;
 }

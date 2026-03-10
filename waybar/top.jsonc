@@ -91,7 +91,7 @@
 },
 
     "clock": {
-        "format": "{:%I:%M %p}"
+        "format": "[ {:%I:%M %p} ]"
     },
 
     "battery": {
@@ -99,10 +99,10 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}%",
-        "format-full": "{capacity}%",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
+        "format": "[ {capacity}% ]",
+        "format-full": "[ {capacity}% ]",
+        "format-charging": "[ {capacity}%  ]",
+        "format-plugged": "[ {capacity}%  ]",
         "format-icons": ["  ", "  ", "  ", "  ", "  "]
     },
 
@@ -126,8 +126,8 @@
 
 },
     "custom/vpn_ip": {
-       "format":"VIEW IP",
-       "format-alt":"IP: {}",
+       "format":"[ VIEW IP ]",
+       "format-alt":"[ IP: {} ]",
        "exec": "curl -s https://icanhazip.com",
        "on-click": ""
     },
