@@ -113,7 +113,7 @@ layout = dwindle
 
 #WINDOW_SETTINGS_START
 decoration {
-rounding = 10
+rounding = 5
 rounding_power = 5
 active_opacity = 1.0
 inactive_opacity = 1.0
