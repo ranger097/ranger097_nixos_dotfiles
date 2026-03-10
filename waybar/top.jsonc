@@ -109,11 +109,13 @@
 },
 
 "mpris": {
-    "format": "{artist} - {title}",
-    "player-icons": {
-        "default": "▶",
-        "firefox": ""
-    }
+"format": "{artist} - {title}",
+"max-length": "40",
+"player-icons": {
+"default": "",
+"firefox": ""
+}
+
 
 },
     "custom/vpn_ip": {
