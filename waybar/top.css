@@ -3,6 +3,7 @@
 window#waybar {
 background: linear-gradient(0deg,rgba(50,10,10,0.9));
 border-bottom: 2px solid #000000;
+margin: 20px;
 }
 
 #window,
@@ -38,7 +39,7 @@ text-shadow: none;
 #custom-vpn_ip:hover,
 #battery:hover,
 #workspaces button:hover 
-workspaces:hover{
+workspaces:hover {
 color: rgba(200,60,60,1);
 }
 
