@@ -314,6 +314,28 @@ layerrule = blur on, match:namespace wlogout
 '';  
 };
 
+programs.firefox.profiles."${config.home.username}" = {
+  userContent = ''
+  @import url("file://${config.home.homeDirectory}/.cache/wal/colors.css");
+
+  body {
+        background-color: var(--background) !important;
+        color: var(--foreground) !important;
+    }
+
+    @-moz-document url("about:newtab"), url("about:home") {
+      body {
+        background-image: var(--wallpaper) !important;
+        background-size: cover !important;
+      }
+    }
+  '';
+};
+
+
+
+
+
   # Let Home Manager manage itself
   programs.home-manager.enable = true;
 }
