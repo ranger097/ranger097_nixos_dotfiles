@@ -1,5 +1,5 @@
 /* ranger097 */
-@import "~/.cache/wal/colors-waybar.css"
+@import url("file:///home/ranger/.cache/wal/colors-waybar.css");
 
 * {
 border: none;
@@ -30,7 +30,7 @@ background: @background;
 color: @foreground;
 margin-right: 10px;
 border-radius: 10px;
-border-bottom: 0px solid #303030;
+border: 1px solid @color4;
 box-shadow: -2px 3px 3px rgba(0,0,0,0.4);
 text-shadow: none;
 }
