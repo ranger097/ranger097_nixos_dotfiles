@@ -3,7 +3,6 @@
 window#waybar {
 background: linear-gradient(0deg,rgba(50,10,10,0.9));
 border-bottom: 2px solid #000000;
-margin: 20px;
 }
 
 #window,
@@ -32,15 +31,12 @@ text-shadow: none;
 
 #window:hover,
 #mpris:hover,
-#custom-right-bracket:hover,
-#custom-left-bracket:hover,
-#workspaces button:hover,
 #clock:hover,
 #custom-vpn_ip:hover,
 #battery:hover,
-#workspaces button:hover 
-workspaces:hover {
+#workspaces button:hover {
 color: rgba(200,60,60,1);
+box-shadow: none;
 }
 
 #clock,
@@ -70,18 +66,10 @@ margin-left: 0px;
 margin-right: 0px;
 }
 
-
 #workspaces button {
-padding-left: 1px;
-padding-right: 1px;
 margin-right: 0px;
 margin-left: 0px;
-}
-
-#workspaces:hover { 
-background-color: rgba(0,0,0,0); 
-color: #000000; 
-box-shadow: none;
+padding: 0px;
 }
 
 #workspaces button:hover { 
