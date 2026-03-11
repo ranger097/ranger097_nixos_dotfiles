@@ -46,27 +46,27 @@ padding-right: 5px;
 }
 
 #custom-ghostty {
-padding-left: 10px;
-padding-right: 5px;
+padding-left: 11px;
+padding-right: 4px;
 }
 
 #custom-steam {
-padding-left: 9px;
-padding-right: 6px;
-}
-
-#custom-firefox {
-padding-left: 9px;
-padding-right: 6px;
-}
-#custom-discord {
 padding-left: 10px;
 padding-right: 5px;
 }
 
-#custom-qmmp {
-padding-left: 5px;
+#custom-firefox {
+padding-left: 10px;
 padding-right: 5px;
+}
+#custom-discord {
+padding-left: 8px;
+padding-right: 7px;
+}
+
+#custom-qmmp {
+padding-left: 9px;
+padding-right: 6px;
 }
 
 #custom-blender {
