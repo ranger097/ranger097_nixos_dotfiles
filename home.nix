@@ -44,12 +44,12 @@ monitor = ${ if osConfig.networking.hostName == "jirachi"
 ecosystem:no_update_news = true
 
 #AUTOSTART
-exec-once = hyprlock
+#exec-once = hyprlock
 exec-once = swww-daemon
 exec-once = /home/ranger/ranger097_nixos_dotfiles/wallpapers/Guweiz/1116508.jpg
 #exec-once = LD_LIBRARY_PATH=/run/opengl-driver/lib mpvpaper -o "no-audio --loop-playlist --panscan=1.0 hwdec=auto" eDP-1 /home/ranger/Videos/wallpapers/guweiz.mp4
-#exec-once = waybar -c ~/.config/waybar/top.jsonc -s ~/.config/waybar/top.css
-#exec-once = waybar -c ~/.config/waybar/bottom.jsonc -s ~/.config/waybar/bottom.css
+exec-once = waybar -c ~/.config/waybar/top.jsonc -s ~/.config/waybar/top.css
+exec-once = waybar -c ~/.config/waybar/bottom.jsonc -s ~/.config/waybar/bottom.css
 exec-once = protonvpn-app
 exec-once = hypridle
 exec-once = hyprsunset
@@ -59,9 +59,9 @@ exec-once = hyprctl setcursor Pokemon 32
 
 #ENVIRONMENT
 #env = HYPRCURSOR_THEME,Pokemon
-#env = HYPRCURSOR_SIZE, 48
+#env = HYPRCURSOR_SIZE, 32
 env = XCURSOR_THEME,Pokemon
-env = XCURSOR_SIZE, 48
+env = XCURSOR_SIZE, 32
 env = QT_QPA_PLATFORMTHEME,qt6ct
 env = QT_QPA_PLATFORM,wayland
 env = GDK_SCALE,1
@@ -71,9 +71,10 @@ env = LIBVA_DRIVER_NAME,nvidia
 env = XDG_SESSION_TYPE,wayland
 env = GBM_BACKEND,nvidia-drm
 env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+
 cursor {
-    no_hardware_cursors = true
-    use_cpu_buffer = true
+no_hardware_cursors = true
+use_cpu_buffer = true
 }
 
 xwayland {
@@ -108,7 +109,6 @@ resize_on_border = true
 allow_tearing = false
 layout = dwindle
 }
-
 #SETTINGS_END
 
 #WINDOW_SETTINGS_START
@@ -187,11 +187,10 @@ new_status = master
 
 #MISC_SETTINGS_START
 misc {
-force_default_wallpaper = -1 # Set to 0 or 1 to disable the anime mascot wallpapers
-disable_hyprland_logo = false # If true disables the random hyprland logo / anime girl background. :(
+force_default_wallpaper = 0 # Set to 0 or 1 to disable the anime mascot wallpapers
+disable_hyprland_logo = true # If true disables the random hyprland logo / anime girl background. :(
 session_lock_xray = true
 }
-
 #MISC_SETTINGS_END
 
 #INPUT_SETTINGS_START
@@ -232,6 +231,7 @@ bind = SUPER, X, exec, pkill waybar
 bind = SUPER, V, exec, freetube
 bind = SUPER, H, exec, hyprshot -m output -m eDP-1
 bind = SUPER, P, exec, systemctl --user restart pipewire
+
 # Move focus with mainMod + arrow keys
 bind = SUPER, left, movefocus, l
 bind = SUPER, right, movefocus, r
@@ -276,7 +276,7 @@ bindm = SUPER, mouse:272, movewindow
 bindm = SUPER, mouse:273, resizewindow
 
 #hyprlock
-bindl =, switch:on:Lid Switch, exec, hyprlock & systemctl suspend
+#bindl =, switch:on:Lid Switch, exec, hyprlock & systemctl suspend
 
 # Laptop multimedia keys for volume and LCD brightness
 bindel = ,XF86AudioRaiseVolume, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+
@@ -312,7 +312,6 @@ layerrule = blur on, match:namespace wlogout
 #LAYER_RULE_SETTINGS_END
 '';  
 };
-
 
   # Let Home Manager manage itself
   programs.home-manager.enable = true;

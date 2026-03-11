@@ -1,11 +1,11 @@
 /* ranger097 */
 
 * {
-    border: none;
-    border-radius: 0;
-    padding: 0;
-    margin: 0;
-    min-height: 0;
+border: none;
+border-radius: 0;
+padding: 0;
+margin: 0;
+min-height: 0;
 }
 
 window#waybar {
@@ -13,12 +13,9 @@ background: linear-gradient(0deg,rgba(50,10,10,0.0));
 border-bottom: 0px solid #000000;
 }
 
-#window,
-#workspaces,
-#clock,
-#custom-vpn_ip,
-#battery,
-#mpris {
+#window, #workspaces,
+#clock, #custom-vpn_ip,
+#battery, #mpris {
 padding-left: 15px;
 padding-right: 15px;
 padding-top: 5px;
@@ -37,12 +34,9 @@ box-shadow: -2px 3px 3px rgba(0,0,0,0.4);
 text-shadow: none;
 }
 
-#window:hover,
-#mpris:hover,
-#clock:hover,
-#custom-vpn_ip:hover,
-#battery:hover,
-#workspaces {
+#window:hover, #mpris:hover,
+#clock:hover, #custom-vpn_ip:hover,
+#battery:hover, #workspaces {
 color: rgba(200,60,60,1);
 box-shadow: none;
 text-shadow: none;
@@ -53,32 +47,13 @@ box-shadow: -2px 3px 3px rgba(0,0,0,0.4);
 text-shadow: none;
 }
 
-#clock,
-#mpris,
-#custom-vpn_ip {
-margin-right: 10px;
-}
-
-#battery {
-margin-right: 10px;
-}
-
-#window {
-margin-left: 10px;
-}
-
-#mpris {
-margin-right: 0px;
-}
-
-#custom-vpn_ip {
-color: #bcbcbc;
-}
-
-#custom-qmmp {
-margin-left: 0px;
-margin-right: 0px;
-}
+#clock, #mpris,
+#custom-vpn_ip { margin-right: 10px; }
+#battery { margin-right: 10px; }
+#window { margin-left: 10px; }
+#mpris { margin-right: 0px; }
+#custom-vpn_ip { color: #bcbcbc; }
+#custom-qmmp { margin-left: 0px; margin-right: 0px; }
 
 #workspaces button {
 padding: 0px;

@@ -77,6 +77,8 @@ echo " Upgrading Nixos System"
 nix flake update
 }
 
+
+export LS_COLORS="${LS_COLORS}:su=30;41:ow=30;42:st=30;44:"
 wal -i /home/ranger/ranger097_nixos_dotfiles/wallpapers/Guweiz/wallhaven-d85gjg.jpg &> /dev/null 
 #fastfetch   
 pokeget random --hide-name
