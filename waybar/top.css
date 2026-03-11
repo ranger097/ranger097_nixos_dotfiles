@@ -80,8 +80,8 @@ margin-right: 0px;
 #workspaces button {
 padding: 0px;
 margin: 0px;
-padding-left: 1px;
-padding-right: 1px;
+padding-left: 2px;
+padding-right: 2px;
 box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;
