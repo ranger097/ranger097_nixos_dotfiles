@@ -395,8 +395,7 @@ settings = [
  };
 "persistent-workspaces" = {
 "*" = [1 2 3 4 5 6];
-"HDMI-A-1" = [ 1 2 3 4 5 6 7 8 9 10 ]
-}
+"HDMI-A-1" = [ 1 2 3 4 5 6 7 8 9 10 ];
 };
 "clock" = {
 "format" = "{:%I:%M%p}"
