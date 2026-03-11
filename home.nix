@@ -370,8 +370,7 @@ settings = [
 "(.*)nm-connection-editor(.*)" = "Wifi";
 "(.*)Kvantum Manager(.*)" = "Kvantum";
 "(.*)Foliate(.*)" = "Books";
-" " = "Ranger"
-}
+" " = "Ranger";
 };
 "hyprland/workspaces" = {
 "format" = "{icon}";
