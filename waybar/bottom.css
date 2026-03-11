@@ -19,8 +19,8 @@ border: 0px solid #000000;
 #custom-blender,
 #custom-dolphin,
 #custom-volume {
-padding-top: 3px;
-padding-bottom: 3px;
+padding-top: 5px;
+padding-bottom: 5px;
 margin-top: 10px;
 margin-bottom: 10px;
 margin-left: 3px;
@@ -36,17 +36,7 @@ box-shadow: -2px 3px 3px rgba(0,0,0,0.5);
 }
 
 #custom-power {
-padding-left: 4px;
-padding-right: 3px;
-}
-
-#custom-VacuumTube{
-padding-left: 9px;
-padding-right: 6px;
-}
-
-#custom-ProtonVpn {
-padding-left: 5px;
+padding-left: 10px;
 padding-right: 5px;
 }
 
@@ -70,7 +60,7 @@ padding-left: 9px;
 padding-right: 6px;
 }
 #custom-discord {
-padding-left: 5px;
+padding-left: 10px;
 padding-right: 5px;
 }
 
@@ -85,8 +75,8 @@ padding-right: 6px;
 }
 
 #custom-dolphin {
-padding-left: 9px;
-padding-right: 6px;
+padding-left: 10px;
+padding-right: 5px;
 }
 
 #custom-volume {
