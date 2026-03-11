@@ -326,7 +326,7 @@ settings = [
 "margin-left" = 0;
 "margin-right" = 0;
 "modules-left" = [ "hyprland/window" "hyprland/workspaces"];
-"modules-center": ["mpris"];
+"modules-center" = ["mpris"];
 "modules-right" = ["custom/vpn_ip" "clock" "battery"];
 "hyprland/window" = {
 "format" = "{class} {title}";
