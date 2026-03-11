@@ -296,6 +296,7 @@ bindl = , XF86AudioPrev, exec, playerctl previous
 
 #WINDOW_RULE_SETTINGS_START
 windowrule = match:class code, opacity 0.80
+windowrule = match:class rofi, opacity 0.8
 windowrule = match:class firefox, opacity 1.0
 windowrule = match:class discord, opacity 1.0
 windowrule = match:fullscreen opacity 1.0 override
@@ -305,7 +306,7 @@ windowrule = match:class .blueman-manager-wrapped, opacity 1.0
 #WINDOW_RULE_SETTINGS_END
 
 #LAYER_RULE_SETTINGS_START
-layerrule = blur off, match:namespace rofi
+layerrule = blur on, match:namespace rofi
 layerrule = match:namespace rofi, ignore_alpha 0.0
 layerrule = match:namespace waybar, ignore_alpha 0.0
 layerrule = blur off, match:namespace waybar
