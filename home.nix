@@ -398,12 +398,12 @@ settings = [
 "HDMI-A-1" = [ 1 2 3 4 5 6 7 8 9 10 ];
 };
 "clock" = {
-"format" = "{:%I:%M%p}"
+"format" = "{:%I:%M%p}";
 };
 "battery" = {
 "states" = {
 "warning" = 30;
-"critical" = 15
+"critical" = 15;
 };
 "format" = "{capacity}%";
 "format-full" = "{capacity}%";
@@ -417,25 +417,25 @@ settings = [
 "interval" = 2;
 "max-length" = 40;
 "on-click" = "playerctl --player=qmmp play-pause";
-"escape" = true
+"escape" = true;
 };
 "mpris" = {
 "format" = "{artist} - {title}";
 "max-length" = "80";
 "player-icons" = {
 "default" = "";
-"firefox" = ""
-}
+"firefox" = "";
+};
 },
 "custom/vpn_ip" = {
 "format" = "???";
 "format-alt" = "{}";
 "exec" = "curl -s https://icanhazip.com";
-"on-click" = ""
+"on-click" = "";
 };
 "custom/right-bracket" = { "format" = "]" };
 "custom/left-bracket" = { "format" = "[" };
-"custom/spacer" = { "format" = " " }
+"custom/spacer" = { "format" = " " };
 }
 }
 {
