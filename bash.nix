@@ -79,7 +79,7 @@ nix flake update
 
 (cat ~/.cache/wal/sequences &)
 source ~/.cache/wal/colors-tty.sh
-wal -i /home/ranger/ranger097_nixos_dotfiles/wallpapers/Guweiz/wallhaven-d85gjg.jpg &> /dev/null 
+#wal -i /home/ranger/ranger097_nixos_dotfiles/wallpapers/Guweiz/wallhaven-d85gjg.jpg &> /dev/null 
 #fastfetch   
 pokeget random --hide-name
 eval "$(direnv hook bash)"
