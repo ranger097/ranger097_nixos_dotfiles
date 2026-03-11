@@ -24,10 +24,10 @@ padding-bottom: 5px;
 padding-left: 5px;
 padding-right: 5px;
 margin-top: 0px;
-margin-bottom: 10px;
-margin-left: 2px;
-margin-right: 2px;
-border: 1px solid rgba(60,60,60,1);
+margin-bottom: 8px;
+margin-left: 3px;
+margin-right: 3px;
+border: 2px solid rgba(0,0,0,1);
 border-radius: 10px;
 font-family: Maple Mono NF;
 font-size: 18px;
@@ -36,6 +36,84 @@ background: linear-gradient(rgba(50,10,10,0.9));
 color: #bcbcbc;
 /*box-shadow: -1px 2px 2px rgba(0,0,0,0.4);*/
 }
+
+#custom-power {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-VacuumTube{
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-ProtonVpn {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-code {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-ghostty {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-steam {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-firefox {
+padding-left: 5px;
+padding-right: 5px;
+}
+#custom-discord {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-qmmp {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-blender {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-dolphin {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#custom-volume {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #custom-power:hover,
 #custom-VacuumTube:hover,
