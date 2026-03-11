@@ -42,12 +42,14 @@ text-shadow: none;
 #clock:hover,
 #custom-vpn_ip:hover,
 #battery:hover,
-#workspaces button:hover {
+#workspaces {
 color: rgba(200,60,60,1);
 box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;    
 transition: none;
+text-shadow: none;
+box-shadow: -2px 3px 3px rgba(0,0,0,0.4);
 text-shadow: none;
 }
 
