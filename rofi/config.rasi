@@ -91,7 +91,7 @@ background-color: #ff0000ff;
 
 element-text {
 background-color: rgba(0, 0, 0, 0);
-text-color: @selected-active-foreground;
+text-color: @selected-active-background;
 padding: 3px 4px;
 border-radius: 0px;
 margin: -2px 100px -2px 10px;    
