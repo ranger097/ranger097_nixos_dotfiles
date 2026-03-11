@@ -433,8 +433,7 @@ settings = [
 "exec" = "curl -s https://icanhazip.com";
 "on-click" = "";
 };
-}
-}
+};
 {
 "layer" = "top";
 "position" = "bottom";
