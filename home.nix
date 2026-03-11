@@ -88,7 +88,7 @@ permission = /usr/(bin|local/bin)/hyprpm, plugin, allow
 general {
 #GAPS
 gaps_in = 4
-gaps_out = 10,10,10,10
+gaps_out = 5,10,10,10
 border_size = 2
 
 #BORDER
@@ -307,13 +307,11 @@ windowrule = match:class .blueman-manager-wrapped, opacity 1.0
 layerrule = blur on, match:namespace rofi
 layerrule = match:namespace rofi, ignore_alpha 0.0
 layerrule = match:namespace waybar, ignore_alpha 0.0
-layerrule = blur on, match:namespace waybar
+layerrule = blur off, match:namespace waybar
 layerrule = blur on, match:namespace wlogout
 #LAYER_RULE_SETTINGS_END
-
- '';  
-
-  };
+'';  
+};
 
   # Let Home Manager manage itself
   programs.home-manager.enable = true;
