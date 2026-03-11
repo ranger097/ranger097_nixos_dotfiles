@@ -317,30 +317,21 @@ programs.waybar = {
 enable = true;
 settings = [
 {
-"position" = "top",
-"layer" = "top",
-"height" = 5,
-"spacing" = 0,
-"margin-top" = 0,
-"margin-bottom" = 0,
-"margin-left" = 0,
-"margin-right" = 0,
-"modules-left" = [
-"hyprland/window",
-"hyprland/workspaces"
-],
-"modules-center": [
-"mpris"
-],
-"modules-right" = [
-"custom/vpn_ip",
-"clock",
-"battery"
-],
+"position" = "top";
+"layer" = "top";
+"height" = 5;
+"spacing" = 0;
+"margin-top" = 0;
+"margin-bottom" = 0;
+"margin-left" = 0;
+"margin-right" = 0;
+"modules-left" = [ "hyprland/window" "hyprland/workspaces"];
+"modules-center": ["mpris"];
+"modules-right" = ["custom/vpn_ip" "clock" "battery"];
 "hyprland/window" = {
-"format" = "{class} {title}",
-"separate-outputs" = true,
-"icon" = false,
+"format" = "{class} {title}";
+"separate-outputs" = true;
+"icon" = false;
 "rewrite" = {
 #"(.*)ghostty(.*)": "Ghostty 幽霊",
 #"(.*)Qmmp(.*)": "Qmmp 音楽",
@@ -361,29 +352,29 @@ settings = [
 #"(.*)Kvantum Manager(.*)": "Kvantum 主題",
 #"(.*)Foliate(.*)": "Books もと",
 #" ": "Ranger レンジャー"
-"(.*)ghostty(.*)" = "Ghostty",
-"(.*)Qmmp(.*)" = "Qmmp",
-"(.*)home/ranger/Music(.*)" = "Qmmp",
-"(.*)code(.*)" = "Vscode",
-"(.*)steam(.*)" = "Steam",
-"(.*)pavucontrol(.*)" = "Volume",
-"(.*)blueman-manager(.*)" = "Bluetooth",
-"(.*)discord(.*)" = "Discord",
-"(.*)gimp(.*)" = "Gimp",
-"(.*)blender(.*)" = "Blender",
-"(.*)libreoffice-writer(.*)" = "Office",
-"(.*)Youtube(.*)" = "Youtube",
-"(.*)kdenlive(.*)" = "Kdenlive",
-"(.*)firefox(.*)" = "Firefox",
-"(.*)org.kde.dolphin(.*)" = "Dolphin",
-"(.*)nm-connection-editor(.*)" = "Wifi",
-"(.*)Kvantum Manager(.*)" = "Kvantum",
-"(.*)Foliate(.*)" = "Books",
+"(.*)ghostty(.*)" = "Ghostty";
+"(.*)Qmmp(.*)" = "Qmmp";
+"(.*)home/ranger/Music(.*)" = "Qmmp";
+"(.*)code(.*)" = "Vscode";
+"(.*)steam(.*)" = "Steam";
+"(.*)pavucontrol(.*)" = "Volume";
+"(.*)blueman-manager(.*)" = "Bluetooth";
+"(.*)discord(.*)" = "Discord";
+"(.*)gimp(.*)" = "Gimp";
+"(.*)blender(.*)" = "Blender";
+"(.*)libreoffice-writer(.*)" = "Office";
+"(.*)Youtube(.*)" = "Youtube";
+"(.*)kdenlive(.*)" = "Kdenlive";
+"(.*)firefox(.*)" = "Firefox";
+"(.*)org.kde.dolphin(.*)" = "Dolphin";
+"(.*)nm-connection-editor(.*)" = "Wifi";
+"(.*)Kvantum Manager(.*)" = "Kvantum";
+"(.*)Foliate(.*)" = "Books";
 " " = "Ranger"
 }
-},
+};
 "hyprland/workspaces" = {
-"format" = "{icon}",
+"format" = "{icon}";
 "format-icons" = {
 #"1": "一",
 #"2": "二",
@@ -395,140 +386,127 @@ settings = [
 #"8": "八",
 #"9": "九",
 #"10": "十",
-"1" = "󰫃",
-"2" = "󰫄",
-"3" = "󰫅",
-"4" = "󰫆",
-"5" = "󰫇",
-"6" = "󰫈",
-"default" = "",
- },
+"1" = "󰫃";
+"2" = "󰫄";
+"3" = "󰫅";
+"4" = "󰫆";
+"5" = "󰫇";
+"6" = "󰫈";
+"default" = "";
+ };
 "persistent-workspaces" = {
-"*" = [1,2,3,4,5,6],
-"HDMI-A-1" = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+"*" = [1 2 3 4 5 6];
+"HDMI-A-1" = [ 1 2 3 4 5 6 7 8 9 10 ]
 }
-},
+};
 "clock" = {
 "format" = "{:%I:%M%p}"
-},
+};
 "battery" = {
 "states" = {
-"warning" = 30,
+"warning" = 30;
 "critical" = 15
-},
-"format" = "{capacity}%",
-"format-full" = "{capacity}%",
-"format-charging" = "{capacity}% ",
-"format-plugged" = "{capacity}% ",
+};
+"format" = "{capacity}%";
+"format-full" = "{capacity}%";
+"format-charging" = "{capacity}% ";
+"format-plugged" = "{capacity}% ";
 "format-icons" = ["  ", "  ", "  ", "  ", "  "]
-},
+};
 "custom/qmmp" = {
-"format" = "{}",
-"exec" = "playerctl --player=qmmp metadata --format '{{artist}} - {{title}}' || echo ''",
-"interval" = 2,
-"max-length" = 40,
-"on-click" = "playerctl --player=qmmp play-pause",
+"format" = "{}";
+"exec" = "playerctl --player=qmmp metadata --format '{{artist}} - {{title}}' || echo ''";
+"interval" = 2;
+"max-length" = 40;
+"on-click" = "playerctl --player=qmmp play-pause";
 "escape" = true
-},
+};
 "mpris" = {
-"format" = "{artist} - {title}",
-"max-length" = "80",
+"format" = "{artist} - {title}";
+"max-length" = "80";
 "player-icons" = {
-"default" = "",
+"default" = "";
 "firefox" = ""
 }
 },
 "custom/vpn_ip" = {
-"format" = "???",
-"format-alt" = "{}",
-"exec" = "curl -s https://icanhazip.com",
+"format" = "???";
+"format-alt" = "{}";
+"exec" = "curl -s https://icanhazip.com";
 "on-click" = ""
-},
-"custom/right-bracket" = { "format" = "]" },
-"custom/left-bracket" = { "format" = "[" },
+};
+"custom/right-bracket" = { "format" = "]" };
+"custom/left-bracket" = { "format" = "[" };
 "custom/spacer" = { "format" = " " }
 }
 }
 {
-"layer" = "top",
-"position" = "bottom",
-#"height" = 15,
-#"width" = 1526, 
-"spacing" = 0, 
-"margin-top" = 0,
-"margin-bottom" = 0,
-"margin-left" = 0,
-"margin-right" = 0,
-"modules-left" = [
-],
-"modules-center" = [
-"custom/power",
-"custom/qmmp",
-"custom/code",
-"custom/firefox",
-"custom/ghostty",
-"custom/blender",
-"custom/dolphin",
-"custom/steam",
-"custom/discord",
-"custom/volume"
-],
-"modules-right" = [
-],
+"layer" = "top";
+"position" = "bottom";
+#"height" = 15;
+#"width" = 1526; 
+"spacing" = 0;
+"margin-top" = 0;
+"margin-bottom" = 0;
+"margin-left" = 0;
+"margin-right" = 0;
+"modules-left" = [];
+"modules-center" = [ "custom/power" "custom/qmmp" "custom/code" "custom/firefox" "custom/ghostty" "custom/blender" "custom/dolphin" "custom/steam" "custom/discord" "custom/volume" ];
+"modules-right" = [];
 "custom/spacerRight" = {
 "format" = " "
-},
+};
 "custom/spacerLeft" = {
 "format" = " "
-},
+};
 "custom/VacuumTube" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "freetube"
-},
+};
 "custom/ProtonVpn" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "protonvpn-app"
-},
+};
 "custom/code" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "code"
-},
+};
 "custom/ghostty" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "ghostty"
-},
+};
 "custom/firefox" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "firefox"
-},
+};
 "custom/steam" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "steam -newbigpicture"
-},
+};
 "custom/discord" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "discord"
-},
+};
 "custom/qmmp" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "qmmp"
-},
+};
 "custom/blender" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "blender"
-},
+};
 "custom/dolphin" = {
-"format" = "󱢴 ",
+"format" = "󱢴 ";
 "on-click" = "dolphin"
-},
+};
 "custom/volume" = {
-"format" = " ",
+"format" = " ";
 "on-click" = "pavucontrol"
-},
+};
 "custom/power" = {
-"format" = "⏻ ",
+"format" = "⏻ ";
 "on-click" = "wlogout"
-},
+};
 }
 }
 ];
