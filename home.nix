@@ -313,11 +313,17 @@ layerrule = blur on, match:namespace wlogout
 '';  
 };
 
+
+
+
+
+
+
+
 programs.waybar = {
 enable = true;
 settings = [
-{
-"position" = "top";
+{ "position" = "top";
 "layer" = "top";
 "height" = 5;
 "spacing" = 0;
@@ -333,25 +339,6 @@ settings = [
 "separate-outputs" = true;
 "icon" = false;
 "rewrite" = {
-#"(.*)ghostty(.*)": "Ghostty 幽霊",
-#"(.*)Qmmp(.*)": "Qmmp 音楽",
-#"(.*)home/ranger/Music(.*)": "Qmmp 音楽",
-#"(.*)code(.*)": "Vscode コード",
-#"(.*)steam(.*)": "Steam 蒸気",
-#"(.*)pavucontrol(.*)": "Volume 音量",
-#"(.*)blueman-manager(.*)": "Bluetooth 青",
-#"(.*)discord(.*)": "Discord",
-#"(.*)gimp(.*)": "Gimp 芸術",
-#"(.*)blender(.*)": "Blender ブレンダー",
-#"(.*)libreoffice-writer(.*)": "Office 書",
-#"(.*)Youtube(.*)": "Youtube 貴方の管",
-#"(.*)kdenlive(.*)": "Kdenlive 動画",
-#"(.*)firefox(.*)": "Firefox フォクすけ",
-#"(.*)org.kde.dolphin(.*)": "Dolphin 海豚",
-#"(.*)nm-connection-editor(.*)": "Wifi ワイファイ",
-#"(.*)Kvantum Manager(.*)": "Kvantum 主題",
-#"(.*)Foliate(.*)": "Books もと",
-#" ": "Ranger レンジャー"
 "(.*)ghostty(.*)" = "Ghostty";
 "(.*)Qmmp(.*)" = "Qmmp";
 "(.*)home/ranger/Music(.*)" = "Qmmp";
@@ -370,71 +357,34 @@ settings = [
 "(.*)nm-connection-editor(.*)" = "Wifi";
 "(.*)Kvantum Manager(.*)" = "Kvantum";
 "(.*)Foliate(.*)" = "Books";
-" " = "Ranger";
-};
+" " = "Ranger"; };
 "hyprland/workspaces" = {
 "format" = "{icon}";
 "format-icons" = {
-#"1": "一",
-#"2": "二",
-#"3": "三",
-#"4": "四",
-#"5": "五",
-#"6": "六",
-#"7": "七",
-#"8": "八",
-#"9": "九",
-#"10": "十",
 "1" = "󰫃";
 "2" = "󰫄";
 "3" = "󰫅";
 "4" = "󰫆";
 "5" = "󰫇";
 "6" = "󰫈";
-"default" = "";
- };
-"persistent-workspaces" = {
-"*" = [1 2 3 4 5 6];
-"HDMI-A-1" = [ 1 2 3 4 5 6 7 8 9 10 ];
+"default" = ""; };
+"persistent-workspaces" = { "*" = [1 2 3 4 5 6]; "HDMI-A-1" = [ 1 2 3 4 5 6 7 8 9 10 ]; }; 
 };
 "clock" = {
-"format" = "{:%I:%M%p}";
-};
+"format" = "{:%I:%M%p}";};
 "battery" = {
 "states" = {
-"warning" = 30;
-"critical" = 15;
-};
-"format" = "{capacity}%";
-"format-full" = "{capacity}%";
-"format-charging" = "{capacity}% ";
-"format-plugged" = "{capacity}% ";
-"format-icons" = [];
-};
-"custom/qmmp" = {
-"format" = "{}";
-"exec" = "playerctl --player=qmmp metadata --format '{{artist}} - {{title}}' || echo ''";
-"interval" = 2;
-"max-length" = 40;
-"on-click" = "playerctl --player=qmmp play-pause";
-"escape" = true;
-};
-"mpris" = {
-"format" = "{artist} - {title}";
-"max-length" = "80";
-"player-icons" = {
-"default" = "";
-"firefox" = "";
-};
-};
+"warning" = 30; "critical" = 15;};
+"format" = "{capacity}%";};
+"mpris" = { "format" = "{artist} - {title}"; "max-length" = "80"; };
 "custom/vpn_ip" = {
 "format" = "???";
 "format-alt" = "{}";
 "exec" = "curl -s https://icanhazip.com";
 "on-click" = "";
 };
-};
-{
+}
+{ 
 "layer" = "top";
 "position" = "bottom";
 #"height" = 15;
@@ -447,70 +397,32 @@ settings = [
 "modules-left" = [];
 "modules-center" = [ "custom/power" "custom/qmmp" "custom/code" "custom/firefox" "custom/ghostty" "custom/blender" "custom/dolphin" "custom/steam" "custom/discord" "custom/volume" ];
 "modules-right" = [];
-"custom/spacerRight" = {
-"format" = " ";
-};
-"custom/spacerLeft" = {
-"format" = " ";
-};
-"custom/VacuumTube" = {
-"format" = " ";
-"on-click" = "freetube";
-};
-"custom/ProtonVpn" = {
-"format" = " ";
-"on-click" = "protonvpn-app";
-};
-"custom/code" = {
-"format" = " ";
-"on-click" = "code";
-};
-"custom/ghostty" = {
-"format" = " ";
-"on-click" = "ghostty";
-};
-"custom/firefox" = {
-"format" = " ";
-"on-click" = "firefox";
-};
-"custom/steam" = {
-"format" = " ";
-"on-click" = "steam -newbigpicture";
-};
-"custom/discord" = {
-"format" = " ";
-"on-click" = "discord";
-};
-"custom/qmmp" = {
-"format" = " ";
-"on-click" = "qmmp";
-};
-"custom/blender" = {
-"format" = " ";
-"on-click" = "blender";
-};
-"custom/dolphin" = {
-"format" = "󱢴 ";
-"on-click" = "dolphin";
-};
-"custom/volume" = {
-"format" = " ";
-"on-click" = "pavucontrol";
-};
+"custom/spacerRight" = { "format" = " "; };
+"custom/spacerLeft" = { "format" = " "; };
+"custom/VacuumTube" = { "format" = " "; "on-click" = "freetube"; };
+"custom/ProtonVpn" = { "format" = " "; "on-click" = "protonvpn-app"; };
+"custom/code" = { "format" = " "; "on-click" = "code"; };
+"custom/ghostty" = { "format" = " "; "on-click" = "ghostty"; };
+"custom/firefox" = { "format" = " "; "on-click" = "firefox"; };
+"custom/steam" = { "format" = " "; "on-click" = "steam -newbigpicture"; };
+"custom/discord" = { "format" = " "; "on-click" = "discord"; };
+"custom/qmmp" = { "format" = " "; "on-click" = "qmmp"; };
+"custom/blender" = { "format" = " "; "on-click" = "blender"; };
+"custom/dolphin" = { "format" = "󱢴 "; "on-click" = "dolphin"; };
+"custom/volume" = { "format" = " "; "on-click" = "pavucontrol"; };
 "custom/power" = {
 "format" = "⏻ ";
 "on-click" = "wlogout";
 };
-}
 }
 ];
 style = ''
 * {
 border: none;
 border-radius: 0;
-    padding: 0;
-    margin: 0;
-    min-height: 0;
+padding: 0;
+margin: 0;
+min-height: 0;
 }
 
 window#waybar {
