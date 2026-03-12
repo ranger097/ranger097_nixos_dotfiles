@@ -29,7 +29,7 @@ font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 400;
 background: @background;
-color: @foreground;
+color: @color7;
 margin-right: 10px;
 border-radius: 10px;
 border: 1px solid @color4;
@@ -39,7 +39,7 @@ text-shadow: none;
 
 #window:hover, #mpris:hover,
 #clock:hover, #custom-vpn_ip:hover,
-#battery:hover, #workspaces {
+#battery:hover, #workspaces:hover {
 color: rgba(200,60,60,1);
 box-shadow: none;
 text-shadow: none;
@@ -87,7 +87,6 @@ box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;
 transition: none;
-box-shadow: -2px 3px 3px rgba(0,0,0,0.4);
 text-shadow: none;
 }
 
@@ -98,7 +97,6 @@ box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;
 transition: none;
-box-shadow: -2px 3px 3px rgba(0,0,0,0.4);
 text-shadow: none;
 }
 
