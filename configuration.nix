@@ -57,6 +57,18 @@
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+
+   security.sudo.extraRules = [
+  {
+    users = [ "ranger" ];
+    commands = [
+      {
+        command = "/run/current-system/sw/bin/nixos-rebuild";
+        options = [ "NOPASSWD" ];
+      }
+    ];
+  }
+
   # Versioning - Set to Unstable/Next Release
   system.stateVersion = "25.11"; 
 }
