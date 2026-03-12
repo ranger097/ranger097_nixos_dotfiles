@@ -107,7 +107,7 @@ border-color: rgba(0, 0, 0, 0);
 }
 
 element-text.selected {
-text-color: @color9;
+text-color: @color6;
 background-color: rgba(255,0,0,0);
 }
 
