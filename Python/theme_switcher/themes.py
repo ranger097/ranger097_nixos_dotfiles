@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-toggle_file = "toggle.txt"
+toggle_file = "/home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/toggle.txt"
 wallpaper_directory = os.listdir("/home/ranger/ranger097_nixos_dotfiles/wallpapers/wallpapers")
 num_of_wallpapers = len(wallpaper_directory)
 
