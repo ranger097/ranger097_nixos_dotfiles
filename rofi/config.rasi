@@ -57,7 +57,7 @@ entry {
 placeholder: "Search here";
 background-color: rgba(0,0,0,0);
 text-size: 16px;
-color: #CAAE48;
+color: @color6;
 border-color: @selected-active-foreground;
 border: 1px;
 }
@@ -80,46 +80,30 @@ margin: 0px 0px 0px 0px;
 }
 
 element {
-padding: 5px 0px 5px 0px;
-border-radius: 5px;
-margin: 0px -20px 0px 0px;
-border-color: rgba(0, 0, 0, 0);
-background-color: #ff0000ff;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    margin: 0px -20px 0px 0px;
+    background-color: transparent;
 }
 
 element-text {
-background-color: rgba(0, 0, 0, 0);
-text-color: @selected-active-background;
-padding: 3px 4px;
-border-radius: 0px;
-margin: -2px 100px -2px 10px;    
+    background-color: transparent;
+    cursor:           inherit;
+    highlight:        inherit;
+    text-color:       inherit; 
+    padding: 3px 4px;
+    margin: -2px 100px -2px 10px;
 }
 
-element selected {
-background-color: rgba(200, 0, 0, 0);
+element normal.normal,
+element alternate.normal {
+    background-color: transparent;
+    text-color:       @color3; 
 }
 
 element selected.normal {
-background-color: rgba(0,0,0,0);
-border-radius: 2px;
-text-color: @color6;
-border-color: rgba(0, 0, 0, 0);
-}
-
-element-text.selected {
-text-color: @color6;
-background-color: rgba(255,0,0,0);
-}
-
-element-text selected {
-    text-color: @color6;
-}
-
-
-element.normal.normal,
-element alternate normal {
-background-color: rgba(0, 0, 0, 0);
-border: 1px;
+    background-color: #ff0000; 
+    text-color:       @color6; 
 }
 
 button {
@@ -128,7 +112,7 @@ border: 1px;
 border-radius: 7px;
 background-color: rgba(0,0,0,0);
 border-color: rgba(0,0,0,0);
-color: @color6;
+color: @color3;
 margin: 0px;    
 }
 
@@ -138,7 +122,7 @@ border: 1px;
 border-radius: 7px;
 background-color: rgba(0,0,0,0);
 border-color: rgba(0,0,0,0);
-color:  @color9;
+color:  @color3;
 margin: 0px;
 }
 
