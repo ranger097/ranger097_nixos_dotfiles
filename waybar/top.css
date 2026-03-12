@@ -64,12 +64,14 @@ box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;
 transition: none;
+color: @color13;
 }
+
 
 #workspaces button:hover {
 background: none; 
 background-color: rgba(0,0,0,0); 
-color: @color9; 
+color: @color4; 
 box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;
