@@ -74,7 +74,7 @@ element-text {
 element normal.normal,
 element alternate.normal {
     background-color: transparent;
-    text-color:    @background; 
+    text-color:    @active-background; 
 }
 
 element selected.normal {
@@ -84,5 +84,5 @@ element selected.normal {
 
 button {
     background-color: transparent;
-    text-color: @background;
+    text-color: @active-background;
 }
