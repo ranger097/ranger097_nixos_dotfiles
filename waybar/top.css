@@ -27,7 +27,7 @@ font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 400;
 background: @background;
-color: @color10;
+color: @color13;
 margin-right: 10px;
 border-radius: 10px;
 border: 2px solid #000000;
@@ -38,7 +38,7 @@ text-shadow: none;
 #window:hover, #mpris:hover,
 #clock:hover, #custom-vpn_ip:hover,
 #battery:hover, #workspaces:hover {
-color: @color2;
+color: @color3;
 box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;    
