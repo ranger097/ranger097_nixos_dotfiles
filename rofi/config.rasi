@@ -1,4 +1,4 @@
-@import "~/.cache/wal/colors-rofi-dark.rasi"
+@import "/home/ranger/.cache/wal/colors-rofi-dark.rasi"
 
 * {
     font: "Maple Mono NF 12";
@@ -74,15 +74,15 @@ element-text {
 element normal.normal,
 element alternate.normal {
     background-color: transparent;
-    text-color:       #ffffff; 
+    text-color:       #505050; 
 }
 
 element selected.normal {
-    background-color: #333333;
-    text-color:       #ff0000; 
+    background-color: #000000;
+    text-color:       @color3; 
 }
 
 button {
     background-color: transparent;
-    text-color: #ffffff;
+    text-color: #505050;
 }
