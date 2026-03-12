@@ -122,12 +122,12 @@ inactive_opacity = 1.0
 #SHADOW
 shadow {
 enabled = true
-range = 10
+range = 7
 render_power = 3
 color = rgba(0,0,0,0.5)
 offset = -4 5
 sharp = false
-scale = 0.99
+scale = 1.0
 }
 
 #BLUR
