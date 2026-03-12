@@ -74,15 +74,15 @@ element-text {
 element normal.normal,
 element alternate.normal {
     background-color: transparent;
-    text-color:    @urgent-background; 
+    text-color:    #606060; 
 }
 
 element selected.normal {
-    background-color: #000000;
+    background-color: rgba(0,0,0,0);
     text-color:       @selected-normal-background; 
 }
 
 button {
     background-color: transparent;
-    text-color: @urgent-background;
+    text-color: #606060;
 }
