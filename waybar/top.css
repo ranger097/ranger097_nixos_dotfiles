@@ -27,7 +27,7 @@ font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 400;
 background: @background;
-color: @color13;
+color: @color4;
 margin-right: 10px;
 border-radius: 10px;
 border: 2px solid #000000;
@@ -64,7 +64,7 @@ box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;
 transition: none;
-color: @color13;
+color: @color4;
 }
 
 
@@ -81,7 +81,7 @@ transition: none;
 #workspaces button.active {
 background: none; 
 background-color: rgba(0,0,0,0);
-color: @color12; 
+color: @color13; 
 box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;
