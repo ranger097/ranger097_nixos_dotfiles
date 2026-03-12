@@ -97,7 +97,7 @@ margin: -2px 100px -2px 10px;
 
 element selected {
 background-color: rgba(200, 0, 0, 0);
-border: 2px solid transparent;
+border: 2px solid #000000;
 }
 
 element selected.normal {
