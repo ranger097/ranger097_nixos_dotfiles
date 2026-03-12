@@ -79,8 +79,8 @@ nix flake update
 }
 
 
-(cat ~/.cache/wal/sequences &)
-source ~/.cache/wal/colors-tty.sh
+#(cat ~/.cache/wal/sequences &)
+#source ~/.cache/wal/colors-tty.sh
 #fastfetch   
 pokeget random --hide-name
 eval "$(direnv hook bash)"
