@@ -14,7 +14,7 @@ window-padding-y = 20
 config-file = ?~/.cache/wal/ghostty.conf
 
 #BACKGROUND_SETTINGS
-background-opacity = 0.5
+background-opacity = 0.9
 #background = #000000
 #foreground = #909090
 #background-image = /home/ranger/ranger097_nixos_dotfiles/wallpapers/Guweiz/893152-digital-art-women-smoking-Bad-guys-legs-artwork.jpg
