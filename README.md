@@ -158,9 +158,10 @@ __[Qmmp](https://qmmp.ylsoftware.com/downloads.php)__, __[Waybar](https://github
 <img width="3840" height="2400" alt="2026-03-12-052432_hyprshot" src="https://github.com/user-attachments/assets/e3c768bf-acdf-4be3-9447-d7eeaa0d368a" />
 <img width="3840" height="2400" alt="2026-03-12-052351_hyprshot" src="https://github.com/user-attachments/assets/2d37cf65-1259-4752-94b6-c09f055bfc93" />
 
-__[Stylus]()__
-<img width="3840" height="2400" alt="2026-03-05-223258_hyprshot" src="https://github.com/user-attachments/assets/ce8903c0-baa8-4cc6-ab2b-e7ffc4e60dfb" />
-<img width="3840" height="2400" alt="2026-03-05-230645_hyprshot" src="https://github.com/user-attachments/assets/46d2cb68-abb2-4232-a9db-fad15a81e292" />
+__[Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)__
+<img width="3840" height="2400" alt="2026-03-12-052958_hyprshot" src="https://github.com/user-attachments/assets/9c9f41bf-9bca-48ad-9b2c-8a819a45c343" />
+<img width="3840" height="2400" alt="2026-03-12-053256_hyprshot" src="https://github.com/user-attachments/assets/ceab4f08-30fc-4375-92c6-066387060f5e" />
+<img width="3840" height="2400" alt="2026-03-12-053157_hyprshot" src="https://github.com/user-attachments/assets/bce975ee-8e32-4d07-98a9-8f84fff689bf" />
 Here you will see that youtube has grey text and thumbnails unless hovered over(then its full of color). This is because im a night owl and im trying to limit brightness and bluelight. All played videos are normal with no added effects so its a minimal change in functionality beside saving your eyes (*I thought the pixel peepers would apreciate this*). That being said this is disabled by defualt. If you want to achieve this, simply download the userstylus extension in firefox and copy the css i provided in the flake in the "youtube" directory. paste it into the userstylus and Boom!, youre done. Easy.
 
 ## Fonts:
