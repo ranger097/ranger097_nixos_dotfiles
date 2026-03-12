@@ -20,7 +20,7 @@ window {
     spacing: 0px;
     children: [mainbox];
     orientation: horizontal;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     height : 300px;
     width: 600px;
     border-color: #000000;
