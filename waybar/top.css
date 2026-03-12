@@ -29,10 +29,10 @@ font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 400;
 background: @background;
-color: @color3;
+color: @color14;
 margin-right: 10px;
 border-radius: 10px;
-border: 1px solid @color0;
+border: 1px solid #000000;
 box-shadow: -2px 3px 3px rgba(0,0,0,0.4);
 text-shadow: none;
 }
