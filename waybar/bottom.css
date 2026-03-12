@@ -108,7 +108,7 @@ padding-right: 6px;
 #custom-blender:hover,
 #custom-dolphin:hover,
 #custom-volume:hover {
-color: @color14;
+color: @color1;
 background: @color9;
 }
 
