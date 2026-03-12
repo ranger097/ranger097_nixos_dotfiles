@@ -91,7 +91,7 @@ general {
 #GAPS
 gaps_in = 5
 gaps_out = 0,10,0,10
-border_size = 2
+border_size = 1
 
 #BORDER
 col.active_border = $color3
@@ -124,7 +124,7 @@ shadow {
 enabled = true
 range = 10
 render_power = 3
-color = rgba(0,0,0,0.3)
+color = rgba(0,0,0,0.5)
 offset = -1 1
 sharp = false
 scale = 1.0
