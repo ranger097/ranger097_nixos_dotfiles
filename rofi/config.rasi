@@ -1,100 +1,73 @@
-/* ranger097 */
-
 @import "~/.cache/wal/colors-rofi-dark.rasi"
 
-* { font: "Maple Mono NF 12"; background-color: rgba(0,0,0,0); }
+* { 
+    font: "Maple Mono NF 12"; 
+    background-color: transparent; 
+}
 
 configuration {
-modes: [drun];
-prompt: "";
-font: "Maple Mono NF";
+    modes: [drun];
+    prompt: "";
+    font: "Maple Mono NF";
 }
 
 window {
-location: center;
-anchor: center;
-/*transparency: "real";*/
-padding: 0px;
-border: 2px;
-border-radius: 20px;
-spacing: 0px;
-children: [mainbox];
-orientation: horizontal;
-background-color: #000000;
-height : 300px;
-width: 600px;
-border-color: #000000;
-padding: -109px 0px 0px 0px;
-}
-
-inputbar {
-color: @selected-active-foreground;
-background-color: rgba(0, 0, 0, 0);
-border-color: @selected-active-foreground;
-orientation: horizontal;
-margin: -30px 0px 110px 0px;    
-}
-
-prompt {
-margin: 0px;
-padding:0px;
-text-color: @selected-active-foreground;
-background-color: rgba(0, 0, 0, 0);
-border-color: #CAAE48;
-}
-
-textbox-prompt-colon {
-content: "";
-str: "";
-}
-
-textbox {
-content: "";
-str: "";
-placeholder: "";
-background-color: rgba(0,0,0,0);
-}
-
-entry {
-placeholder: "Search here";
-background-color: rgba(0,0,0,0);
-text-size: 16px;
-color: @color6;
-border-color: @selected-active-foreground;
-border: 1px;
-}
-
-listview {
-border-radius: 0px;
-border-color: black;
-border: 0px;   
-dynamic: false;
-scrollbar: false;
-margin: 0px 0px 0px 0px;
-padding: 20px 0px 0px 20px;
-//background-image: url('/home/ranger/Github/waybar-theme-switcher/wallpapers/wallhaven-kx8xkq.jpg', width);
+    location: center;
+    anchor: center;
+    padding: -109px 0px 0px 0px;
+    border: 2px;
+    border-radius: 20px;
+    spacing: 0px;
+    children: [mainbox];
+    orientation: horizontal;
+    background-color: #000000;
+    height : 300px;
+    width: 600px;
+    border-color: #000000;
 }
 
 mainbox {
-children: [inputbar,listview];
-padding: 0px 0px 0px 0px;
-margin: 0px 0px 0px 0px;
+    children: [inputbar, listview];
+    background-color: transparent;
+}
+
+inputbar {
+    text-color: @selected-active-foreground;
+    background-color: transparent;
+    margin: -30px 0px 110px 0px;
+}
+
+prompt {
+    text-color: @selected-active-foreground;
+    background-color: transparent;
+}
+
+entry {
+    placeholder: "Search here";
+    background-color: transparent;
+    text-color: @color6;
+}
+
+listview {
+    border: 0px;
+    dynamic: false;
+    scrollbar: false;
+    padding: 20px 0px 0px 20px;
+    background-color: transparent;
 }
 
 element {
-    padding: 5px 0px 5px 0px;
+    padding: 5px;
     border-radius: 5px;
-    margin: 0px -20px 0px 0px;
     background-color: transparent;
 }
 
 element-text {
     background-color: transparent;
+    text-color:       inherit;
     cursor:           inherit;
     highlight:        inherit;
-    text-color:       @color7; 
     padding: 3px 4px;
-    margin: -2px 100px -2px 10px;
 }
 
 element normal.normal,
@@ -104,27 +77,15 @@ element alternate.normal {
 }
 
 element selected.normal {
-    background-color: rgba(0,0,0,0); 
+    background-color: rgba(255, 255, 255, 0.1);
     text-color:       @color7; 
 }
 
 button {
-padding: 0px;
-border: 1px;
-border-radius: 7px;
-background-color: rgba(0,0,0,0);
-border-color: rgba(0,0,0,0);
-color: @color3;
-margin: 0px;    
+    background-color: transparent;
+    color: @color3;
 }
 
 button selected normal {
-padding: 0px;
-border: 1px;
-border-radius: 7px;
-background-color: rgba(0,0,0,0);
-border-color: rgba(0,0,0,0);
-color:  @color3;
-margin: 0px;
+    color: @color3;
 }
-
