@@ -11,6 +11,7 @@ hii = "sudo nano ~/ranger097_nixos_dotfiles/home.nix";
 wii = "cd ~/ranger097_nixos_dotfiles/waybar";
 cii = "cd ~/.config";
 ls = "lsd -a";
+change_theme = "python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/themes.py";
 ytdownload = "yt-dlp -x --audio-format mp3 --audio-quality 0 --cookies-from-browser firefox --embed-metadata --embed-thumbnail --add-metadata";
 };
    
@@ -76,12 +77,6 @@ cd ~/ranger097_nixos_dotfiles
 echo " Upgrading Nixos System"
 nix flake update
 }
-
-change_theme() {
-python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/themes.py
-
-}
-
 
 
 (cat ~/.cache/wal/sequences &)
