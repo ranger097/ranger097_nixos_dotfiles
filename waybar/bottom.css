@@ -34,8 +34,8 @@ border-radius: 10px;
 font-family: Maple Mono NF;
 font-size: 15px;
 font-weight: 300;
-background: @background;
-color: @color4;
+background: @color4;
+color: @background;
 box-shadow: -2px 3px 3px rgba(0,0,0,0.5);
 }
 
