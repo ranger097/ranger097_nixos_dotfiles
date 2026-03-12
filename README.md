@@ -202,7 +202,7 @@ The cursor depicted in the screenshots above is a __[Pokemon Cursor](https://sto
 * More Security features.
 * Anime Wallpapers.
 
-##New Features:
+## New Features:
 * Theme switcher 
 
 
