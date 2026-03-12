@@ -1,6 +1,4 @@
 /* ranger097 */
-/*@import url("file:///home/ranger/.cache/wal/colors-waybar.css");*/
-
 @import "../../.cache/wal/colors-waybar.css";
 
 * {
@@ -29,7 +27,7 @@ font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 400;
 background: @background;
-color: @color14;
+color: @color;
 margin-right: 10px;
 border-radius: 10px;
 border: 1px solid #000000;
