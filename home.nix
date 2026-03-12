@@ -96,8 +96,8 @@ border_size = 1
 #BORDER
 #col.active_border = rgba(249,238,195,1)
 #col.inactive_border = rgba(249,238,195,1)
-col.active_border = $color4
-col.inactive_border = $color4
+col.active_border = $color5
+col.inactive_border = $color5
 
 #BORDER_ANIMATION
 #animations {
