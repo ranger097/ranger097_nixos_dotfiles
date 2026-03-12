@@ -77,7 +77,7 @@ echo " Upgrading Nixos System"
 nix flake update
 }
 
-switch() {
+change_theme() {
 python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/themes.py
 
 }
