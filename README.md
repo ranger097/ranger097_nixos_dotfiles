@@ -64,7 +64,8 @@ Look closely in the hardware-configuration.nix where it says:<br/>
 "boot.initrd.luks.devices"<br/>
 and on the line below that<br/>
 "device ="
-<img width="3840" height="2400" alt="2026-03-08-010125_hyprshot" src="https://github.com/user-attachments/assets/60697550-fa27-4741-8c0f-6ae7119a704f" />
+<img width="3840" height="2400" alt="2026-03-12-064052_hyprshot" src="https://github.com/user-attachments/assets/c72c863b-f292-4f03-9169-66f6c787c838" />
+
 In another terminal or tab lets run a few commands.
 ```
 sudo blkid -t TYPE=crypto_LUKS
