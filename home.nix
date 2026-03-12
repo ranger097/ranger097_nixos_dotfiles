@@ -122,8 +122,8 @@ inactive_opacity = 1.0
 #SHADOW
 shadow {
 enabled = true
-range = 8
-render_power = 2
+range = 10
+render_power = 3
 color = rgba(0,0,0,0.5)
 offset = -4 5
 sharp = false
