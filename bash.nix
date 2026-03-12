@@ -78,7 +78,6 @@ echo " Upgrading Nixos System"
 nix flake update
 }
 
-(cat ~/.cache/wal/sequences &) && printf "\033]11;#000000\007"
 #fastfetch   
 pokeget random --hide-name
 eval "$(direnv hook bash)"
