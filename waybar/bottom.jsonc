@@ -103,7 +103,7 @@
 
 "custom/themes": {
 "format": " ",
-"on-click":"direnv exec /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/themes.py
+"on-click":"direnv exec /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/themes.py & theme_switcher
 "
 },
 }
