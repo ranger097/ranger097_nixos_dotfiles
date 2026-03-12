@@ -77,6 +77,13 @@ echo " Upgrading Nixos System"
 nix flake update
 }
 
+switch() {
+python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/themes.py
+
+}
+
+
+
 (cat ~/.cache/wal/sequences &)
 source ~/.cache/wal/colors-tty.sh
 #fastfetch   
