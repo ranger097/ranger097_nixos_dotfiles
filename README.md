@@ -153,9 +153,10 @@ __[Pokeget](https://github.com/talwat/pokeget-rs)__
 <img width="3840" height="2400" alt="2026-03-12-031617_hyprshot" src="https://github.com/user-attachments/assets/fac83c12-5a08-4e97-a8ec-2aaf4ffe3136" />
 <img width="3840" height="2400" alt="2026-03-12-031836_hyprshot" src="https://github.com/user-attachments/assets/584554af-32e5-4bc4-b458-7e5f1afd8bb6" />
 
-
 __[Qmmp](https://qmmp.ylsoftware.com/downloads.php)__, __[Waybar](https://github.com/Alexays/Waybar)__, and waybar module __[Mpris](https://github.com/natsukagami/mpd-mpris)__.
-<img width="3840" height="2400" alt="2026-03-04-024628_hyprshot" src="https://github.com/user-attachments/assets/2b02bd34-a52d-4b8e-953e-13d0f77f7b0b" />
+<img width="3840" height="2400" alt="2026-03-12-052249_hyprshot" src="https://github.com/user-attachments/assets/5f297987-dc8b-4de8-b76a-897f6d4db93d" />
+<img width="3840" height="2400" alt="2026-03-12-052432_hyprshot" src="https://github.com/user-attachments/assets/e3c768bf-acdf-4be3-9447-d7eeaa0d368a" />
+<img width="3840" height="2400" alt="2026-03-12-052351_hyprshot" src="https://github.com/user-attachments/assets/2d37cf65-1259-4752-94b6-c09f055bfc93" />
 
 __[Stylus]()__
 <img width="3840" height="2400" alt="2026-03-05-223258_hyprshot" src="https://github.com/user-attachments/assets/ce8903c0-baa8-4cc6-ab2b-e7ffc4e60dfb" />
