@@ -144,7 +144,10 @@ __[Vscode](https://code.visualstudio.com/)__
 <img width="3840" height="2400" alt="2026-03-05-062615_hyprshot" src="https://github.com/user-attachments/assets/e8367040-2edf-415e-90e5-16480d8ea276" />
 
 __[Pokeget](https://github.com/talwat/pokeget-rs)__
-<img width="3840" height="2400" alt="2026-03-05-225808_hyprshot" src="https://github.com/user-attachments/assets/c66d3df3-c73a-4f90-b026-38926aeff882" />
+<img width="3840" height="2400" alt="2026-03-12-031155_hyprshot" src="https://github.com/user-attachments/assets/75ca49db-574c-4fa4-8e62-db1d11fc187c" />
+<img width="3840" height="2400" alt="2026-03-12-031617_hyprshot" src="https://github.com/user-attachments/assets/fac83c12-5a08-4e97-a8ec-2aaf4ffe3136" />
+<img width="3840" height="2400" alt="2026-03-12-031836_hyprshot" src="https://github.com/user-attachments/assets/584554af-32e5-4bc4-b458-7e5f1afd8bb6" />
+
 
 __[Qmmp](https://qmmp.ylsoftware.com/downloads.php)__, __[Waybar](https://github.com/Alexays/Waybar)__, and waybar module __[Mpris](https://github.com/natsukagami/mpd-mpris)__.
 <img width="3840" height="2400" alt="2026-03-04-024628_hyprshot" src="https://github.com/user-attachments/assets/2b02bd34-a52d-4b8e-953e-13d0f77f7b0b" />
