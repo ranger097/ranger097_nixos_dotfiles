@@ -20,7 +20,7 @@ window {
     spacing: 0px;
     children: [mainbox];
     orientation: horizontal;
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.5);
     height : 300px;
     width: 600px;
     border-color: #000000;
@@ -74,7 +74,7 @@ element-text {
 element normal.normal,
 element alternate.normal {
     background-color: transparent;
-    text-color:    @active-background; 
+    text-color:    @urgent-background; 
 }
 
 element selected.normal {
@@ -84,5 +84,5 @@ element selected.normal {
 
 button {
     background-color: transparent;
-    text-color: @active-background;
+    text-color: @urgent-background;
 }
