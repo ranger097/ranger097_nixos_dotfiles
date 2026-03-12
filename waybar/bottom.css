@@ -109,7 +109,7 @@ padding-right: 6px;
 #custom-dolphin:hover,
 #custom-volume:hover {
 color: @background;
-background: @color5;
+background: @color6;
 }
 
 #custom-spacerRight {
