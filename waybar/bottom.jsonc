@@ -103,6 +103,6 @@
 
 "custom/themes": {
 "format": " ",
-"on-click":"python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/theme.py"
+"on-click":"exec, python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/theme.py"
 },
 }
