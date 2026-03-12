@@ -53,7 +53,7 @@ Lets open your hardware-configuration.nix.
 ```
 sudo nano hardware-configuration.nix
 ```
-Paste this in your hardware-configuration.nix
+Paste this in your hardware-configuration.nix if it doesnt already exist.
 ```
  boot.initrd.luks.devices."PASTE THE UUID YOU GET WHEN RUNNING THE COMMAND HERE." = {
      device = "/dev/disk/by-uuid/PASTE THE UUID YOU GET WHEN RUNNING THE COMMAND HERE.";
