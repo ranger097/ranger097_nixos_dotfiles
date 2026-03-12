@@ -15,7 +15,7 @@ window-padding-y = 20
 
 #BACKGROUND_SETTINGS
 background-opacity = 1.0
-#background = #000000
+background = #000000
 #foreground = #909090
 #background-image = /home/ranger/ranger097_nixos_dotfiles/wallpapers/Guweiz/893152-digital-art-women-smoking-Bad-guys-legs-artwork.jpg
 background-image-opacity = 0.00
