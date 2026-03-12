@@ -91,13 +91,13 @@ general {
 #GAPS
 gaps_in = 5
 gaps_out = 0,10,0,10
-border_size = 1
+border_size = 2
 
 #BORDER
-col.active_border = $color1
-col.inactive_border = $color1
-#col.active_border = rgba(0,0,0,1)
-#col.inactive_border = rgba(0,0,0,1)
+#col.active_border = $color1
+#col.inactive_border = $color1
+col.active_border = rgba(0,0,0,1)
+col.inactive_border = rgba(0,0,0,1)
 
 #BORDER_ANIMATION
 #animations {
