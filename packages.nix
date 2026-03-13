@@ -21,7 +21,6 @@ libsForQt5.qt5ct
 libsForQt5.qtstyleplugin-kvantum
 kdePackages.kio-extras
 kdePackages.qt6ct
-protonvpn-gui
 brightnessctl
 discord
 libreoffice-fresh
@@ -39,7 +38,6 @@ foliate
 qmmp
 mpvpaper
 mpv
-gnome-boxes
 wget
 ranger
 ghostty
@@ -51,10 +49,8 @@ lsd
 dtrx
 blender
 vscode
-nixd
 qt5.qtwayland
 qt6.qtwayland
-fastfetch
 pokeget-rs
 nmap
 pywal16
