@@ -32,12 +32,12 @@ margin-top: 0px;
 margin-bottom: 10px;
 margin-left: 3px;
 margin-right: 3px;
-border: 1px solid #000000;
+border: 1px solid @color5;
 border-radius: 10px;
 font-family: Maple Mono NF;
 font-size: 15px;
 font-weight: 300;
-background: @waybar-bg;
+background: @blurblack;
 color: @color10;
 box-shadow: none;
 }
