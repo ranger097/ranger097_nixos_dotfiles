@@ -43,47 +43,47 @@ box-shadow: none;
 }
 
 #wireplumber {
-padding-left: 10px;
-padding-right: 5px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 #network {
-padding-left: 9px;
-padding-right: 6px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 #bluetooth {
-padding-left: 11px;
-padding-right: 4px;
+padding-left: 15px;
+padding-right: 15px;
 margin-right: 10px;
 }
 
 #custom-nixos {
-padding-left: 9px;
-padding-right: 6px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 #custom-power {
-padding-left: 10px;
-padding-right: 5px;
+padding-left: 15px;
+padding-right: 15px;
 margin-left: 10px;
 
 }
 
 
 #custom-themes {
-padding-left: 10px;
-padding-right: 5px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 #custom-code {
-padding-left: 10px;
-padding-right: 5px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 #custom-ghostty {
-padding-left: 11px;
-padding-right: 4px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 #custom-steam {
@@ -117,8 +117,8 @@ padding-right: 5px;
 }
 
 #custom-volume {
-padding-left: 9px;
-padding-right: 6px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 #wireplumber:hover,
