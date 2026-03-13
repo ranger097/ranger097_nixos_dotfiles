@@ -112,7 +112,7 @@
 
 "custom/nixos": {
 "format": " ",
-"on-click": "rofi --show drun"
+"on-click": "rofi -show drun"
 },
 
 "network": {
