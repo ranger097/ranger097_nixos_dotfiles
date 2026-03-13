@@ -68,7 +68,7 @@ padding-right: 6px;
 #custom-power {
 padding-left: 10px;
 padding-right: 5px;
-margin-left: 15px;
+margin-left: 10px;
 }
 
 #custom-themes {
@@ -150,10 +150,6 @@ border-radius: 0px 0px 0px 0px;
 background: linear-gradient(rgba(0,0,0,1));
 padding-left:0px;
 margin-left:0px;
-}
-
-#custom-power {
-margin-left: 5px;
 }
 
 #custom-volume {
