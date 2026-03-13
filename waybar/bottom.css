@@ -26,10 +26,10 @@ border-top: 1px solid @color11;
 #custom-blender,
 #custom-dolphin,
 #custom-volume {
-padding-top: 5px;
-padding-bottom: 5px;
-margin-top: 7px;
-margin-bottom: 5px;
+padding-top: 3px;
+padding-bottom: 3px;
+margin-top: 9px;
+margin-bottom: 7px;
 margin-left: 5px;
 margin-right: 5px;
 border: 0px solid @color5;
