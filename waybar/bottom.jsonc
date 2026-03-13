@@ -51,43 +51,43 @@
 },
 
 "custom/code": {
-"format": " ",
+"format": " Vscode",
 "on-click": "code"
 },
 
 "custom/ghostty": {
-"format": " ",
+"format": " Ghostty",
 "on-click": "ghostty"
 },
 
 "custom/firefox": {
-"format": " ",
+"format": "  Web",
 "on-click": "firefox"
 },
 
 
 "custom/steam": {
-"format": " ",
+"format": "  Steam",
 "on-click": "steam -newbigpicture"
 },
 
 "custom/discord": {
-"format": " ",
+"format": "  Discord",
 "on-click": "discord"
 },
 
 "custom/qmmp": {
-"format": " ",
+"format": "  Music",
 "on-click":"qmmp"
 },
 
 "custom/blender": {
-"format": " ",
+"format": " Blender",
 "on-click":"blender"
 },
 
 "custom/dolphin": {
-"format": "󱢴 ",
+"format": "󱢴 Files",
 "on-click":"dolphin"
 },
 
@@ -101,12 +101,12 @@
 },
 
 "custom/power": {
-"format": "⏻ ",
+"format": "⏻ Power",
 "on-click":"wlogout"
 },
 
 "custom/themes": {
-"format": " ",
+"format": " Themes",
 "on-click":"direnv exec /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher python /home/ranger/ranger097_nixos_dotfiles/Python/theme_switcher/themes.py"
 },
 
@@ -116,7 +116,7 @@
 },
 
 "network": {
-"format":"{icon}",
+"format":"{icon} Wifi",
 "interface": "wlp0s20f3",
 "interval": 5,
 "format-wifi": "󰤨 ", 
@@ -126,7 +126,7 @@
 },
 
 "bluetooth": {
-"format": "{icon}",
+"format": "{icon} Bluetooth",
 "format-icons": [ " ", "󰂱 "],
 "on-click": "blueman-manager"
 }
