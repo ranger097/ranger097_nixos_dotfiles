@@ -11,20 +11,7 @@ networking.networkmanager.dns = "none";
 networking.useDHCP = false;
 networking.dhcpcd.enable = false;
 networking.nameservers = [ "127.3.2.1" ];
-
-services.lokinet = {
-enable = true;
-useLocally = true;
-};
-
-services.lokinet.settings = {
-  network = {
-    exit-node = "exit.loki";
-  };
-};
-
 services.resolved.enable = false;
-boot.kernelModules = [ "tun" ];
 networking.enableIPv6 = false;
 networking.firewall.checkReversePath = false;
 
