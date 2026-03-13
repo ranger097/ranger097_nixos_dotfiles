@@ -124,7 +124,7 @@ shadow {
 enabled = true
 range = 10
 render_power = 3
-color = rgba(0,0,0,0.5)
+color = rgba(0,0,0,0.3)
 offset = -1 1
 sharp = false
 scale = 1.0
