@@ -116,6 +116,7 @@
 },
 
 "network": {
+"format":"{icon}",
 "interval": 5,
 "format-wifi": "󰤨 ", 
 "format-ethernet": "󰤨 ",               
