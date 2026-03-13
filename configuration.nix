@@ -7,7 +7,6 @@
     ./packages.nix
     ./bash.nix
     ./wifi.nix
-    ./wireguard.nix
   ];
 
   # Bootloader & Kernel
@@ -16,7 +15,6 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.timeout = 0; 
   boot.kernelPackages = pkgs.linuxPackages_latest;
-
 
   # Hardware Drivers & Kernel Params
   boot.initrd.kernelModules = [ "nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" ];
@@ -39,8 +37,6 @@
     open = true; 
     nvidiaSettings = true;
   };
-
-
 
   # Wayland / Hyprland fixes
   environment.sessionVariables = {

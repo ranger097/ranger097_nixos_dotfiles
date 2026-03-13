@@ -104,9 +104,4 @@ pulse.enable = true;
 };
 
 services.gvfs.enable = true;
-
-
-
-
-
 }
