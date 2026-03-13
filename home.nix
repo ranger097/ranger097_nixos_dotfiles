@@ -30,13 +30,6 @@ in
     ".config/wlogout".source = ./wlogout;
 };
 
-xdg.configFile."wal/templates/colors-waybar-rgba.css".text = ''
-  @define-color waybar-bg rgba({color3.rgb}, 0.6);
-  @define-color accent-color rgba({color1.rgb}, 0.5);
-'';
-
-
-
 wayland.windowManager.hyprland = {
 enable = true;
 systemd.enable = false;
