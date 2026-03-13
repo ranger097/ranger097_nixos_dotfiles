@@ -1,2 +1,2 @@
-@define-color waybar-bg rgba({background.rgb},0.6);
+@define-color waybar-bg rgba({color1.rgb},0.6);
 @define-color accent-color rgba({color1.rgb},0.5);
