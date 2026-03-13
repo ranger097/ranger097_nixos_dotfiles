@@ -4,7 +4,7 @@
 
 window#waybar {
 background: linear-gradient(rgba(0,0,0,1));
-border: 0px solid #000000;
+border-top: 1px solid @color11;
 }
 
 #wireplumber,
