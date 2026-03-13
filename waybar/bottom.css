@@ -8,6 +8,10 @@ background: linear-gradient(rgba(200,200,200,0));
 border: 0px solid #000000;
 }
 
+#wireplumber,
+#network,
+#bluetooth,
+#custom/nixos,
 #custom-themes,
 #custom-spacerRight,
 #custom-spacerLeft,
@@ -39,15 +43,31 @@ color: @color10;
 box-shadow: -2px 3px 3px rgba(0,0,0,0.5);
 }
 
+#wireplumber {
+padding-left: 10px;
+padding-right: 5px;
+}
+
+#network {
+padding-left: 10px;
+padding-right: 5px;
+}
+
+#bluetooth {
+padding-left: 10px;
+padding-right: 5px;
+margin-right: 10px;
+}
+
 #custom-power {
 padding-left: 10px;
 padding-right: 5px;
+margin-left: 10px;
 }
 
 #custom-themes {
 padding-left: 10px;
 padding-right: 5px;
-margin-left: 10px;
 }
 
 #custom-code {
