@@ -7,6 +7,7 @@
     ./packages.nix
     ./bash.nix
     ./wifi.nix
+    ./wireguard.nix
   ];
 
   # Bootloader & Kernel
