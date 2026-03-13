@@ -26,8 +26,8 @@ border: 0px solid #000000;
 #custom-blender,
 #custom-dolphin,
 #custom-volume {
-padding-top: 3px;
-padding-bottom: 3px;
+padding-top: 5px;
+padding-bottom: 5px;
 margin-top: 5px;
 margin-bottom: 5px;
 margin-left: 5px;
@@ -58,7 +58,7 @@ padding-right: 15px;
 margin-right: 10px;
 }
 
-#custom-nixos {
+#custom-qmmp {
 padding-left: 15px;
 padding-right: 15px;
 }

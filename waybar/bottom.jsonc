@@ -77,7 +77,7 @@
 },
 
 "custom/qmmp": {
-"format": " Music",
+"format": "  Music",
 "on-click":"qmmp"
 },
 
