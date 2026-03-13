@@ -117,6 +117,7 @@
 
 "network": {
 "format":"{icon}",
+"interface": "wlp0s20f3",
 "interval": 5,
 "format-wifi": "󰤨 ", 
 "format-ethernet": "󰤨 ",               
