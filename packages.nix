@@ -55,7 +55,7 @@ pokeget-rs
 nmap
 pywal16
 pywalfox-native
-calyx-vpn
+riseup-vpn
 ];
 
 fonts.packages = with pkgs;[
