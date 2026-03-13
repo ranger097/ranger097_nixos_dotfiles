@@ -30,7 +30,7 @@ background-color: @blurblack;
 color: @color3;
 margin-right: 10px;
 border-radius: 10px;
-border: 1px solid @color8;
+border: 1px solid #000000;
 box-shadow: none;
 text-shadow: none;
 }
