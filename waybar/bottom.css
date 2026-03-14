@@ -38,7 +38,7 @@ font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 500;
 background: @waybar-bg;
-color: @color3;
+color: @accent-color;
 box-shadow: none;
 }
 

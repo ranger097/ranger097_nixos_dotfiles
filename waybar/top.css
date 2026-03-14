@@ -81,7 +81,7 @@ transition: none;
 #workspaces button.active {
 background: none; 
 background-color: rgba(0,0,0,0);
-color: @color6; 
+color: @accent-color; 
 box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;
