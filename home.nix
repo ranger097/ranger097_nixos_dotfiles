@@ -308,7 +308,7 @@ windowrule = match:class .blueman-manager-wrapped, opacity 1.0
 layerrule = blur on, match:namespace rofi
 layerrule = match:namespace rofi, ignore_alpha 0.0
 layerrule = match:namespace waybar, ignore_alpha 0.1
-layerrule = blur on, match:namespace waybar
+layerrule = blur off, match:namespace waybar
 layerrule = blur on, match:namespace wlogout
 #LAYER_RULE_SETTINGS_END
 '';  
