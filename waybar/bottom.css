@@ -4,7 +4,7 @@
 
 window#waybar {
 background: linear-gradient(rgba(0,0,0,1));
-border-top: 1px solid @nice-border;
+border-top: 0px solid @nice-border;
 }
 
 #wireplumber,
@@ -26,7 +26,7 @@ border-top: 1px solid @nice-border;
 #custom-volume {
 padding-top: 4px;
 padding-bottom: 4px;
-margin-top: 9px;
+margin-top: 7px;
 margin-bottom: 7px;
 margin-right: 7px;
 border: 1px solid @waybar-bg;
