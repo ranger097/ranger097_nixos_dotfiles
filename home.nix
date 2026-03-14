@@ -28,7 +28,7 @@ in
     ".config/starship.toml".source = ./starship/starship.toml;
     ".config/rofi".source = ./rofi; 
     ".config/wlogout".source = ./wlogout;
-};
+-};
 
 wayland.windowManager.hyprland = {
 enable = true;
@@ -70,7 +70,6 @@ env = GDK_DPI_SCALE,1
 env = GODOT_PLATFORM,wayland
 env = LIBVA_DRIVER_NAME,nvidia
 env = XDG_SESSION_TYPE,wayland
-env = GBM_BACKEND = nvidia-drm
 env = __GLX_VENDOR_LIBRARY_NAME,nvidia
 
 cursor {
