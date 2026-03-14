@@ -41,7 +41,7 @@ text-shadow: none;
 #battery:hover, #workspaces:hover {
 color: @color10;
 background: @color0;
-box-shadow: none;
+box-shadow: -2px 2px 4px rgba(0,0,0,0.6);
 text-shadow: none;
 -gtk-icon-shadow: none;    
 transition: none;
