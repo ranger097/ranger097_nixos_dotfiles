@@ -39,6 +39,7 @@ text-shadow: none;
 #clock:hover, #custom-vpn_ip:hover,
 #battery:hover, #workspaces:hover {
 color: @color3;
+background: @waybar-bg;
 box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;    
