@@ -75,9 +75,7 @@ env = QT_QPA_PLATFORM,wayland
 env = GDK_SCALE,1
 env = GDK_DPI_SCALE,1
 env = GODOT_PLATFORM,wayland
-env = LIBVA_DRIVER_NAME,nvidia
 env = XDG_SESSION_TYPE,wayland
-env = __GLX_VENDOR_LIBRARY_NAME,nvidia
 
 cursor {
 no_hardware_cursors = true
@@ -100,8 +98,6 @@ gaps_out = 7
 border_size = 1
 
 #BORDER
-#col.active_border = $color2
-#col.inactive_border = $color2
 col.active_border = rgba(0,0,0,1)
 col.inactive_border = rgba(0,0,0,1)
 
