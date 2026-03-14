@@ -57,11 +57,12 @@ wait
 echo " Updated dotfiles and system flake."
 }
 
-upgrade() {
+update() {
 cd ~/ranger097_nixos_dotfiles
 echo " Upgrading Nixos System"
 nix flake update
 }
+
 source "$HOME/.cache/wal/colors.sh"
 #(cat $HOME/.cache/wal/sequences)
 printf "\e]11;%s\a" "$color0"
