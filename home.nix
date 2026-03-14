@@ -127,7 +127,7 @@ render_power = 3
 color = rgba(0,0,0,0.5)
 offset = -1 1
 sharp = false
-scale = 1.0
+scale = 0.99
 }
 
 #BLUR
