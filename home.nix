@@ -119,7 +119,7 @@ rounding_power = 2
 active_opacity = 1.0
 inactive_opacity = 1.0
 
-#SHADOW
+SHADOW
 shadow {
 enabled = true
 range = 10
