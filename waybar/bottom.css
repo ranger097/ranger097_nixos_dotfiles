@@ -30,7 +30,7 @@ padding-top: 3px;
 padding-bottom: 3px;
 margin-top: 9px;
 margin-bottom: 7px;
-margin-right: 3px;
+margin-right: 5px;
 border: 0px solid @color5;
 border-radius: 5px;
 font-family: Maple Mono NF;
@@ -39,80 +39,16 @@ font-weight: 500;
 background: @waybar-bg;
 color: @accent-color;
 box-shadow: none;
-}
-
-#wireplumber {
-padding-left: 15px;
-padding-right: 15px;
-}
-
-#network {
-padding-left: 15px;
-padding-right: 15px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 #bluetooth {
-padding-left: 15px;
-padding-right: 15px;
 margin-right: 10px;
 }
 
-#custom-qmmp {
-padding-left: 15px;
-padding-right: 15px;
-}
-
 #custom-power {
-padding-left: 15px;
-padding-right: 15px;
 margin-left: 10px;
-
-}
-
-
-#custom-themes {
-padding-left: 15px;
-padding-right: 15px;
-}
-
-#custom-code {
-padding-left: 15px;
-padding-right: 15px;
-}
-
-#custom-ghostty {
-padding-left: 15px;
-padding-right: 15px;
-}
-
-#custom-steam {
-padding-left: 10px;
-padding-right: 5px;
-}
-
-#custom-firefox {
-padding-left: 10px;
-padding-right: 5px;
-}
-
-#custom-discord {
-padding-left: 8px;
-padding-right: 7px;
-}
-
-#custom-blender {
-padding-left: 9px;
-padding-right: 6px;
-}
-
-#custom-dolphin {
-padding-left: 10px;
-padding-right: 5px;
-}
-
-#custom-volume {
-padding-left: 15px;
-padding-right: 15px;
 }
 
 #wireplumber:hover,
