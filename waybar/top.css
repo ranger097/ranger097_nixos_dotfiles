@@ -26,7 +26,7 @@ margin-top: 7px;
 margin-bottom: 7px;
 font-family: Maple Mono NF;
 font-size: 12px;
-font-weight: 400;
+font-weight: 500;
 background-color: @waybar-bg;
 color: @accent-color;
 margin-right: 7px;
@@ -48,13 +48,6 @@ transition: none;
 box-shadow: none;
 text-shadow: none;
 }
-
-#clock, #mpris,
-#custom-vpn_ip { margin-right: 5px; }
-#battery { margin-right: 5px; }
-#window { margin-left: 5px; }
-#mpris { margin-right: 0px; }
-#custom-qmmp { margin-left: 0px; margin-right: 0px; }
 
 #workspaces button {
 padding: 0px;
