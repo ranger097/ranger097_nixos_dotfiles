@@ -90,7 +90,7 @@ permission = /usr/(bin|local/bin)/hyprpm, plugin, allow
 general {
 #GAPS
 gaps_in = 4
-gaps_out = 7
+gaps_out = 2,7,2,7
 border_size = 1
 
 #BORDER
