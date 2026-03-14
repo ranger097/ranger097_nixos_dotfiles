@@ -26,8 +26,8 @@ margin-bottom: 7px;
 font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 400;
-background-color: @color0;
-color: @color10;
+background-color: @waybar-bg;
+color: @color3;
 margin-right: 10px;
 border-radius: 100px;
 border: 1px solid #000000;
@@ -38,8 +38,8 @@ text-shadow: none;
 #window:hover, #mpris:hover,
 #clock:hover, #custom-vpn_ip:hover,
 #battery:hover, #workspaces:hover {
-color: @color3;
-background: @waybar-bg;
+color: @color10;
+background: @color0;
 box-shadow: none;
 text-shadow: none;
 -gtk-icon-shadow: none;    

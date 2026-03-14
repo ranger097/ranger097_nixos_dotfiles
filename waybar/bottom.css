@@ -38,7 +38,7 @@ font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 500;
 background: @color0;
-color: @color10;
+color: @color3;
 box-shadow: none;
 }
 
@@ -133,8 +133,8 @@ padding-right: 15px;
 #custom-blender:hover,
 #custom-dolphin:hover,
 #custom-volume:hover {
-color: @color3;
-background: @waybar-bg;
+color: @color10;
+background: @color0;
 }
 
 #custom-spacerRight {
