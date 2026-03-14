@@ -12,8 +12,6 @@ border-top: 1px solid @color13;
 #bluetooth,
 #custom-nixos,
 #custom-themes,
-#custom-spacerRight,
-#custom-spacerLeft,
 #custom-power,
 #custom-VacuumTube,
 #custom-ProtonVpn,
@@ -26,11 +24,11 @@ border-top: 1px solid @color13;
 #custom-blender,
 #custom-dolphin,
 #custom-volume {
-padding-top: 3px;
-padding-bottom: 3px;
+padding-top: 2px;
+padding-bottom: 2px;
 margin-top: 9px;
 margin-bottom: 7px;
-margin-right: 5px;
+margin-right: 7px;
 border: 0px solid @color5;
 border-radius: 5px;
 font-family: Maple Mono NF;
@@ -70,20 +68,6 @@ margin-left: 10px;
 #custom-volume:hover {
 color: @color10;
 background: @color0;
-}
-
-#custom-spacerRight {
-border-radius: 0px 0px 0px 0px;
-background: linear-gradient(rgba(0,0,0,1));
-padding-right:0px;
-margin-left:0px;
-}
-
-#custom-spacerLeft {
-border-radius: 0px 0px 0px 0px;
-background: linear-gradient(rgba(0,0,0,1));
-padding-left:0px;
-margin-left:0px;
 }
 
 #custom-volume {
