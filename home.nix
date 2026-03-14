@@ -94,8 +94,8 @@ gaps_out = 2,7,2,7
 border_size = 1
 
 #BORDER
-col.active_border = rgba($color5, 0.3)
-col.inactive_border = rgba($color5, 0.3)
+col.active_border = $color5
+col.inactive_border = rgba($color5_raw, 0.3)
 #col.active_border = rgba(0,0,0,1)
 #col.inactive_border = rgba(0,0,0,1)
 
