@@ -98,8 +98,8 @@ gaps_out = 7
 border_size = 1
 
 #BORDER
-col.active_border = rgba(0,0,0,1)
-col.inactive_border = rgba(0,0,0,1)
+col.active_border = rgba(0,0,0,1.0)
+col.inactive_border = rgba(0,0,0,1.0)
 
 #BORDER_ANIMATION
 #animations {
