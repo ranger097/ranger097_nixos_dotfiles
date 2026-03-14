@@ -28,7 +28,14 @@ in
     ".config/starship.toml".source = ./starship/starship.toml;
     ".config/rofi".source = ./rofi; 
     ".config/wlogout".source = ./wlogout;
--};
+};
+
+home.sessionVariables = {
+  GBM_BACKEND = "nvidia-drm";
+  __GLX_VENDOR_LIBRARY_NAME = "nvidia";
+  LIBVA_DRIVER_NAME = "nvidia";
+};
+
 
 wayland.windowManager.hyprland = {
 enable = true;
