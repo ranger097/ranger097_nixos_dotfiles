@@ -31,7 +31,7 @@ background-color: @waybar-bg;
 color: @accent-color;
 margin-right: 7px;
 border-radius: 8px;
-border: 1px solid #000000;
+border: 1px solid @color5;
 box-shadow: none;
 text-shadow: none;
 }
