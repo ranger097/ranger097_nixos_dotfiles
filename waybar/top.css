@@ -27,11 +27,11 @@ margin-bottom: 7px;
 font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 500;
-background-color: @waybar-bg;
+background-color: @color0;
 color: @accent-color;
 margin-right: 7px;
 border-radius: 8px;
-border: 1px solid @color5;
+border: 1px solid @waybar-bg;
 box-shadow: none;
 text-shadow: none;
 }
