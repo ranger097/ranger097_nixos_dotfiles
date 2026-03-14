@@ -108,12 +108,9 @@ box-shadow: -2px 3px 3px rgba(0,0,0,0.4);
 text-shadow: none;
 }
 
-window {
+#window {
 margin-left: 7px;
-
-
 }
-
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces { margin-left: 0px; }
