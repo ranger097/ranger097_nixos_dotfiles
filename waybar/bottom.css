@@ -37,7 +37,7 @@ border-radius: 100px;
 font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 500;
-background: @color0;
+background: @waybar-bg;
 color: @color3;
 box-shadow: none;
 }
