@@ -30,7 +30,7 @@ margin-top: 9px;
 margin-bottom: 7px;
 margin-right: 7px;
 border: 0px solid @color5;
-border-radius: 5px;
+border-radius: 10px;
 font-family: Maple Mono NF;
 font-size: 12px;
 font-weight: 500;
@@ -42,11 +42,11 @@ padding-right: 10px;
 }
 
 #bluetooth {
-margin-right: 10px;
+margin-right: 7px;
 }
 
 #custom-power {
-margin-left: 10px;
+margin-left: 7px;
 }
 
 #wireplumber:hover,
