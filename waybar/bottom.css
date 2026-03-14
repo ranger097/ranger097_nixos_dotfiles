@@ -24,8 +24,8 @@ border-top: 1px solid @color13;
 #custom-blender,
 #custom-dolphin,
 #custom-volume {
-padding-top: 2px;
-padding-bottom: 2px;
+padding-top: 4px;
+padding-bottom: 4px;
 margin-top: 9px;
 margin-bottom: 7px;
 margin-right: 7px;
