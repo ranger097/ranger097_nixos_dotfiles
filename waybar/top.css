@@ -1,6 +1,7 @@
 /* ranger097 */
 @import "../../.cache/wal/colors-waybar.css";
 @import "../../.cache/wal/colors-waybar-rgba.css";
+
 * {
 border: none;
 border-radius: 0;
@@ -66,7 +67,6 @@ text-shadow: none;
 transition: none;
 color: @color13;
 }
-
 
 #workspaces button:hover {
 background: none; 
