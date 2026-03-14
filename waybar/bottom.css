@@ -3,7 +3,7 @@
 @import "../../.cache/wal/colors-waybar-rgba.css";
 
 window#waybar {
-background: linear-gradient(rgba(0,0,0,0.0));
+background: linear-gradient(rgba(0,0,0,1.0));
 border-top: 0px solid @nice-border;
 }
 
@@ -36,7 +36,7 @@ font-size: 12px;
 font-weight: 500;
 background: @color0;
 color: @accent-color;
-box-shadow: -1px 1px 4px rgba(0,0,0,0.6);
+box-shadow: -1px 1px 4px rgba(0,0,0,0.0);
 padding-left: 10px;
 padding-right: 10px;
 }
