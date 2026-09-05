@@ -1,5 +1,4 @@
 config-file = /home/ranger/.cache/wal/ghostty.conf
-theme = Catppuccin Mocha
 
 
 #custom-shader = /home/ranger/ranger097_nixos_dotfiles/shaders/aurora.glsl
@@ -8,7 +7,7 @@ custom-shader = /home/ranger/ranger097_nixos_dotfiles/shaders/cursor_blaze.glsl
 # custom-shader = /home/ranger/ranger097_nixos_dotfiles/shaders/cineShader-Lava.glsl
 
 custom-shader-animation = true
-background-opacity = 1.0
+background-opacity = 0.8
 adjust-cell-height = 10
 
 # FONT_SETTINGS
@@ -22,8 +21,8 @@ font-feature = calt
 
 # WINDOW_SETTINGS
 window-decoration = false
-window-padding-x = 20
-window-padding-y = 20
+window-padding-x = 10
+window-padding-y = 10
 confirm-close-surface = false
 window-step-resize = true
 

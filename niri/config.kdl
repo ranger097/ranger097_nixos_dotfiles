@@ -107,6 +107,26 @@ output "eDP-1" {
     position x=1280 y=0
 }
 
+
+environment {
+    QT_QPA_PLATFORM "wayland"
+    DISPLAY null
+}
+
+cursor {
+    xcursor-theme "Pokemon"
+    xcursor-size 72
+}
+
+overview {
+  zoom 0.2
+}
+
+
+
+
+
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Layout
@@ -238,16 +258,16 @@ layout {
         // pixels and match the CSS box-shadow properties.
 
         // Softness controls the shadow blur radius.
-        softness 30
+        softness 10
 
         // Spread expands the shadow.
-        spread 2
+        spread 0.5
 
         // Offset moves the shadow relative to the window.
-        offset x=0 y=5
+        offset x=-3 y=3
 
         // You can also change the shadow color and opacity.
-        color "rgba(0,0,0,0.6)"
+        color "rgba(0,0,0,0.4)"
     }
 
     // Struts shrink the area occupied by windows, similarly to layer-shell panels.
@@ -267,7 +287,7 @@ layout {
 blur {
     // off
     passes 4
-    offset 7
+    offset 6
     noise 0.08
     saturation 0.8
 }
@@ -320,7 +340,7 @@ animations {
     // off
 
     // Slow down all animations by this factor. Values below 1 speed them up instead.
-  slowdown 0.8
+  slowdown 0.6
 }
 
 // Window rules let you adjust behavior for individual windows.
@@ -367,7 +387,7 @@ window-rule {
     background-effect {
     blur true
     }
-    opacity 0.7
+    opacity 1.0
     draw-border-with-background false
 
 }
@@ -382,7 +402,10 @@ layer-rule {
     match namespace="waybar"
     background-effect {
         blur true
+	xray true
     }
+    opacity 0.8
+    place-within-backdrop true
 }
 
 binds {
@@ -405,7 +428,7 @@ binds {
     Mod+A hotkey-overlay-title="Run an Application: walker" { spawn "walker"; }
     Mod+B hotkey-overlay-title="Open Browser: qutebrowser" { spawn "qutebrowser"; }
     Mod+D hotkey-overlay-title="Open Browser: dolphin" { spawn "dolphin"; }
-    Mod+T hotkey-overlay-title="theme switcher" { spawn-sh "python3 /home/ranger/ranger097_nixos_dotfiles/python/waybar_switcher/niri_waybar_switcher.py" ; }
+    Mod+T hotkey-overlay-title="theme switcher" { spawn-sh "python3 /home/ranger/ranger097_nixos_dotfiles/python/theme_switcher/themes.py" ; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.

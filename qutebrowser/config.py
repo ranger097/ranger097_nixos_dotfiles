@@ -4,11 +4,10 @@ config.load_autoconfig(False)
 c.statusbar.show = "in-mode"  
 c.tabs.close_mouse_button = "right"  
 c.url.start_pages = [
-"https://www.wgu.edu",
-"https://www.youtube.com"
+"https://ranger097.github.io/bookmarks/"
 ]
 c.tabs.title.alignment = "center"
-c.tabs.tabs_are_windows = False
+c.tabs.tabs_are_windows = True
 c.scrolling.smooth = True
 c.scrolling.bar = "never"
 c.qt.force_software_rendering = "chromium"
@@ -26,5 +25,5 @@ c.colors.statusbar.normal.bg = "#101010"
 c.content.user_stylesheets = [
 "~/ranger097_nixos_dotfiles/css/firefox_usercontent.css"
 ]
-
+c.tabs.show = "switching"
 

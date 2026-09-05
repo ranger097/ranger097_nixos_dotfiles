@@ -13,7 +13,6 @@ boot.kernelParams = [
   "apparmor=1" 
   ];
 
-
   boot.loader.grub.enable = false;
   boot.loader.systemd-boot.enable = lib.mkForce true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -46,6 +45,7 @@ systemd.tmpfiles.rules = [
 "R! /home/ranger/Desktop/ - - - - -"
 "R! /home/ranger/Pictures/ - - - - -"
 "r! /home/ranger/.bash_history - - - - -"
+"R! /home/ranger/.local/share/qutebrowser - - - - -"
 ];
 
 services.fstrim.enable = true;

@@ -9,7 +9,9 @@
     "margin-left" : 0,
     "margin-right" : 0,
     "modules-left": [
-     "custom/button1",
+             ],
+    "modules-center": [
+   "custom/button1",
     "custom/button2",
     "custom/button3",
     "custom/button4",
@@ -18,26 +20,24 @@
     "custom/button7",
     "custom/button8",
     "custom/button9",
-    "custom/button10"
-    ],
-    "modules-center": [
+    "custom/button10",
+
     "custom/power",
-    "custom/themes",
     "network",
     "bluetooth",
     "cpu",
-    "memory"
+    "memory",
+    "pulseaudio", 
+    "clock",
+      "battery"
+    
     
     ],
     "modules-right": [
-    
-    "pulseaudio",
-    
-    "clock",
-    "battery"
+     
     ],
 "custom/button1": {
-"format":"一",
+"format":"[ 一",
 "tooltip": false,
 "on-click":  "niri msg action focus-workspace 1"
 },
@@ -91,21 +91,21 @@
 },
 
 "custom/button10": {
-"format":"十",
+"format":"十 ]",
 "tooltip": false,
 "on-click": "niri msg action focus-workspace 10"
 },
 
     "cpu": {
-        "format": "  {usage}% CPU",
+        "format": "[   {usage}% CPU ]",
         "tooltip": false
     },
     "memory": {
-        "format": "  {}% RAM"
+        "format": "[   {}% RAM ]"
     },
        "clock": {
         "tooltip": false,
-        "format": "󰥔  {:%I:%M%p}"
+        "format": "[ 󰥔  {:%I:%M%p} ]"
     },
 
     "battery": {
@@ -114,26 +114,26 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon} {capacity}%",
-        "format-full": "{icon} {capacity}%",
-        "format-charging": "{icon} {capacity}%",
-        "format-plugged": "{icon} {capacity}%",
+        "format": "[ {icon} {capacity}% ]",
+        "format-full": "[ {icon} {capacity}% ]",
+        "format-charging": "[ {icon} {capacity}% ]",
+        "format-plugged": "[ {icon} {capacity}% ]",
         "format-icons": [ " ", " ", " ", " " ]
     },
 "network": {
 "tooltip": false,
-"format":"{icon}",
+"format":"[ {icon} Wifi ]",
 "interface": "wlp0s20f3",
 "interval": 5,
-"format-wifi": "󰤨 ", 
-"format-ethernet": "󰤨 ",               
-"format-disconnected": "󰤯 ", 
+"format-wifi": "[ 󰤨  Wifi ]", 
+"format-ethernet": "[ 󰤨  LAN ]",               
+"format-disconnected": "[ 󰤯  Disconnected ]", 
 "on-click": "nm-connection-editor"    
 },
 "bluetooth": {
-	"format": "",
-	"format-connected": " {device_alias}",
-	"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+	"format": "[  Bluetooth ]",
+	"format-connected": "[  {device_alias} ]",
+	"format-connected-battery": "[  {device_alias} {device_battery_percentage}% ]",
 	// "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
 	"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
@@ -141,8 +141,8 @@
 	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
 },
 "pulseaudio": {
-	"format": "{icon} {volume}%",
-	"format-bluetooth": " {volume}%",
+	"format": "[ {icon} {volume}% ]",
+	"format-bluetooth": "[  {volume}% ]",
 	"format-muted": "",
 	"format-icons": {
 		"alsa_output.pci-0000_00_1f.3.analog-stereo": "",
@@ -162,13 +162,13 @@
 
 "custom/power": {
 "tooltip": false,
-"format": " ",
+"format": "[  Power ]",
 "on-click":"wlogout"
 },
 
 "custom/themes": {
 "tooltip": false,
-"format": " ",
+"format": "[   Themes ]",
 "on-click":"direnv exec /home/ranger/ranger097_nixos_dotfiles/python/theme_switcher python3 /home/ranger/ranger097_nixos_dotfiles/python/theme_switcher/themes.py"
 },
 

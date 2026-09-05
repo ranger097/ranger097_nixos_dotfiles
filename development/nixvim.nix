@@ -25,22 +25,18 @@ programs.nixvim = {
        background = "dark";    
     };
 
-colorschemes.catppuccin = {
-      autoLoad = true;
-      enable = true;
-      settings = {
-         flavour = "mocha";
-         transparent_background = true;
-         term_colors = false;
-    
-      integrations = {
-        cmp = true;
-        treesitter = true;
-        nvimtree = true;
-        telescope.enabled = true;
-       };
-     };
-   };
+  
+ colorschemes.catppuccin = {
+ enable = true;
+ autoLoad = true;
+ settings = {
+  #flavour = "frappe";
+    notify = false;
+    nvimtree = true;
+    treesitter = true;
+    transparent_background = true;
+  };
+ };
 
 
   plugins.cmp-tabby = {
@@ -74,7 +70,7 @@ colorschemes.catppuccin = {
   autoLoad = true; 
   enable = true;
   settings.view = {
-  width = 30;
+  width = 40;
   side = "left";
    
      };
@@ -84,7 +80,7 @@ colorschemes.catppuccin = {
     plugins.noice.autoLoad = true;
     plugins.web-devicons.enable = true;    
     plugins.telescope.enable = true; 
-    plugins.lualine.enable = true;
+    plugins.lualine.enable = false;
     plugins.luasnip.enable = true;
     plugins.rustaceanvim.enable = true;
     plugins.lsp.enable = true;
@@ -138,82 +134,58 @@ colorschemes.catppuccin = {
       
    extraConfigLua = ''  
 
-   vim.api.nvim_create_autocmd("VimEnter", {
-  callback = function()
-    require("nvim-tree.api").tree.open()
-  end,
-})
+  vim.api.nvim_create_autocmd("VimEnter", {
+    callback = function()
+      require("nvim-tree.api").tree.open()
+    end,
+  })
 
-   vim.cmd("colorscheme catppuccin-mocha")
-       require('lualine').setup({
-          options = {
-             theme = {
-                normal = {
-                   a = { bg = "none" },
-                   b = { bg = "none" },
-                   c = { bg = "none" },
-             },
-                insert = {
-                  a = { bg = "none" },
-                   b = { bg = "none" },
-                   c = { bg = "none" },
-             },
-                visual = {
-                    a = { bg = "none" },
-                   b = { bg = "none" },
-                   c = { bg = "none" },
-             },
-                replace = {
-                    a = { bg = "none" },
-                   b = { bg = "none" },
-                   c = { bg = "none" },
-             },
-               inactive = {
-                    a = { bg = "none" },
-                   b = { bg = "none" },
-                   c = { bg = "none" },
-             },
-           }
-         }
-       })
+  require("nvim-tree").setup({
+    renderer = {
+      highlight_opened_files = "name",
 
-        require("nvim-tree").setup({
-        renderer = {
-           highlight_opened_files = "name",
-           indent_markers = {
-              enable = true,
-              icons = { corner = "", edge = "", none = "" },
-           },
-           icons = {
-              webdev_colors = true,
-              git_placement = "after",
-              glyphs = {
-                 default = "",
-                 symlink = "",
-                 bookmark = "󰆤",
-              folder = {
-                 default = "󰲂 ",
-                 open = " ",
-                 empty = " ",
-                 empty_open = " ",
-                 symlink = " ",
-                 symlink_open = " ",
-                 arrow_closed = "",
-                 arrow_open = "",
-               },
-               git = {
-                  unstaged = "󰽂 ",
-                  staged = " ",
-                  unmerged = "",
-                  renamed = "󰑕 ",
-                  untracked = " ",
-                  deleted = "󰚃 ",
-                  ignored = "◌",
-               },
-             },
-           },
-         },
-       })
+      indent_markers = {
+        enable = true,
+        icons = {
+          corner = "",
+          edge = "",
+          none = "",
+        },
+      },
+
+      icons = {
+        webdev_colors = true,
+        git_placement = "after",
+
+        glyphs = {
+          default = "",
+          symlink = "",
+          bookmark = "󰆤",
+
+          folder = {
+            default = "󰲂 ",
+            open = " ",
+            empty = " ",
+            empty_open = " ",
+            symlink = " ",
+            symlink_open = " ",
+            arrow_closed = "",
+            arrow_open = "",
+          },
+
+          git = {
+            unstaged = "󰽂 ",
+            staged = " ",
+            unmerged = "",
+            renamed = "󰑕 ",
+            untracked = " ",
+            deleted = "󰚃 ",
+            ignored = "◌",
+          },
+        },
+      },
+    },
+  })
     '';
 };
 }
