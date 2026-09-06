@@ -112,6 +112,7 @@ python3
 xwayland-satellite
 kdePackages.filelight
 qutebrowser
+xwayland-satellite
 ];
 
 fonts.packages = with pkgs;[

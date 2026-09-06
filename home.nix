@@ -40,7 +40,6 @@ in
     ".config/niri/config.kdl".source = ./niri/config.kdl;
     ".config/hypr/hyprland.conf".source = ./hypr/hyprland.conf;
     ".config/qutebrowser/config.py".source = ./qutebrowser/config.py;
-    #".config/wal".source = ./wal;
   };
 
 programs.freetube = {

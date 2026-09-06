@@ -302,6 +302,7 @@ blur {
 spawn-at-startup "ghostty"
 spawn-at-startup "elephant"
 spawn-at-startup "qutebrowser"
+spawn-sh-at-startup "DISPLAY=:0 steam"
 spawn-sh-at-startup "awww-daemon"
 spawn-sh-at-startup "xwayland-satellite"
 spawn-sh-at-startup "awww-daemon --namespace backdrop"

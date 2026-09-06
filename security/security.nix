@@ -40,12 +40,12 @@ services.openssh = {
 };
 
 systemd.tmpfiles.rules = [
-"R! /home/ranger/.config/BraveSoftware/ - - - - -"
+"R! /home/ranger/.config/ - - - - -"
 "R! /home/ranger/Downloads/ - - - - -"
 "R! /home/ranger/Desktop/ - - - - -"
 "R! /home/ranger/Pictures/ - - - - -"
 "r! /home/ranger/.bash_history - - - - -"
-"R! /home/ranger/.local/share/qutebrowser - - - - -"
+"R! /home/ranger/.local/share/qutebrowser/ - - - - -"
 ];
 
 services.fstrim.enable = true;
