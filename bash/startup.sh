@@ -27,4 +27,17 @@ done
 disown -a
 }
 
-startup
+apps() {
+sleep 3 &
+ghostty &
+elephant &
+DISPLAY=:0 steam &
+qutebrowser &
+awww-daemon &
+xwayland-satellite &
+awww-daemon --namespace backdrop &
+}
+
+
+apps
+#startup

@@ -299,16 +299,9 @@ blur {
 // See the binds section below for more spawn examples.
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
-spawn-at-startup "ghostty"
-spawn-at-startup "elephant"
-spawn-at-startup "qutebrowser"
-spawn-sh-at-startup "DISPLAY=:0 steam"
-spawn-sh-at-startup "awww-daemon"
-spawn-sh-at-startup "xwayland-satellite"
-spawn-sh-at-startup "awww-daemon --namespace backdrop"
-
 spawn-sh-at-startup "python3 /home/ranger/ranger097_nixos_dotfiles/python/theme_switcher/autostart_themes.py"
 spawn-sh-at-startup "python3 /home/ranger/ranger097_nixos_dotfiles/python/waybar_switcher/autostart_waybar_switcher.py"
+spawn-sh-at-startup "bash /home/ranger/ranger097_nixos_dotfiles/bash/startup.sh"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -354,16 +347,8 @@ match namespace="^awww-daemonbackdrop$"
 place-within-backdrop true
 }
 
-// Work around WezTerm's initial configure bug
-// by setting an empty default-column-width.
-
-// Open the Firefox picture-in-picture player as floating by default.
 window-rule {
-    // This app-id regular expression will work for both:
-    // - host Firefox (app-id is "firefox")
-    // - Flatpak Firefox (app-id is "org.mozilla.firefox")
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    open-floating true
+    open-floating false
 }
 
 
@@ -393,10 +378,6 @@ window-rule {
 
 }
 
-// Enable blur behind the Alacritty terminal.
-//window-rule {
-//    match app-id="com.mitchellh.ghostty"   
-//}
 
 // Enable blur behind the fuzzel launcher.
 layer-rule {
@@ -407,6 +388,16 @@ layer-rule {
     }
     opacity 0.8
     place-within-backdrop true
+}
+
+layer-rule {
+    match namespace="^walker$"
+    background-effect {
+        blur true
+	xray true
+    }
+    opacity 0.8
+    place-within-backdrop false
 }
 
 binds {

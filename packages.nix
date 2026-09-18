@@ -113,6 +113,10 @@ xwayland-satellite
 kdePackages.filelight
 qutebrowser
 xwayland-satellite
+proton-vpn
+qbittorrent
+seahorse
+mpv
 ];
 
 fonts.packages = with pkgs;[

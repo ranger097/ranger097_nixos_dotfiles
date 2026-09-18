@@ -16,8 +16,10 @@
         <property name="orientation">horizontal</property>
         <property name="valign">center</property>
         <property name="halign">center</property>
-        <property name="width-request">600</property>
-        <property name="height-request">570</property>
+	<property name="hexpand">True</property>
+        <property name="vexpand">True</property>
+        <property name="halign">fill</property>
+        <property name="valign">fill</property>
         <child>
           <object class="GtkBox" id="Box">
             <style>
@@ -88,8 +90,8 @@
                     <property name="overlay-scrolling">true</property>
                     <property name="hexpand">true</property>
                     <property name="vexpand">true</property>
-                    <property name="max-content-width">500</property>
-                    <property name="min-content-width">500</property>
+                    <property name="max-content-width">700</property>
+                    <property name="min-content-width">700</property>
                     <property name="max-content-height">400</property>
                     <property name="propagate-natural-height">true</property>
                     <property name="propagate-natural-width">true</property>
