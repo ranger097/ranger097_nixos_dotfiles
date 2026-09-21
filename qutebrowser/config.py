@@ -26,4 +26,12 @@ c.content.user_stylesheets = [
 "~/ranger097_nixos_dotfiles/css/firefox_usercontent.css"
 ]
 c.tabs.show = "switching"
+c.content.blocking.enabled = True
+c.content.blocking.method = "both"
+c.content.blocking.adblock.lists = [
+"https://easylist.to/easylist/easylist.txt",
+"https://easylist.to/easylist/easyprivacy.txt",
+"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
+"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt",
+]
 

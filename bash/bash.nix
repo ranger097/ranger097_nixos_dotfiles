@@ -23,6 +23,7 @@ rii = "bash /home/ranger/ranger097_nixos_dotfiles/bash/rice.sh";
 nirii = "nvim /home/ranger/ranger097_nixos_dotfiles/niri/config.kdl";
 tii = "cd /home/ranger/Projects/TimFord/";
 peaclock="peaclock --config-dir=/home/ranger/ranger097_nixos_dotfiles/peaclock";
+anime="cd ~/Anime/";
 };
    
 interactiveShellInit = ''

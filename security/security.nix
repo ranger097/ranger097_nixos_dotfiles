@@ -46,6 +46,8 @@ systemd.tmpfiles.rules = [
 "R! /home/ranger/Pictures/ - - - - -"
 "r! /home/ranger/.bash_history - - - - -"
 "R! /home/ranger/.local/share/qutebrowser/ - - - - -"
+"R! /home/ranger/.ssh/ - - - - -"
+"R! /home/ranger/.cache/ - - - - -"
 ];
 
 services.fstrim.enable = true;

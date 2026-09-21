@@ -29,13 +29,15 @@ disown -a
 
 apps() {
 sleep 3 &
+update &
+protonvpn-app &
 ghostty &
 elephant &
-DISPLAY=:0 steam &
 qutebrowser &
 awww-daemon &
 xwayland-satellite &
 awww-daemon --namespace backdrop &
+DISPLAY=:0 steam &
 }
 
 
