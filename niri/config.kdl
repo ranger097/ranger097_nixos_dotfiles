@@ -123,10 +123,6 @@ overview {
 }
 
 
-
-
-
-
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Layout
@@ -147,8 +143,10 @@ layout {
         // Proportion sets the width as a fraction of the output width, taking gaps into account.
         // For example, you can perfectly fit four windows sized "proportion 0.25" on an output.
         // The default preset widths are 1/3, 1/2 and 2/3 of the output.
-        proportion 0.5
-        proportion 1.0
+	proportion 0.25
+        proportion 0.50
+	proportion 0.75
+        proportion 1.00
 
         // Fixed sets the width in logical pixels exactly.
         // fixed 1920
@@ -219,8 +217,9 @@ layout {
         on
 
         width 1
-        active-color "#000000"
-        inactive-color "#000000"
+        active-color "rgba(50,50,50,1)"
+        inactive-color "rgba(50,50,50,1)"
+
 
         // Color of the border around windows that request your attention.
         urgent-color "#9b0000"
@@ -236,7 +235,7 @@ layout {
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
-        on
+        off
 
         // By default, the shadow draws only around its window, and not behind it.
         // Uncomment this setting to make the shadow draw behind its window.
@@ -267,7 +266,7 @@ layout {
         offset x=-3 y=3
 
         // You can also change the shadow color and opacity.
-        color "rgba(0,0,0,0.4)"
+        color "rgba(20,20,20,1)"
     }
 
     // Struts shrink the area occupied by windows, similarly to layer-shell panels.
@@ -276,20 +275,20 @@ layout {
     // Top and bottom struts will simply add outer gaps in addition to the area occupied by
     // layer-shell panels and regular gaps.
     struts {
-        left 10
-        right 10
-        top 10
-        bottom 10
+        left 0
+        right 0
+        top 0
+        bottom 0
     }
 }
 
 // These are the default values:
 blur {
     // off
-    passes 3
-    offset 7
-    noise 0.02
-    saturation 0.7
+    passes 4
+    offset 4
+    noise 0.0
+    saturation 1.1
 }
 
 
@@ -386,7 +385,7 @@ layer-rule {
         blur true
 	xray true
     }
-    opacity 0.6
+    opacity 0.5
     place-within-backdrop true
 }
 
@@ -396,7 +395,7 @@ layer-rule {
         blur true
 	xray true
     }
-    opacity 0.6
+    opacity 0.5
     place-within-backdrop false
 }
 
@@ -422,6 +421,7 @@ binds {
     Mod+D hotkey-overlay-title="Open Browser: dolphin" { spawn "dolphin"; }
     Mod+T hotkey-overlay-title="theme switcher" { spawn-sh "python3 /home/ranger/ranger097_nixos_dotfiles/python/theme_switcher/themes.py" ; }
 
+    Mod+P hotkey-overlay-title="Unblurred Wallpapers" { spawn-sh "python3 /home/ranger/ranger097_nixos_dotfiles/python/theme_switcher/gimp.py" ; }
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
     // For example, this is a standard bind to toggle the screen reader (orca).

@@ -8,10 +8,12 @@ blur_wallpaper_directory = f"{dotfiles_dir}/wallpapers/blur"
 wallpaper_photos = os.listdir(wallpaper_directory)
 blur_wallpaper_photos = os.listdir(blur_wallpaper_directory)
 
+wallpapers = [
+os.path.join(wallpaper_directory, photo)
+for photo in wallpaper_photos
+if photo not in blur_wallpaper_photos
+]
 
-for photo in wallpaper_photos:
-    wallpaper_path = os.path.join(wallpaper_directory, photo)
-    if photo not in blur_wallpaper_photos:
-        subprocess.run(["gimp",wallpaper_path])
+subprocess.run(["gimp", *wallpapers])
 
 
